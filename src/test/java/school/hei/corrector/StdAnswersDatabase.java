@@ -15,6 +15,19 @@ public class StdAnswersDatabase {
                 "7ff61224ffd8ad307db2d772e319abd7d25f16a5"
         );
     }
+
+    public static StdAnswers021222 examSession021222_std21062() {
+        return new StdAnswers021222(
+                "STD21062",
+                "https://github.com/Lakara2/hei-prog3p1-exam-021222",
+                null,
+                null,
+                null,
+                null,
+                null
+        );
+    }
+
     public static StdAnswers021222 examSession021222_std21065() {
         return new StdAnswers021222(
                 "STD21065",
