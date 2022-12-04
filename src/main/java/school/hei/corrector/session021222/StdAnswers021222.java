@@ -10,12 +10,32 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public record StdAnswers021222(
         String stdRef,
         String q21p1, String q21p2, String q21p3, String q21p4, String q21p5, String q21p6)
         implements StdAnswers {
+
+    private static final Map<String/*stdRef*/, Map<String/*question*/, Integer>> SCORE_PER_STUDENT =
+            // Unfortunaly records cannot have instance fields, so have to remember all students in static variable
+            new HashMap<>();
+
+    private void saveScore(String question, int score) {
+        Map<String, Integer> scorePerQuestion;
+
+        var oldScorePerQuestion = SCORE_PER_STUDENT.get(stdRef);
+        if (oldScorePerQuestion == null) {
+            scorePerQuestion = new HashMap<>();
+        } else {
+            scorePerQuestion = SCORE_PER_STUDENT.get(stdRef);
+        }
+
+        scorePerQuestion.put(question, score);
+        SCORE_PER_STUDENT.put(stdRef, scorePerQuestion);
+    }
 
     @Override
     public int correct() {
@@ -33,21 +53,30 @@ public record StdAnswers021222(
         return score;
     }
 
+    @Override
+    public Map<String, Integer> scorePerQuestion() {
+        return SCORE_PER_STUDENT.get(stdRef);
+    }
+
     public int correctQ21P1() {
+        var score = 0;
         try {
             String branch = "dev";
             Log.info("[Q21P1...] Clonage de la " + branch + " depuis " + q21p1);
             cloneRepo(randomRepoName(), branch);
 
             Log.info("[...Q21P1] 1 point.");
-            return 1;
+            score = 1;
         } catch (Exception e) {
             Log.error("[...Q21P1] " + e);
-            return 0;
         }
+
+        saveScore("Q21P1", score);
+        return score;
     }
 
     public int correctQ21P2() {
+        var score = 0;
         try {
             String branch = "dev";
             Log.info("[Q21P2...] Vérification de " + q21p2 + " dans " + branch);
@@ -63,14 +92,18 @@ public record StdAnswers021222(
             titleIsAtExpectedLine(vazo, 0);
 
             Log.info("[...Q21P2] 1 point.");
-            return 1;
+            score = 1;
         } catch (Exception e) {
             Log.error("[...Q21P2] " + e);
-            return 0;
         }
+
+        saveScore("Q21P2", score);
+        return score;
     }
 
     public int correctQ21P3() {
+        var score = 0;
+
         try {
             String branch = "feat-and1";
             Log.info("[Q21P3...] Vérification de " + q21p3);
@@ -87,42 +120,51 @@ public record StdAnswers021222(
             and1IsAtExpectedLine(vazo, 1);
 
             Log.info("[...Q21P3] 1 point.");
-            return 1;
+            score = 1;
         } catch (Exception e) {
             Log.error("[...Q21P3] " + e);
-            return 0;
         }
+
+        saveScore("Q21P3", score);
+        return score;
     }
 
     public int correctQ21P4() {
+        var score = 0;
         try {
             String branch = "feat-and2";
             Log.info("[Q21P4...] Vérification de " + q21p4);
             and2CommitMustBeOnBranch(branch, q21p4);
 
             Log.info("[...Q21P4] 1 point.");
-            return 1;
+            score = 1;
         } catch (Exception e) {
             Log.error("[...Q21P4] " + e);
-            return 0;
         }
+
+        saveScore("Q21P4", score);
+        return score;
     }
 
     public int correctQ21P5() {
+        var score = 0;
         try {
             String branch = "dev";
             Log.info("[Q21P5...] Vérification de " + q21p5);
             and2CommitMustBeOnBranch(branch, q21p5);
 
             Log.info("[...Q21P5] 1 point.");
-            return 1;
+            score = 1;
         } catch (Exception e) {
             Log.error("[...Q21P5] " + e);
-            return 0;
         }
+
+        saveScore("Q21P5", score);
+        return score;
     }
 
     public int correctQ21P6() {
+        var score = 0;
         try {
             String branch = "dev";
             Log.info("[Q21P6...] Vérification de " + q21p6 + " dans " + branch);
@@ -140,11 +182,13 @@ public record StdAnswers021222(
             and2IsAtExpectedLine(vazo, 2);
 
             Log.info("[...Q21P6] 1 point.");
-            return 1;
+            score = 1;
         } catch (Exception e) {
             Log.error("[...Q21P6] " + e);
-            return 0;
         }
+
+        saveScore("Q21P6", score);
+        return score;
     }
 
     private String randomRepoName() {

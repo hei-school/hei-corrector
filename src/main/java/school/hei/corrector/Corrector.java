@@ -18,13 +18,16 @@ public class Corrector {
 
         var corrector = new Corrector();
         switch (args.length) {
-            case 0 -> throw new RuntimeException("TODO");
+            case 0 -> corrector.correct(examSession02122);
             case 1 -> corrector.correct(examSession02122, args[0]);
             default -> Log.error("""
                     Donnez 0 argument pour corriger tous les étudiants.
                     Donnez 1 argument (la réf étudiante) pour corriger un étudiant particulier.
                     """);
         }
+    }
+
+    private void correct(ExamSession examSession) {
     }
 
     protected int correct(ExamSession examSession, String studentRef) {

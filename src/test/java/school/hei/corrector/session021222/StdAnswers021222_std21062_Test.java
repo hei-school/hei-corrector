@@ -60,4 +60,19 @@ class StdAnswers021222_std21062_Test {
 
         assertEquals(0, score);
     }
+
+    @Test
+    void on_examSession021222_std21062_has_correct_scorePerQuestion() {
+        StdAnswers021222 answers = examSession021222_std21062();
+
+        answers.correct();
+        var scorePerQuestion = answers.scorePerQuestion();
+
+        assertEquals(1, scorePerQuestion.get("Q21P1"));
+        assertEquals(0, scorePerQuestion.get("Q21P2"));
+        assertEquals(0, scorePerQuestion.get("Q21P3"));
+        assertEquals(0, scorePerQuestion.get("Q21P4"));
+        assertEquals(0, scorePerQuestion.get("Q21P5"));
+        assertEquals(0, scorePerQuestion.get("Q21P6"));
+    }
 }
