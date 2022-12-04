@@ -5,7 +5,9 @@ import school.hei.corrector.StdAnswers;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.stream.Stream;
 
+import static java.util.stream.Collectors.joining;
 import static school.hei.utils.Utils.infallibleSupply;
 
 public class ExamSession021222 implements ExamSession {
@@ -47,6 +49,21 @@ public class ExamSession021222 implements ExamSession {
     @Override
     public Map<String, Map<String, Integer>> scorePerStudent() {
         return SCORE_PER_STUDENT;
+    }
+
+    @Override
+    public String scorePerStudentAsString() {
+        return SCORE_PER_STUDENT.keySet().stream().map(stdRef ->
+                Stream.of(
+                        stdRef,
+                        SCORE_PER_STUDENT.get(stdRef).get("Q21P1").toString(),
+                        SCORE_PER_STUDENT.get(stdRef).get("Q21P2").toString(),
+                        SCORE_PER_STUDENT.get(stdRef).get("Q21P3").toString(),
+                        SCORE_PER_STUDENT.get(stdRef).get("Q21P4").toString(),
+                        SCORE_PER_STUDENT.get(stdRef).get("Q21P5").toString(),
+                        SCORE_PER_STUDENT.get(stdRef).get("Q21P6").toString()
+                ).collect(joining(","))
+        ).collect(joining("\n"));
     }
 
     public static void saveScore(String stdRef, String question, int score) {

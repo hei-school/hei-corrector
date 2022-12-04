@@ -35,19 +35,8 @@ public class Corrector {
 
         Log.info("\n##################################\n##################################\n");
         Log.info("Toutes les notes...\n");
-        var scorePerStudent = examSession.scorePerStudent();
-        scorePerStudent.forEach((stdRef, scorePerQuestion) -> {
-            Log.info(java.util.stream.Stream.of(
-                    stdRef,
-                    scorePerQuestion.get("Q21P1").toString(),
-                    scorePerQuestion.get("Q21P2").toString(),
-                    scorePerQuestion.get("Q21P3").toString(),
-                    scorePerQuestion.get("Q21P4").toString(),
-                    scorePerQuestion.get("Q21P5").toString(),
-                    scorePerQuestion.get("Q21P6").toString()
-            ).collect(java.util.stream.Collectors.joining(",")));
-        });
-        return scorePerStudent;
+        Log.info(examSession.scorePerStudentAsString());
+        return examSession.scorePerStudent();
     }
 
     public int correct(ExamSession examSession, String studentRef) {

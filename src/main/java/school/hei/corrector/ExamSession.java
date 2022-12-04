@@ -10,4 +10,6 @@ public interface ExamSession {
     StdAnswers toStdAnswers(String line);
 
     Map<String/*stdRef*/, Map<String/*question*/, Integer>> scorePerStudent();
+
+    String scorePerStudentAsString();
 }
