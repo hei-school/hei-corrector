@@ -70,4 +70,14 @@ public class CorrectorTest {
 
         assertEquals(6, score);
     }
+
+    @Test
+    void canCorrect_STD21103() {
+        var examSession = new ExamSession021222();
+        var stdRef = "STD21103";
+
+        var score = corrector.correct(examSession, stdRef);
+
+        assertEquals(5, score);
+    }
 }
