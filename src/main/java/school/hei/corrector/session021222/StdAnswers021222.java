@@ -25,6 +25,8 @@ public record StdAnswers021222(
         score = score + correctQ21P1();
         score = score + correctQ21P2();
         score = score + correctQ21P3();
+        score = score + correctQ21P4();
+        score = score + correctQ21P5();
 
         Log.info("[... Correction d'un étudiant] Réf étudiante : " + stdRef + ", points obtenus : " + score);
         return score;
@@ -57,11 +59,7 @@ public record StdAnswers021222(
                     .call();
             List<String> vazo = vazoMustHaveExpectedLinesNb(randomRepoName, 1);
 
-            var title = vazo.get(0).trim();
-            if (!title.contains("Vazon'ny lavitra")) {
-                Log.error("[...Q21P2] Le titre est mauvais : " + title);
-                return 0;
-            }
+            titleIsAtExpectedLine(vazo, 0);
 
             Log.info("[...Q21P2] 1 point.");
             return 1;
@@ -84,11 +82,8 @@ public record StdAnswers021222(
                     .call();
             List<String> vazo = vazoMustHaveExpectedLinesNb(randomRepoName, 2);
 
-            var and1 = vazo.get(1).trim();
-            if (!and1.contains("Andininy voalohany")) {
-                Log.error("[...Q21P3] Le and1 est mauvais : " + and1);
-                return 0;
-            }
+            titleIsAtExpectedLine(vazo, 0);
+            and1IsAtExpectedLine(vazo, 1);
 
             Log.info("[...Q21P3] 1 point.");
             return 1;
@@ -98,38 +93,30 @@ public record StdAnswers021222(
         }
     }
 
-    private static List<String> vazoMustHaveExpectedLinesNb(String repoName, int expectedLinesNb) throws IOException {
-        var vazo = Files.readAllLines(Path.of(repoName + "/vazo.txt"));
-        var vazoSize = vazo.size();
-        if (vazoSize != expectedLinesNb) {
-            throw new RuntimeException("Vazo ne doit avoir que _2_ lignes au lieu de : " + vazoSize);
-        }
-        return vazo;
-    }
-
     public int correctQ21P4() {
         try {
             String branch = "feat-and2";
             Log.info("[Q21P4...] Vérification de " + q21p4);
-            String randomRepoName = randomRepoName();
-            Git git = branchMustHaveCommit(randomRepoName, branch, q21p4);
-
-            git
-                    .checkout()
-                    .setName(q21p4)
-                    .call();
-            List<String> vazo = vazoMustHaveExpectedLinesNb(randomRepoName, 2);
-
-            var and2 = vazo.get(1).trim();
-            if (!and2.contains("Andininy faharoa")) {
-                Log.error("[...Q21P4] Le and2 est mauvais : " + and2);
-                return 0;
-            }
+            and2CommitMustBeOnBranch(branch, q21p4);
 
             Log.info("[...Q21P4] 1 point.");
             return 1;
         } catch (Exception e) {
             Log.error("[...Q21P4] " + e);
+            return 0;
+        }
+    }
+
+    public int correctQ21P5() {
+        try {
+            String branch = "dev";
+            Log.info("[Q21P5...] Vérification de " + q21p5);
+            and2CommitMustBeOnBranch(branch, q21p5);
+
+            Log.info("[...Q21P5] 1 point.");
+            return 1;
+        } catch (Exception e) {
+            Log.error("[...Q21P5] " + e);
             return 0;
         }
     }
@@ -170,5 +157,49 @@ public record StdAnswers021222(
                 .stream()
                 .map(Ref::getName)
                 .anyMatch(refName -> refName.contains(branchName));
+    }
+
+    private static List<String> vazoMustHaveExpectedLinesNb(String repoName, int expectedLinesNb) throws IOException {
+        var vazo = Files.readAllLines(Path.of(repoName + "/vazo.txt"));
+        var vazoSize = vazo.size();
+        if (vazoSize != expectedLinesNb) {
+            throw new RuntimeException("Vazo ne doit avoir que _2_ lignes au lieu de : " + vazoSize);
+        }
+        return vazo;
+    }
+
+    private void titleIsAtExpectedLine(List<String> vazoLines, int lineNb) {
+        var and2 = vazoLines.get(lineNb).trim();
+        if (!and2.contains("Vazon'ny lavitra")) {
+            throw new RuntimeException("Le titre est mauvais : " + and2);
+        }
+    }
+
+    private void and1IsAtExpectedLine(List<String> vazoLines, int lineNb) {
+        var and2 = vazoLines.get(lineNb).trim();
+        if (!and2.contains("Andininy voalohany")) {
+            throw new RuntimeException("Le and1 est mauvais : " + and2);
+        }
+    }
+
+    private void and2IsAtExpectedLine(List<String> vazoLines, int lineNb) {
+        var and2 = vazoLines.get(lineNb).trim();
+        if (!and2.contains("Andininy faharoa")) {
+            throw new RuntimeException("Le and2 est mauvais : " + and2);
+        }
+    }
+
+    private void and2CommitMustBeOnBranch(String branch, String commitSha) throws GitAPIException, IOException {
+        String randomRepoName = randomRepoName();
+        Git git = branchMustHaveCommit(randomRepoName, branch, commitSha);
+
+        git
+                .checkout()
+                .setName(commitSha)
+                .call();
+        List<String> vazo = vazoMustHaveExpectedLinesNb(randomRepoName, 2);
+
+        titleIsAtExpectedLine(vazo, 0);
+        and2IsAtExpectedLine(vazo, 1);
     }
 }
