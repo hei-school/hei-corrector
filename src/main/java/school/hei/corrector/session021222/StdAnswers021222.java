@@ -27,6 +27,7 @@ public record StdAnswers021222(
         score = score + correctQ21P3();
         score = score + correctQ21P4();
         score = score + correctQ21P5();
+        score = score + correctQ21P6();
 
         Log.info("[... Correction d'un étudiant] Réf étudiante : " + stdRef + ", points obtenus : " + score);
         return score;
@@ -121,6 +122,31 @@ public record StdAnswers021222(
         }
     }
 
+    public int correctQ21P6() {
+        try {
+            String branch = "dev";
+            Log.info("[Q21P6...] Vérification de " + q21p6 + " dans " + branch);
+            String randomRepoName = randomRepoName();
+            Git git = branchMustHaveCommit(randomRepoName, branch, q21p6);
+
+            git
+                    .checkout()
+                    .setName(q21p6)
+                    .call();
+            List<String> vazo = vazoMustHaveExpectedLinesNb(randomRepoName, 3);
+
+            titleIsAtExpectedLine(vazo, 0);
+            and1IsAtExpectedLine(vazo, 1);
+            and2IsAtExpectedLine(vazo, 2);
+
+            Log.info("[...Q21P6] 1 point.");
+            return 1;
+        } catch (Exception e) {
+            Log.error("[...Q21P6] " + e);
+            return 0;
+        }
+    }
+
     private String randomRepoName() {
         int randomAppendix = (int) (Math.random() * 1_000_000_000); // so that scoring is idempotent
         return ExamSession021222.class.getSimpleName() + " - " + stdRef + " - " + randomAppendix;
@@ -163,7 +189,7 @@ public record StdAnswers021222(
         var vazo = Files.readAllLines(Path.of(repoName + "/vazo.txt"));
         var vazoSize = vazo.size();
         if (vazoSize != expectedLinesNb) {
-            throw new RuntimeException("Vazo ne doit avoir que _2_ lignes au lieu de : " + vazoSize);
+            throw new RuntimeException("Vazo doit avoir " + expectedLinesNb + "  lignes au lieu de : " + vazoSize);
         }
         return vazo;
     }

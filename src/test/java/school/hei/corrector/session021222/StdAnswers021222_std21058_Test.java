@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static school.hei.corrector.StdAnswersDatabase.examSession021222_std21058;
-import static school.hei.corrector.StdAnswersDatabase.examSession021222_std21065;
 
 class StdAnswers021222_std21058_Test {
 
@@ -45,11 +44,20 @@ class StdAnswers021222_std21058_Test {
     }
 
     @Test
-    void on_examSession021222_std21065_has_correct_q21p5() {
-        StdAnswers021222 answers = examSession021222_std21065();
+    void on_examSession021222_std21065_has_NOT_correct_q21p5() {
+        StdAnswers021222 answers = examSession021222_std21058();
 
         var score = answers.correctQ21P5();
 
-        assertEquals(1, score);
+        assertEquals(0, score);
+    }
+
+    @Test
+    void on_examSession021222_std21065_has_NOT_correct_q21p6() {
+        StdAnswers021222 answers = examSession021222_std21058();
+
+        var score = answers.correctQ21P6();
+
+        assertEquals(0, score);
     }
 }

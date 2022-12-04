@@ -23,6 +23,16 @@ public class CorrectorTest {
     }
 
     @Test
+    void canCorrect_STD21058() {
+        var examSession = new ExamSession021222();
+        var stdRef = "STD21058";
+
+        var score = corrector.correct(examSession, stdRef);
+
+        assertEquals(4, score);
+    }
+
+    @Test
     void canLoadAnswer_STD21065() {
         var examSession = new ExamSession021222();
         var stdRef = "STD21065";
@@ -30,5 +40,15 @@ public class CorrectorTest {
         StdAnswers021222 answers = (StdAnswers021222) corrector.readStdAnswers(examSession, stdRef);
 
         assertEquals(examSession021222_std21065(), answers);
+    }
+
+    @Test
+    void canCorrect_STD21065() {
+        var examSession = new ExamSession021222();
+        var stdRef = "STD21065";
+
+        var score = corrector.correct(examSession, stdRef);
+
+        assertEquals(6, score);
     }
 }
