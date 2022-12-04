@@ -3,6 +3,9 @@ package school.hei.corrector.session021222;
 import school.hei.corrector.ExamSession;
 import school.hei.corrector.StdAnswers;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import static school.hei.utils.Utils.infallibleSupply;
 
 public class ExamSession021222 implements ExamSession {
@@ -15,6 +18,8 @@ public class ExamSession021222 implements ExamSession {
     private static final int Q21P4_INDEX_IN_SHEET = 6;
     private static final int Q21P5_INDEX_IN_SHEET = 7;
     private static final int Q21P6_INDEX_IN_SHEET = 8;
+
+    public static final Map<String/*stdRef*/, Map<String/*question*/, Integer>> SCORE_PER_STUDENT = new HashMap<>();
 
     @Override
     public String name() {
@@ -37,5 +42,24 @@ public class ExamSession021222 implements ExamSession {
                 infallibleSupply(() -> asArray[Q21P4_INDEX_IN_SHEET].trim()),
                 infallibleSupply(() -> asArray[Q21P5_INDEX_IN_SHEET].trim()),
                 infallibleSupply(() -> asArray[Q21P6_INDEX_IN_SHEET].trim()));
+    }
+
+    @Override
+    public Map<String, Map<String, Integer>> scorePerStudent() {
+        return SCORE_PER_STUDENT;
+    }
+
+    public static void saveScore(String stdRef, String question, int score) {
+        Map<String, Integer> scorePerQuestion;
+
+        var oldScorePerQuestion = SCORE_PER_STUDENT.get(stdRef);
+        if (oldScorePerQuestion == null) {
+            scorePerQuestion = new HashMap<>();
+        } else {
+            scorePerQuestion = SCORE_PER_STUDENT.get(stdRef);
+        }
+
+        scorePerQuestion.put(question, score);
+        SCORE_PER_STUDENT.put(stdRef, scorePerQuestion);
     }
 }

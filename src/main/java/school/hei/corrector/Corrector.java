@@ -27,14 +27,34 @@ public class Corrector {
         }
     }
 
-    private void correct(ExamSession examSession) {
+    public Map<String, Map<String, Integer>> correct(ExamSession examSession) {
+        var stdAnswersMappedByStdRef = stdAnswersMappedByStdRef(examSession);
+        stdAnswersMappedByStdRef.forEach((_stdRef, stdAnswers) -> {
+            stdAnswers.correct();
+        });
+
+        Log.info("\n##################################\n##################################\n");
+        Log.info("Toutes les notes...\n");
+        var scorePerStudent = examSession.scorePerStudent();
+        scorePerStudent.forEach((stdRef, scorePerQuestion) -> {
+            Log.info(java.util.stream.Stream.of(
+                    stdRef,
+                    scorePerQuestion.get("Q21P1").toString(),
+                    scorePerQuestion.get("Q21P2").toString(),
+                    scorePerQuestion.get("Q21P3").toString(),
+                    scorePerQuestion.get("Q21P4").toString(),
+                    scorePerQuestion.get("Q21P5").toString(),
+                    scorePerQuestion.get("Q21P6").toString()
+            ).collect(java.util.stream.Collectors.joining(",")));
+        });
+        return scorePerStudent;
     }
 
-    protected int correct(ExamSession examSession, String studentRef) {
+    public int correct(ExamSession examSession, String studentRef) {
         return readStdAnswers(examSession, studentRef).correct();
     }
 
-    protected StdAnswers readStdAnswers(ExamSession examSession, String stdRef) {
+    public StdAnswers readStdAnswers(ExamSession examSession, String stdRef) {
         return stdAnswersMappedByStdRef(examSession).get(stdRef);
     }
 

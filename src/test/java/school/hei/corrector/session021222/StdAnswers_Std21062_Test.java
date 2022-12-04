@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static school.hei.corrector.StdAnswersDatabase.examSession021222_std21062;
 
-class StdAnswers021222_std21062_Test {
+class StdAnswers_Std21062_Test {
 
     @Test
     void on_examSession021222_std21062_has_correct_q21p1() {

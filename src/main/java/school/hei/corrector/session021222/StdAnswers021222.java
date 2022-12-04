@@ -10,32 +10,16 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import static school.hei.corrector.session021222.ExamSession021222.SCORE_PER_STUDENT;
+import static school.hei.corrector.session021222.ExamSession021222.saveScore;
 
 public record StdAnswers021222(
         String stdRef,
         String q21p1, String q21p2, String q21p3, String q21p4, String q21p5, String q21p6)
         implements StdAnswers {
-
-    private static final Map<String/*stdRef*/, Map<String/*question*/, Integer>> SCORE_PER_STUDENT =
-            // Unfortunaly records cannot have instance fields, so have to remember all students in static variable
-            new HashMap<>();
-
-    private void saveScore(String question, int score) {
-        Map<String, Integer> scorePerQuestion;
-
-        var oldScorePerQuestion = SCORE_PER_STUDENT.get(stdRef);
-        if (oldScorePerQuestion == null) {
-            scorePerQuestion = new HashMap<>();
-        } else {
-            scorePerQuestion = SCORE_PER_STUDENT.get(stdRef);
-        }
-
-        scorePerQuestion.put(question, score);
-        SCORE_PER_STUDENT.put(stdRef, scorePerQuestion);
-    }
 
     @Override
     public int correct() {
@@ -49,7 +33,7 @@ public record StdAnswers021222(
         score = score + correctQ21P5();
         score = score + correctQ21P6();
 
-        Log.info("[... Correction d'un étudiant] Réf étudiante : " + stdRef + ", points obtenus : " + score);
+        Log.info("[... Correction d'un étudiant] Réf étudiante : " + stdRef + ", points obtenus : " + score + "\n");
         return score;
     }
 
@@ -71,7 +55,7 @@ public record StdAnswers021222(
             Log.error("[...Q21P1] " + e);
         }
 
-        saveScore("Q21P1", score);
+        saveScore(stdRef, "Q21P1", score);
         return score;
     }
 
@@ -97,7 +81,7 @@ public record StdAnswers021222(
             Log.error("[...Q21P2] " + e);
         }
 
-        saveScore("Q21P2", score);
+        saveScore(stdRef, "Q21P2", score);
         return score;
     }
 
@@ -125,7 +109,7 @@ public record StdAnswers021222(
             Log.error("[...Q21P3] " + e);
         }
 
-        saveScore("Q21P3", score);
+        saveScore(stdRef, "Q21P3", score);
         return score;
     }
 
@@ -142,7 +126,7 @@ public record StdAnswers021222(
             Log.error("[...Q21P4] " + e);
         }
 
-        saveScore("Q21P4", score);
+        saveScore(stdRef, "Q21P4", score);
         return score;
     }
 
@@ -159,7 +143,7 @@ public record StdAnswers021222(
             Log.error("[...Q21P5] " + e);
         }
 
-        saveScore("Q21P5", score);
+        saveScore(stdRef, "Q21P5", score);
         return score;
     }
 
@@ -187,7 +171,7 @@ public record StdAnswers021222(
             Log.error("[...Q21P6] " + e);
         }
 
-        saveScore("Q21P6", score);
+        saveScore(stdRef, "Q21P6", score);
         return score;
     }
 
