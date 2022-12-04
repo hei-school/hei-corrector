@@ -33,4 +33,13 @@ class StdAnswers021222_std21058_Test {
 
         assertEquals(1, score);
     }
+
+    @Test
+    void on_examSession021222_std21058_has_correct_q21p4() {
+        StdAnswers021222 answers = examSession021222_std21058();
+
+        var score = answers.correctQ21P4();
+
+        assertEquals(1, score);
+    }
 }

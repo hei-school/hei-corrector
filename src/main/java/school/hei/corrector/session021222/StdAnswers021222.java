@@ -7,8 +7,10 @@ import school.hei.corrector.StdAnswers;
 import school.hei.utils.Log;
 
 import java.io.File;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.List;
 
 public record StdAnswers021222(
         String stdRef,
@@ -53,12 +55,7 @@ public record StdAnswers021222(
                     .checkout()
                     .setName(q21p2)
                     .call();
-            var vazo = Files.readAllLines(Path.of(randomRepoName + "/vazo.txt"));
-            var vazoSize = vazo.size();
-            if (vazoSize != 1) {
-                Log.error("[...Q21P2] Vazo ne doit avoir que _1_ ligne au lieu de : " + vazoSize);
-                return 0;
-            }
+            List<String> vazo = vazoMustHaveExpectedLinesNb(randomRepoName, 1);
 
             var title = vazo.get(0).trim();
             if (!title.contains("Vazon'ny lavitra")) {
@@ -77,7 +74,7 @@ public record StdAnswers021222(
     public int correctQ21P3() {
         try {
             String branch = "feat-and1";
-            Log.info("[Q21P2...] Vérification de " + q21p3);
+            Log.info("[Q21P3...] Vérification de " + q21p3);
             String randomRepoName = randomRepoName();
             Git git = cloneRepo(randomRepoName, branch); // actually commit is NOT in this branch IF rebased at Q21P6
 
@@ -85,16 +82,11 @@ public record StdAnswers021222(
                     .checkout()
                     .setName(q21p3)
                     .call();
-            var vazo = Files.readAllLines(Path.of(randomRepoName + "/vazo.txt"));
-            var vazoSize = vazo.size();
-            if (vazoSize != 2) {
-                Log.error("[...Q21P2] Vazo ne doit avoir que _2_ ligne au lieu de : " + vazoSize);
-                return 0;
-            }
+            List<String> vazo = vazoMustHaveExpectedLinesNb(randomRepoName, 2);
 
             var and1 = vazo.get(1).trim();
             if (!and1.contains("Andininy voalohany")) {
-                Log.error("[...Q21P2] Le and1 est mauvais : " + and1);
+                Log.error("[...Q21P3] Le and1 est mauvais : " + and1);
                 return 0;
             }
 
@@ -102,6 +94,42 @@ public record StdAnswers021222(
             return 1;
         } catch (Exception e) {
             Log.error("[...Q21P3] " + e);
+            return 0;
+        }
+    }
+
+    private static List<String> vazoMustHaveExpectedLinesNb(String repoName, int expectedLinesNb) throws IOException {
+        var vazo = Files.readAllLines(Path.of(repoName + "/vazo.txt"));
+        var vazoSize = vazo.size();
+        if (vazoSize != expectedLinesNb) {
+            throw new RuntimeException("Vazo ne doit avoir que _2_ lignes au lieu de : " + vazoSize);
+        }
+        return vazo;
+    }
+
+    public int correctQ21P4() {
+        try {
+            String branch = "feat-and2";
+            Log.info("[Q21P4...] Vérification de " + q21p4);
+            String randomRepoName = randomRepoName();
+            Git git = branchMustHaveCommit(randomRepoName, branch, q21p4);
+
+            git
+                    .checkout()
+                    .setName(q21p4)
+                    .call();
+            List<String> vazo = vazoMustHaveExpectedLinesNb(randomRepoName, 2);
+
+            var and2 = vazo.get(1).trim();
+            if (!and2.contains("Andininy faharoa")) {
+                Log.error("[...Q21P4] Le and2 est mauvais : " + and2);
+                return 0;
+            }
+
+            Log.info("[...Q21P4] 1 point.");
+            return 1;
+        } catch (Exception e) {
+            Log.error("[...Q21P4] " + e);
             return 0;
         }
     }
