@@ -3,6 +3,18 @@ package school.hei.corrector;
 import school.hei.corrector.session021222.StdAnswers021222;
 
 public class StdAnswersDatabase {
+
+    public static StdAnswers021222 examSession021222_std21058() {
+        return new StdAnswers021222(
+                "STD21058",
+                "https://github.com/Steven1805/-hei-prog3p1-exam-021222",
+                "7ff61224ffd8ad307db2d772e319abd7d25f16a5",
+                "04ef7e04f81da4fd0fd0465a32a35c41fa2967ff",
+                "286c30e1cab7bdeae5126deada996406cdc4e50a",
+                "7ff61224ffd8ad307db2d772e319abd7d25f16a5",
+                "7ff61224ffd8ad307db2d772e319abd7d25f16a5"
+        );
+    }
     public static StdAnswers021222 examSession021222_std21065() {
         return new StdAnswers021222(
                 "STD21065",
