@@ -25,7 +25,7 @@ public class ExamSession021222 implements ExamSession {
 
     @Override
     public String name() {
-        return "PROG3P1 - Session du 02 décembre 2022";
+        return "PROG3P1 (2/3) - Session du 02 décembre 2022";
     }
 
     @Override
