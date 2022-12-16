@@ -25,9 +25,9 @@ public class Corrector_All_Test {
         var std21007Answers = scorePerStudent.get("STD21007");
         assertEquals(1, std21007Answers.get("Q21P1"));
         assertEquals(1, std21007Answers.get("Q21P2"));
-        assertEquals(0, std21007Answers.get("Q21P3"));
-        assertEquals(0, std21007Answers.get("Q21P4"));
-        assertEquals(0, std21007Answers.get("Q21P5"));
+        assertEquals(1, std21007Answers.get("Q21P3"));
+        assertEquals(1, std21007Answers.get("Q21P4"));
+        assertEquals(1, std21007Answers.get("Q21P5"));
         assertEquals(1, std21007Answers.get("Q21P6"));
     }
 }

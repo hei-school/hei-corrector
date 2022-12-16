@@ -1,2 +1,1581 @@
 Résultats de la session d'examen de PROG3P1 (2/3) du 16/12/22
 
+/Library/Java/JavaVirtualMachines/jdk-17.0.5.jdk/Contents/Home/bin/java -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=53411:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/louandria/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.0/junit-platform-launcher-1.9.0.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit5-rt.jar:/Applications/IntelliJ IDEA.app/Contents/plugins/junit/lib/junit-rt.jar:/Users/louandria/src/prog3-git-corrector/target/test-classes:/Users/louandria/src/prog3-git-corrector/target/classes:/Users/louandria/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar:/Users/louandria/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar:/Users/louandria/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/louandria/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/Users/louandria/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/Users/louandria/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/louandria/.m2/repository/org/eclipse/jgit/org.eclipse.jgit/6.4.0.202211300538-r/org.eclipse.jgit-6.4.0.202211300538-r.jar:/Users/louandria/.m2/repository/com/googlecode/javaewah/JavaEWAH/1.1.13/JavaEWAH-1.1.13.jar:/Users/louandria/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar com.intellij.rt.junit.JUnitStarter -ideVersion5 -junit5 school.hei.corrector.session161222.Corrector_All_Test,canCorrect_all
+[Chargement des réponses...] Nom du fichier : /answers_16-12-22.csv
+[... Chargement des réponses] Nombre de réponses chargées : 61
+[Correction d'un étudiant...] Réf étudiante : STD21044
+[Q21P1...] Clonage de la dev depuis https://github.com/NiceGuyMe/hei-prog3p1-exam-161222
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+... clonage réussi dans : ExamSession021222 - STD21044 - 153845352
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de c4dcb3e dans dev
+Vérification du commit : c4dcb3e
+... clonage réussi dans : ExamSession021222 - STD21044 - 246008182
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 5d7e4bb
+... clonage réussi dans : ExamSession021222 - STD21044 - 298786271
+[...Q21P3] java.lang.RuntimeException: Le and1 est mauvais : Andininy voalohan
+[Q21P4...] Vérification de ec5ecfc
+Vérification du commit : ec5ecfc
+... clonage réussi dans : ExamSession021222 - STD21044 - 826971342
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 7d4aceca1eccaa6b876c10ef474e25fbdec5f559
+Vérification du commit : 7d4aceca1eccaa6b876c10ef474e25fbdec5f559
+... clonage réussi dans : ExamSession021222 - STD21044 - 765716159
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 7d4aceca1eccaa6b876c10ef474e25fbdec5f559 dans dev
+Vérification du commit : 7d4aceca1eccaa6b876c10ef474e25fbdec5f559
+... clonage réussi dans : ExamSession021222 - STD21044 - 61030030
+[...Q21P6] java.lang.RuntimeException: Vazo doit avoir 3  lignes au lieu de : 2
+[... Correction d'un étudiant] Réf étudiante : STD21044, points obtenus : 4
+
+[Correction d'un étudiant...] Réf étudiante : STD21088
+[Q21P1...] Clonage de la dev depuis https://github.com/KennyRandria/hei-prog3p1-exam-16122.git
+... clonage réussi dans : ExamSession021222 - STD21088 - 336056996
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 89bdab0 dans dev
+Vérification du commit : 89bdab0
+... clonage réussi dans : ExamSession021222 - STD21088 - 949594650
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de b521d09
+... clonage réussi dans : ExamSession021222 - STD21088 - 397217671
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de c801238
+Vérification du commit : c801238
+... clonage réussi dans : ExamSession021222 - STD21088 - 708031977
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 4b494aff322cf975a120f7c4881485574e1f3751
+Vérification du commit : 4b494aff322cf975a120f7c4881485574e1f3751
+... clonage réussi dans : ExamSession021222 - STD21088 - 179352856
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de  dans dev
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21088 - 531413848
+[...Q21P6] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[... Correction d'un étudiant] Réf étudiante : STD21088, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21001
+[Q21P1...] Clonage de la dev depuis https://github.com/fanjasoa18/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21001 - 762428299
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 7cd7bfagit dans dev
+Vérification du commit : 7cd7bfagit
+... clonage réussi dans : ExamSession021222 - STD21001 - 569521891
+[...Q21P2] org.eclipse.jgit.api.errors.RefNotFoundException: Ref 7cd7bfagit cannot be resolved
+[Q21P3...] Vérification de 40b4522
+... clonage réussi dans : ExamSession021222 - STD21001 - 844774457
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 38dc169
+Vérification du commit : 38dc169
+... clonage réussi dans : ExamSession021222 - STD21001 - 112646044
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21001 - 870729853
+[...Q21P5] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[Q21P6...] Vérification de  dans dev
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21001 - 95308998
+[...Q21P6] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[... Correction d'un étudiant] Réf étudiante : STD21001, points obtenus : 3
+
+[Correction d'un étudiant...] Réf étudiante : STD21045
+[Q21P1...] Clonage de la dev depuis https://github.com/Sanmandresy/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21045 - 524677792
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 9b8a854 dans dev
+Vérification du commit : 9b8a854
+... clonage réussi dans : ExamSession021222 - STD21045 - 881681000
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 3269cb3
+... clonage réussi dans : ExamSession021222 - STD21045 - 523679790
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de cb90252
+Vérification du commit : cb90252
+... clonage réussi dans : ExamSession021222 - STD21045 - 155095984
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 7922bd6
+Vérification du commit : 7922bd6
+... clonage réussi dans : ExamSession021222 - STD21045 - 933546084
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de c745470 dans dev
+Vérification du commit : c745470
+... clonage réussi dans : ExamSession021222 - STD21045 - 611341598
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21045, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21089
+[Q21P1...] Clonage de la dev depuis https://github.com/gitdeverstein/hei-prog3p1-exam-16122
+... clonage réussi dans : ExamSession021222 - STD21089 - 136721550
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 975e00cfdabb35aa0c8cad456b31329b67be8793 dans dev
+Vérification du commit : 975e00cfdabb35aa0c8cad456b31329b67be8793
+... clonage réussi dans : ExamSession021222 - STD21089 - 83500925
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 41b15c5
+... clonage réussi dans : ExamSession021222 - STD21089 - 978592679
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de f3fdcad
+Vérification du commit : f3fdcad
+... clonage réussi dans : ExamSession021222 - STD21089 - 2921151
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 97af837
+Vérification du commit : 97af837
+... clonage réussi dans : ExamSession021222 - STD21089 - 286153402
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 9853aa dans dev
+Vérification du commit : 9853aa
+... clonage réussi dans : ExamSession021222 - STD21089 - 539853549
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21089, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21042
+[Q21P1...] Clonage de la dev depuis https://github.com/ReichmannGaly/hei-prog3p1-exam-161222.git
+... clonage réussi dans : ExamSession021222 - STD21042 - 804441665
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 1e275e0 dans dev
+Vérification du commit : 1e275e0
+... clonage réussi dans : ExamSession021222 - STD21042 - 947549614
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 079b72b
+... clonage réussi dans : ExamSession021222 - STD21042 - 937441511
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 20b2a2b
+Vérification du commit : 20b2a2b
+... clonage réussi dans : ExamSession021222 - STD21042 - 149837543
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 20b2a2b
+Vérification du commit : 20b2a2b
+... clonage réussi dans : ExamSession021222 - STD21042 - 457522280
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 079b72b dans dev
+Vérification du commit : 079b72b
+... clonage réussi dans : ExamSession021222 - STD21042 - 324792082
+[...Q21P6] java.lang.RuntimeException: Vazo doit avoir 3  lignes au lieu de : 2
+[... Correction d'un étudiant] Réf étudiante : STD21042, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21086
+[Q21P1...] Clonage de la dev depuis https://github.com/michelle-commit/-hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21086 - 397876198
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 57c49cd dans dev
+Vérification du commit : 57c49cd
+... clonage réussi dans : ExamSession021222 - STD21086 - 522027192
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 0962e9c
+[...Q21P3] org.eclipse.jgit.api.errors.TransportException: Remote branch 'feat-and1' not found in upstream origin
+[Q21P4...] Vérification de null
+Vérification du commit : null
+[...Q21P4] org.eclipse.jgit.api.errors.TransportException: Remote branch 'feat-and2' not found in upstream origin
+[Q21P5...] Vérification de null
+Vérification du commit : null
+... clonage réussi dans : ExamSession021222 - STD21086 - 654734859
+[...Q21P5] org.eclipse.jgit.api.errors.InvalidRefNameException: Branch name <null> is not allowed
+[Q21P6...] Vérification de null dans dev
+Vérification du commit : null
+... clonage réussi dans : ExamSession021222 - STD21086 - 639592529
+[...Q21P6] org.eclipse.jgit.api.errors.InvalidRefNameException: Branch name <null> is not allowed
+[... Correction d'un étudiant] Réf étudiante : STD21086, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD21087
+[Q21P1...] Clonage de la dev depuis https://github.com/ManoaRRR/hei-prog3p1-exam-161222.git
+... clonage réussi dans : ExamSession021222 - STD21087 - 308673282
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 7d62109 dans dev
+Vérification du commit : 7d62109
+... clonage réussi dans : ExamSession021222 - STD21087 - 154665976
+[...Q21P2] java.lang.RuntimeException: Le titre est mauvais : vazon'ny lavitra
+[Q21P3...] Vérification de f8e47cd
+... clonage réussi dans : ExamSession021222 - STD21087 - 909528992
+[...Q21P3] java.lang.RuntimeException: Le titre est mauvais : vazon'ny lavitra
+[Q21P4...] Vérification de a207e34
+Vérification du commit : a207e34
+... clonage réussi dans : ExamSession021222 - STD21087 - 815924766
+[...Q21P4] java.lang.RuntimeException: Vazo doit avoir 2  lignes au lieu de : 3
+[Q21P5...] Vérification de
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21087 - 70444886
+[...Q21P5] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[Q21P6...] Vérification de  dans dev
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21087 - 238557488
+[...Q21P6] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[... Correction d'un étudiant] Réf étudiante : STD21087, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21084
+[Q21P1...] Clonage de la dev depuis https://github.com/Sarobidy-nantenaina/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21084 - 799576513
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 3801050 dans dev
+Vérification du commit : 3801050
+... clonage réussi dans : ExamSession021222 - STD21084 - 372659429
+[...Q21P2] org.eclipse.jgit.api.errors.RefNotFoundException: Ref 3801050 cannot be resolved
+[Q21P3...] Vérification de 4f446d3
+... clonage réussi dans : ExamSession021222 - STD21084 - 834983473
+[...Q21P3] org.eclipse.jgit.api.errors.RefNotFoundException: Ref 4f446d3 cannot be resolved
+[Q21P4...] Vérification de b924d37
+Vérification du commit : b924d37
+... clonage réussi dans : ExamSession021222 - STD21084 - 666911066
+[Q21P5...] Vérification de
+[...Q21P4] org.eclipse.jgit.api.errors.RefNotFoundException: Ref b924d37 cannot be resolved
+Vérification du commit :
+[...Q21P5] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+... clonage réussi dans : ExamSession021222 - STD21084 - 10055260
+[Q21P6...] Vérification de  dans dev
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21084 - 949551498
+[...Q21P6] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[... Correction d'un étudiant] Réf étudiante : STD21084, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21041
+[Q21P1...] Clonage de la dev depuis https://github.com/mick-j-06/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21041 - 303083415
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 3a75020 dans dev
+Vérification du commit : 3a75020
+... clonage réussi dans : ExamSession021222 - STD21041 - 403626320
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de afd9c74
+... clonage réussi dans : ExamSession021222 - STD21041 - 722857003
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de e114aaf
+Vérification du commit : e114aaf
+... clonage réussi dans : ExamSession021222 - STD21041 - 887883953
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 764d6479d9466973a2e6caf7c71fd48122f1a7e4
+Vérification du commit : 764d6479d9466973a2e6caf7c71fd48122f1a7e4
+... clonage réussi dans : ExamSession021222 - STD21041 - 440737255
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de afd9c7490ee2116dd202b782a1c408538a2f709e dans dev
+Vérification du commit : afd9c7490ee2116dd202b782a1c408538a2f709e
+... clonage réussi dans : ExamSession021222 - STD21041 - 968406246
+[...Q21P6] java.lang.RuntimeException: Vazo doit avoir 3  lignes au lieu de : 2
+[... Correction d'un étudiant] Réf étudiante : STD21041, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21082
+[Q21P1...] Clonage de la dev depuis https://github.com/AnatoleRajoelison/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21082 - 622975565
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 5a2da8d dans dev
+Vérification du commit : 5a2da8d
+... clonage réussi dans : ExamSession021222 - STD21082 - 442566489
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 63ac59a
+... clonage réussi dans : ExamSession021222 - STD21082 - 410115429
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de null
+Vérification du commit : null
+[Q21P5...] Vérification de null
+[...Q21P4] org.eclipse.jgit.api.errors.TransportException: Remote branch 'feat-and2' not found in upstream origin
+Vérification du commit : null
+... clonage réussi dans : ExamSession021222 - STD21082 - 988827093
+[...Q21P5] org.eclipse.jgit.api.errors.InvalidRefNameException: Branch name <null> is not allowed
+[Q21P6...] Vérification de null dans dev
+Vérification du commit : null
+... clonage réussi dans : ExamSession021222 - STD21082 - 672809008
+[...Q21P6] org.eclipse.jgit.api.errors.InvalidRefNameException: Branch name <null> is not allowed
+[... Correction d'un étudiant] Réf étudiante : STD21082, points obtenus : 3
+
+[Correction d'un étudiant...] Réf étudiante : STD21081
+[Q21P1...] Clonage de la dev depuis https://github.com/mirado447/hei-prog3p1-exam-161222.git
+... clonage réussi dans : ExamSession021222 - STD21081 - 901753973
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de bca3716 dans dev
+Vérification du commit : bca3716
+... clonage réussi dans : ExamSession021222 - STD21081 - 150444747
+[Q21P3...] Vérification de 54ea2ea
+[...Q21P2] org.eclipse.jgit.api.errors.RefNotFoundException: Ref bca3716 cannot be resolved
+... clonage réussi dans : ExamSession021222 - STD21081 - 729813780
+[Q21P4...] Vérification de f4433e3
+[...Q21P3] org.eclipse.jgit.api.errors.RefNotFoundException: Ref 54ea2ea cannot be resolved
+Vérification du commit : f4433e3
+... clonage réussi dans : ExamSession021222 - STD21081 - 737230138
+[...Q21P4] org.eclipse.jgit.api.errors.RefNotFoundException: Ref f4433e3 cannot be resolved
+[Q21P5...] Vérification de
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21081 - 286437659
+[...Q21P5] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[Q21P6...] Vérification de  dans dev
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21081 - 188037315
+[...Q21P6] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[... Correction d'un étudiant] Réf étudiante : STD21081, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21006
+[Q21P1...] Clonage de la dev depuis https://github.com/YlanNaly/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21006 - 102607238
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de e5c68b8 dans dev
+Vérification du commit : e5c68b8
+... clonage réussi dans : ExamSession021222 - STD21006 - 976488275
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 07bedea
+... clonage réussi dans : ExamSession021222 - STD21006 - 514055257
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 9498acb
+Vérification du commit : 9498acb
+... clonage réussi dans : ExamSession021222 - STD21006 - 487183288
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 68d394c31d368bdf043153bfd3cfe7e643f0c13b
+Vérification du commit : 68d394c31d368bdf043153bfd3cfe7e643f0c13b
+... clonage réussi dans : ExamSession021222 - STD21006 - 237041354
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de e2646f6967ffc0a688ee717435117f8401baf4e3 dans dev
+Vérification du commit : e2646f6967ffc0a688ee717435117f8401baf4e3
+... clonage réussi dans : ExamSession021222 - STD21006 - 604998337
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21006, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21007
+[Q21P1...] Clonage de la dev depuis https://github.com/Noums26/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21007 - 226742530
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 4864d2f dans dev
+Vérification du commit : 4864d2f
+... clonage réussi dans : ExamSession021222 - STD21007 - 315415719
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 1ebeee5
+... clonage réussi dans : ExamSession021222 - STD21007 - 533168306
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 44ac1f3
+Vérification du commit : 44ac1f3
+... clonage réussi dans : ExamSession021222 - STD21007 - 53025200
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 884c054
+Vérification du commit : 884c054
+... clonage réussi dans : ExamSession021222 - STD21007 - 124917662
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 570486a dans dev
+Vérification du commit : 570486a
+... clonage réussi dans : ExamSession021222 - STD21007 - 190792886
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21007, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21004
+[Q21P1...] Clonage de la dev depuis https://github.com/miharyjoe/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21004 - 452946118
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 1060d6b dans dev
+Vérification du commit : 1060d6b
+... clonage réussi dans : ExamSession021222 - STD21004 - 1419988
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 2bc8d66
+... clonage réussi dans : ExamSession021222 - STD21004 - 227353164
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de e0ef412
+Vérification du commit : e0ef412
+... clonage réussi dans : ExamSession021222 - STD21004 - 160703385
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 90a67d4
+Vérification du commit : 90a67d4
+... clonage réussi dans : ExamSession021222 - STD21004 - 223189677
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de dbf2660 dans dev
+Vérification du commit : dbf2660
+... clonage réussi dans : ExamSession021222 - STD21004 - 933493127
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21004, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21048
+[Q21P1...] Clonage de la dev depuis https://github.com/SoaMariaka19/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21048 - 300216694
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 2e1056d dans dev
+Vérification du commit : 2e1056d
+... clonage réussi dans : ExamSession021222 - STD21048 - 383467517
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 54a40b9
+... clonage réussi dans : ExamSession021222 - STD21048 - 490831271
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de a400e19
+Vérification du commit : a400e19
+... clonage réussi dans : ExamSession021222 - STD21048 - 591993954
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 7df3507
+Vérification du commit : 7df3507
+... clonage réussi dans : ExamSession021222 - STD21048 - 395053141
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 4d737b7 dans dev
+Vérification du commit : 4d737b7
+... clonage réussi dans : ExamSession021222 - STD21048 - 37912070
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21048, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21005
+[Q21P1...] Clonage de la dev depuis https://github.com/Vohizy/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21005 - 27201070
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 0d5b1fa dans dev
+Vérification du commit : 0d5b1fa
+... clonage réussi dans : ExamSession021222 - STD21005 - 73893167
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de d7857c3
+... clonage réussi dans : ExamSession021222 - STD21005 - 131968681
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 39a766c
+Vérification du commit : 39a766c
+... clonage réussi dans : ExamSession021222 - STD21005 - 196447035
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 11d0c2f
+Vérification du commit : 11d0c2f
+... clonage réussi dans : ExamSession021222 - STD21005 - 164951516
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de b1e872b dans dev
+Vérification du commit : b1e872b
+... clonage réussi dans : ExamSession021222 - STD21005 - 421641816
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21005, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21033
+[Q21P1...] Clonage de la dev depuis https://github.com/Miaritiana/hei-prog3p1-exam-161222.git
+... clonage réussi dans : ExamSession021222 - STD21033 - 91816986
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de f39808c dans dev
+Vérification du commit : f39808c
+... clonage réussi dans : ExamSession021222 - STD21033 - 188774349
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de c4c5c2e
+... clonage réussi dans : ExamSession021222 - STD21033 - 769414296
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 4156f01
+Vérification du commit : 4156f01
+... clonage réussi dans : ExamSession021222 - STD21033 - 476805781
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de b23b3c5ec53da329d2ae8eb77dbecb87ed5c2566
+Vérification du commit : b23b3c5ec53da329d2ae8eb77dbecb87ed5c2566
+... clonage réussi dans : ExamSession021222 - STD21033 - 439976638
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de  dans dev
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21033 - 156210422
+[...Q21P6] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[... Correction d'un étudiant] Réf étudiante : STD21033, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21034
+[Q21P1...] Clonage de la dev depuis https://github.com/NyH1409/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21034 - 195592064
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 3f42185 dans dev
+Vérification du commit : 3f42185
+... clonage réussi dans : ExamSession021222 - STD21034 - 450452495
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de b0d328e
+... clonage réussi dans : ExamSession021222 - STD21034 - 694347924
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 00fb938
+Vérification du commit : 00fb938
+... clonage réussi dans : ExamSession021222 - STD21034 - 950705660
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 281496c
+Vérification du commit : 281496c
+... clonage réussi dans : ExamSession021222 - STD21034 - 862651326
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 10aca89 dans dev
+Vérification du commit : 10aca89
+... clonage réussi dans : ExamSession021222 - STD21034 - 134392530
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21034, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21032
+[Q21P1...] Clonage de la dev depuis https://github.com/HidDen-MaChinA/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21032 - 371486334
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 58263cd dans dev
+Vérification du commit : 58263cd
+... clonage réussi dans : ExamSession021222 - STD21032 - 267995726
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de a497efe
+... clonage réussi dans : ExamSession021222 - STD21032 - 789697172
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de e96750b
+Vérification du commit : e96750b
+... clonage réussi dans : ExamSession021222 - STD21032 - 928355156
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de ebf3fb2
+Vérification du commit : ebf3fb2
+... clonage réussi dans : ExamSession021222 - STD21032 - 97328914
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 8b65119 dans dev
+Vérification du commit : 8b65119
+... clonage réussi dans : ExamSession021222 - STD21032 - 920921153
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21032, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21076
+[Q21P1...] Clonage de la dev depuis https://github.com/Ezdev2Pro/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21076 - 679774469
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 8437d8a dans dev
+Vérification du commit : 8437d8a
+... clonage réussi dans : ExamSession021222 - STD21076 - 890404238
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 1ced1d9
+... clonage réussi dans : ExamSession021222 - STD21076 - 652758961
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 2b52b4b
+Vérification du commit : 2b52b4b
+... clonage réussi dans : ExamSession021222 - STD21076 - 456802894
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de e1ad1e9
+Vérification du commit : e1ad1e9
+... clonage réussi dans : ExamSession021222 - STD21076 - 913453898
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 85c60cf dans dev
+Vérification du commit : 85c60cf
+... clonage réussi dans : ExamSession021222 - STD21076 - 831376535
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21076, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21073
+[Q21P1...] Clonage de la dev depuis https://github.com/fetraandri/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21073 - 339293398
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de da6860a dans dev
+Vérification du commit : da6860a
+... clonage réussi dans : ExamSession021222 - STD21073 - 901863635
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de de68ba7
+... clonage réussi dans : ExamSession021222 - STD21073 - 119025704
+[...Q21P3] java.lang.RuntimeException: Le and1 est mauvais : Andininy Voalohany
+[Q21P4...] Vérification de 3b7a9f5
+Vérification du commit : 3b7a9f5
+... clonage réussi dans : ExamSession021222 - STD21073 - 68851605
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 681e62df1dd16bf2a9f465664ad05b0a1d7653f9
+Vérification du commit : 681e62df1dd16bf2a9f465664ad05b0a1d7653f9
+... clonage réussi dans : ExamSession021222 - STD21073 - 996466434
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de  dans dev
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21073 - 276035793
+[...Q21P6] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[... Correction d'un étudiant] Réf étudiante : STD21073, points obtenus : 4
+
+[Correction d'un étudiant...] Réf étudiante : STD21030
+[Q21P1...] Clonage de la dev depuis https://github.com/Tsirimaholy/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21030 - 823238036
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 7845509 dans dev
+Vérification du commit : 7845509
+... clonage réussi dans : ExamSession021222 - STD21030 - 832139037
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 728e4d
+... clonage réussi dans : ExamSession021222 - STD21030 - 980021861
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de af5eeddb
+Vérification du commit : af5eeddb
+... clonage réussi dans : ExamSession021222 - STD21030 - 663098737
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21030 - 54680507
+[...Q21P5] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[Q21P6...] Vérification de  dans dev
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21030 - 466994820
+[...Q21P6] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[... Correction d'un étudiant] Réf étudiante : STD21030, points obtenus : 4
+
+[Correction d'un étudiant...] Réf étudiante : STD21071
+[Q21P1...] Clonage de la dev depuis https://github.com/Mitsanta12/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21071 - 418815818
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 76d1cbf dans dev
+Vérification du commit : 76d1cbf
+... clonage réussi dans : ExamSession021222 - STD21071 - 43939639
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 4a802a2
+... clonage réussi dans : ExamSession021222 - STD21071 - 671327910
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de d097ae6
+Vérification du commit : d097ae6
+... clonage réussi dans : ExamSession021222 - STD21071 - 527255886
+[...Q21P4] java.lang.RuntimeException: Vazo doit avoir 2  lignes au lieu de : 3
+[Q21P5...] Vérification de 20d59af
+Vérification du commit : 20d59af
+... clonage réussi dans : ExamSession021222 - STD21071 - 108370530
+[...Q21P5] java.lang.RuntimeException: Vazo doit avoir 2  lignes au lieu de : 3
+[Q21P6...] Vérification de  dans dev
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21071 - 804833554
+[...Q21P6] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[... Correction d'un étudiant] Réf étudiante : STD21071, points obtenus : 3
+
+[Correction d'un étudiant...] Réf étudiante : STD21039
+[Q21P1...] Clonage de la dev depuis https://github.com/NyAndoMayah/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21039 - 614423189
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 9b55e35e6ce20282abfb5d55aa14141632889af7 dans dev
+Vérification du commit : 9b55e35e6ce20282abfb5d55aa14141632889af7
+... clonage réussi dans : ExamSession021222 - STD21039 - 560308088
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de adf8d31edfcae8a23aeac70195204c3a4240f866
+... clonage réussi dans : ExamSession021222 - STD21039 - 470308898
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 1b23f68faf936661e60128680e23b0965a598dd8
+Vérification du commit : 1b23f68faf936661e60128680e23b0965a598dd8
+... clonage réussi dans : ExamSession021222 - STD21039 - 817990046
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de f28d9b8586af2247a811062b4f81b8499d0d4f33
+Vérification du commit : f28d9b8586af2247a811062b4f81b8499d0d4f33
+... clonage réussi dans : ExamSession021222 - STD21039 - 252792512
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 4696ebcb1c33bf2f08e45b00ba9e3c4962919cee dans dev
+Vérification du commit : 4696ebcb1c33bf2f08e45b00ba9e3c4962919cee
+... clonage réussi dans : ExamSession021222 - STD21039 - 894279243
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21039, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21038
+[Q21P1...] Clonage de la dev depuis https://github.com/YumeT023/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21038 - 109438501
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de dcbc64c dans dev
+Vérification du commit : dcbc64c
+... clonage réussi dans : ExamSession021222 - STD21038 - 258215250
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 1852516
+... clonage réussi dans : ExamSession021222 - STD21038 - 474849565
+[...Q21P3] org.eclipse.jgit.api.errors.RefNotFoundException: Ref 1852516 cannot be resolved
+[Q21P4...] Vérification de 4bddc4d
+Vérification du commit : 4bddc4d
+... clonage réussi dans : ExamSession021222 - STD21038 - 17075785
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de b0206ef
+Vérification du commit : b0206ef
+... clonage réussi dans : ExamSession021222 - STD21038 - 634043301
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de bd660da dans dev
+Vérification du commit : bd660da
+... clonage réussi dans : ExamSession021222 - STD21038 - 867389992
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21038, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21079
+[Q21P1...] Clonage de la dev depuis https://github.com/Tiantsoa79/hei-prog3p1-exam-161222.git
+... clonage réussi dans : ExamSession021222 - STD21079 - 209960294
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de ca4947c dans dev
+Vérification du commit : ca4947c
+... clonage réussi dans : ExamSession021222 - STD21079 - 200858086
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 365525e
+... clonage réussi dans : ExamSession021222 - STD21079 - 569979402
+[...Q21P3] org.eclipse.jgit.api.errors.RefNotFoundException: Ref 365525e cannot be resolved
+[Q21P4...] Vérification de 9bf20db
+Vérification du commit : 9bf20db
+... clonage réussi dans : ExamSession021222 - STD21079 - 207565546
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21079 - 616503221
+[...Q21P5] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[Q21P6...] Vérification de  dans dev
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21079 - 870275856
+[...Q21P6] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[... Correction d'un étudiant] Réf étudiante : STD21079, points obtenus : 3
+
+[Correction d'un étudiant...] Réf étudiante : STD21036
+[Q21P1...] Clonage de la dev depuis https://github.com/Cenikl/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21036 - 395461437
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 29b5f8b dans dev
+Vérification du commit : 29b5f8b
+... clonage réussi dans : ExamSession021222 - STD21036 - 553831072
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de d518132
+... clonage réussi dans : ExamSession021222 - STD21036 - 260874611
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de edc1d8f
+Vérification du commit : edc1d8f
+... clonage réussi dans : ExamSession021222 - STD21036 - 838761665
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 418c684
+Vérification du commit : 418c684
+... clonage réussi dans : ExamSession021222 - STD21036 - 950964073
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 1d39d05 dans dev
+Vérification du commit : 1d39d05
+... clonage réussi dans : ExamSession021222 - STD21036 - 469707534
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21036, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21020
+[Q21P1...] Clonage de la dev depuis https://github.com/Iloniavo/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21020 - 229851850
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 05ede01 dans dev
+Vérification du commit : 05ede01
+... clonage réussi dans : ExamSession021222 - STD21020 - 944407401
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 92e06aa
+... clonage réussi dans : ExamSession021222 - STD21020 - 737453314
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de b37d687
+Vérification du commit : b37d687
+... clonage réussi dans : ExamSession021222 - STD21020 - 780674928
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de ac5f547
+Vérification du commit : ac5f547
+... clonage réussi dans : ExamSession021222 - STD21020 - 268142403
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de b5dddc0 dans dev
+Vérification du commit : b5dddc0
+... clonage réussi dans : ExamSession021222 - STD21020 - 805424858
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21020, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21064
+[Q21P1...] Clonage de la dev depuis https://github.com/Mendrika27/hei-prog3p1-exam-161222.git
+... clonage réussi dans : ExamSession021222 - STD21064 - 906200217
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 8caf2f8 dans dev
+Vérification du commit : 8caf2f8
+... clonage réussi dans : ExamSession021222 - STD21064 - 615541017
+[...Q21P2] java.lang.RuntimeException: Le titre est mauvais : Vazon'ny lanitra
+[Q21P3...] Vérification de d291a12
+... clonage réussi dans : ExamSession021222 - STD21064 - 713609807
+[...Q21P3] java.lang.RuntimeException: Le titre est mauvais : Vazon'ny lanitra
+[Q21P4...] Vérification de 9a72710
+Vérification du commit : 9a72710
+... clonage réussi dans : ExamSession021222 - STD21064 - 384918065
+[...Q21P4] java.lang.RuntimeException: Le titre est mauvais : Vazon'ny lanitra
+[Q21P5...] Vérification de 292b7d8
+Vérification du commit : 292b7d8
+... clonage réussi dans : ExamSession021222 - STD21064 - 64719732
+[...Q21P5] java.lang.RuntimeException: Le titre est mauvais : Vazon'ny lanitra
+[Q21P6...] Vérification de ac8f21c dans dev
+Vérification du commit : ac8f21c
+... clonage réussi dans : ExamSession021222 - STD21064 - 420711491
+[...Q21P6] java.lang.RuntimeException: Le titre est mauvais : Vazon'ny lanitra
+[... Correction d'un étudiant] Réf étudiante : STD21064, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21021
+[Q21P1...] Clonage de la dev depuis https://github.com/JrManjato/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21021 - 214582170
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de cd4329ebfb7dd6476b5418e2d4d24166ef2b6c1a dans dev
+Vérification du commit : cd4329ebfb7dd6476b5418e2d4d24166ef2b6c1a
+... clonage réussi dans : ExamSession021222 - STD21021 - 805671964
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 57833a2985d07aa27d40de18298f4a1e35276715
+... clonage réussi dans : ExamSession021222 - STD21021 - 375915569
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 1b4c451199abc79535797958752d1fd5cb3d7aa0
+Vérification du commit : 1b4c451199abc79535797958752d1fd5cb3d7aa0
+... clonage réussi dans : ExamSession021222 - STD21021 - 369022726
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 0722d831d678e871de0b4536a10cb60fe70eb3e9
+Vérification du commit : 0722d831d678e871de0b4536a10cb60fe70eb3e9
+... clonage réussi dans : ExamSession021222 - STD21021 - 956812922
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 593a337a67a9b1c17a251c585f626aca62fe6019 dans dev
+Vérification du commit : 593a337a67a9b1c17a251c585f626aca62fe6019
+... clonage réussi dans : ExamSession021222 - STD21021 - 387888069
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21021, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21065
+[Q21P1...] Clonage de la dev depuis https://github.com/Mahefaa/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21065 - 811301855
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de c717754 dans dev
+Vérification du commit : c717754
+... clonage réussi dans : ExamSession021222 - STD21065 - 382650215
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de fe38c10
+... clonage réussi dans : ExamSession021222 - STD21065 - 402077316
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de acd1200
+Vérification du commit : acd1200
+... clonage réussi dans : ExamSession021222 - STD21065 - 196274811
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 8200bf909b8bf52f77adeb271e6660dcfea70229
+Vérification du commit : 8200bf909b8bf52f77adeb271e6660dcfea70229
+... clonage réussi dans : ExamSession021222 - STD21065 - 834210569
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 33f3e71d36613e0dd1381ac9f2069aa83bb0d2ae dans dev
+Vérification du commit : 33f3e71d36613e0dd1381ac9f2069aa83bb0d2ae
+... clonage réussi dans : ExamSession021222 - STD21065 - 68707376
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21065, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21062
+[Q21P1...] Clonage de la dev depuis https://github.com/Lakara2/hei-prog3p1-exam-161222.git
+[Q21P2...] Vérification de d2b837e dans dev
+[...Q21P1] org.eclipse.jgit.api.errors.TransportException: Remote branch 'dev' not found in upstream origin
+Vérification du commit : d2b837e
+[Q21P3...] Vérification de 2973b46
+[...Q21P2] org.eclipse.jgit.api.errors.TransportException: Remote branch 'dev' not found in upstream origin
+[Q21P4...] Vérification de f7187de
+[...Q21P3] org.eclipse.jgit.api.errors.TransportException: Remote branch 'feat-and1' not found in upstream origin
+Vérification du commit : f7187de
+... clonage réussi dans : ExamSession021222 - STD21062 - 226500204
+[Q21P5...] Vérification de
+[...Q21P4] java.lang.RuntimeException: Vazo doit avoir 2  lignes au lieu de : 3
+Vérification du commit :
+[...Q21P5] org.eclipse.jgit.api.errors.TransportException: Remote branch 'dev' not found in upstream origin
+[Q21P6...] Vérification de  dans dev
+Vérification du commit :
+[...Q21P6] org.eclipse.jgit.api.errors.TransportException: Remote branch 'dev' not found in upstream origin
+[... Correction d'un étudiant] Réf étudiante : STD21062, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD21063
+[Q21P1...] Clonage de la dev depuis https://github.com/Zoherifitia/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21063 - 319287031
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de e7717cd dans dev
+Vérification du commit : e7717cd
+... clonage réussi dans : ExamSession021222 - STD21063 - 227006240
+[...Q21P2] java.nio.file.NoSuchFileException: ExamSession021222 - STD21063 - 227006240/vazo.txt
+[Q21P3...] Vérification de 9f3e25e
+... clonage réussi dans : ExamSession021222 - STD21063 - 189272441
+[...Q21P3] java.nio.file.NoSuchFileException: ExamSession021222 - STD21063 - 189272441/vazo.txt
+[Q21P4...] Vérification de daf1f9b
+Vérification du commit : daf1f9b
+... clonage réussi dans : ExamSession021222 - STD21063 - 929836859
+[...Q21P4] java.nio.file.NoSuchFileException: ExamSession021222 - STD21063 - 929836859/vazo.txt
+[Q21P5...] Vérification de
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21063 - 153873308
+[Q21P6...] Vérification de  dans dev
+Vérification du commit :
+[...Q21P5] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+... clonage réussi dans : ExamSession021222 - STD21063 - 487996063
+[...Q21P6] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[... Correction d'un étudiant] Réf étudiante : STD21063, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21060
+[Q21P1...] Clonage de la dev depuis https://github.com/laurenrasoanaivo/hei-prog3p1-exam-161222.git
+... clonage réussi dans : ExamSession021222 - STD21060 - 839902390
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de a246d18 dans dev
+Vérification du commit : a246d18
+... clonage réussi dans : ExamSession021222 - STD21060 - 433812617
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 85d5cc7
+... clonage réussi dans : ExamSession021222 - STD21060 - 125358848
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de dcf8f9f
+Vérification du commit : dcf8f9f
+... clonage réussi dans : ExamSession021222 - STD21060 - 472319072
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 8c89fed3dde461ab3ce9d866cd90c7218f15e2d5
+Vérification du commit : 8c89fed3dde461ab3ce9d866cd90c7218f15e2d5
+... clonage réussi dans : ExamSession021222 - STD21060 - 497541739
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 255f2a9890c86202198fdd326583e39da5509742 dans dev
+Vérification du commit : 255f2a9890c86202198fdd326583e39da5509742
+... clonage réussi dans : ExamSession021222 - STD21060 - 188007230
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21060, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21061
+[Q21P1...] Clonage de la dev depuis https://github.com/BrindoTolotra/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21061 - 624869814
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 5a45128 dans dev
+Vérification du commit : 5a45128
+... clonage réussi dans : ExamSession021222 - STD21061 - 122225105
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de de0cd77
+... clonage réussi dans : ExamSession021222 - STD21061 - 282008533
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de a103a95
+Vérification du commit : a103a95
+... clonage réussi dans : ExamSession021222 - STD21061 - 757859651
+[...Q21P4] java.lang.RuntimeException: Vazo doit avoir 2  lignes au lieu de : 3
+[Q21P5...] Vérification de a103a95
+Vérification du commit : a103a95
+... clonage réussi dans : ExamSession021222 - STD21061 - 285151162
+[...Q21P5] java.lang.RuntimeException: Vazo doit avoir 2  lignes au lieu de : 3
+[Q21P6...] Vérification de de0cd77 dans dev
+Vérification du commit : de0cd77
+... clonage réussi dans : ExamSession021222 - STD21061 - 409195981
+[...Q21P6] java.lang.RuntimeException: Vazo doit avoir 3  lignes au lieu de : 2
+[... Correction d'un étudiant] Réf étudiante : STD21061, points obtenus : 3
+
+[Correction d'un étudiant...] Réf étudiante : STD21109
+[Q21P1...] Clonage de la dev depuis https://github.com/Herizoran/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21109 - 316198939
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 15eeccf dans dev
+Vérification du commit : 15eeccf
+... clonage réussi dans : ExamSession021222 - STD21109 - 370682239
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de d9a011e
+... clonage réussi dans : ExamSession021222 - STD21109 - 824921234
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 82b27a2
+Vérification du commit : 82b27a2
+... clonage réussi dans : ExamSession021222 - STD21109 - 726612732
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 82b27a2
+Vérification du commit : 82b27a2
+... clonage réussi dans : ExamSession021222 - STD21109 - 871368403
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 48365ec dans dev
+Vérification du commit : 48365ec
+... clonage réussi dans : ExamSession021222 - STD21109 - 277944187
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21109, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21107
+[Q21P1...] Clonage de la dev depuis https://github.com/fenohasinalala/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21107 - 221894056
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 945b6f7af10d55b65c80293754086a2368d281e4 dans dev
+Vérification du commit : 945b6f7af10d55b65c80293754086a2368d281e4
+... clonage réussi dans : ExamSession021222 - STD21107 - 181685078
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 30230d8083d0465d952affcefe05276788ca6807
+... clonage réussi dans : ExamSession021222 - STD21107 - 46784445
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 0d4df442e0686330d34ec06c5464c9a978fd448e
+Vérification du commit : 0d4df442e0686330d34ec06c5464c9a978fd448e
+... clonage réussi dans : ExamSession021222 - STD21107 - 217272304
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de b2ec0d92f7beec377c46e84472f21b13dc6ac343
+Vérification du commit : b2ec0d92f7beec377c46e84472f21b13dc6ac343
+... clonage réussi dans : ExamSession021222 - STD21107 - 631980426
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 9d716b249e6496d0e986904b6f2456aaf397c07c dans dev
+Vérification du commit : 9d716b249e6496d0e986904b6f2456aaf397c07c
+... clonage réussi dans : ExamSession021222 - STD21107 - 453421875
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21107, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21108
+[Q21P1...] Clonage de la dev depuis https://github.com/heiherilala/hei-prog3p1-exam-161222.git
+... clonage réussi dans : ExamSession021222 - STD21108 - 948625099
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de d7f7b49b9086eceef2b7fa243d9d58187b47ac5a dans dev
+Vérification du commit : d7f7b49b9086eceef2b7fa243d9d58187b47ac5a
+... clonage réussi dans : ExamSession021222 - STD21108 - 364091764
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de f63c45c57ddf3e411b1b3b44bd09cd9d1a0512df
+... clonage réussi dans : ExamSession021222 - STD21108 - 199717265
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de b2e844b75cf79944cd2028cd5739a193d9f1e888
+Vérification du commit : b2e844b75cf79944cd2028cd5739a193d9f1e888
+... clonage réussi dans : ExamSession021222 - STD21108 - 775022762
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de a0a242b32ca6a1866416d7a5aa0abf2233d6c9aa
+Vérification du commit : a0a242b32ca6a1866416d7a5aa0abf2233d6c9aa
+... clonage réussi dans : ExamSession021222 - STD21108 - 451161052
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de e6a81fde705ef74db2546f2469823f8fd2ac7fdf dans dev
+Vérification du commit : e6a81fde705ef74db2546f2469823f8fd2ac7fdf
+... clonage réussi dans : ExamSession021222 - STD21108 - 70056935
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21108, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21028
+[Q21P1...] Clonage de la dev depuis https://github.com/Dinasoa/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21028 - 663765184
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 03ffafff2989330867788fd55cf9700abf5c8f00 dans dev
+Vérification du commit : 03ffafff2989330867788fd55cf9700abf5c8f00
+... clonage réussi dans : ExamSession021222 - STD21028 - 771922663
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de cf6383c19bc883767698075281a65c3e6de2c3c4
+... clonage réussi dans : ExamSession021222 - STD21028 - 272674572
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 18431e09ee2456308b98992893207d1cb1be25d3
+Vérification du commit : 18431e09ee2456308b98992893207d1cb1be25d3
+... clonage réussi dans : ExamSession021222 - STD21028 - 373898241
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 128acb5fddc90e1a7f6ee40d9502a1f32a83d45f
+Vérification du commit : 128acb5fddc90e1a7f6ee40d9502a1f32a83d45f
+... clonage réussi dans : ExamSession021222 - STD21028 - 451351802
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 87a27dcb7c7499de73e1258071020a260bd5510a dans dev
+Vérification du commit : 87a27dcb7c7499de73e1258071020a260bd5510a
+... clonage réussi dans : ExamSession021222 - STD21028 - 340822245
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21028, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21029
+[Q21P1...] Clonage de la dev depuis https://github.com/Anjaraniaina/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21029 - 279230870
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 7c1f66c dans dev
+Vérification du commit : 7c1f66c
+... clonage réussi dans : ExamSession021222 - STD21029 - 740037991
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 75ba064
+... clonage réussi dans : ExamSession021222 - STD21029 - 776828255
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 3049a1b
+Vérification du commit : 3049a1b
+... clonage réussi dans : ExamSession021222 - STD21029 - 490389194
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de dd08325
+Vérification du commit : dd08325
+... clonage réussi dans : ExamSession021222 - STD21029 - 641333070
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 8c65967 dans dev
+Vérification du commit : 8c65967
+... clonage réussi dans : ExamSession021222 - STD21029 - 731304261
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21029, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21103
+[Q21P1...] Clonage de la dev depuis https://github.com/haritianaadriano/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21103 - 112045253
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 0aa38bb dans dev
+Vérification du commit : 0aa38bb
+... clonage réussi dans : ExamSession021222 - STD21103 - 80916992
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 22a2f81
+... clonage réussi dans : ExamSession021222 - STD21103 - 711654898
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 3dbc73d
+Vérification du commit : 3dbc73d
+... clonage réussi dans : ExamSession021222 - STD21103 - 354299319
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 314be02
+Vérification du commit : 314be02
+... clonage réussi dans : ExamSession021222 - STD21103 - 280044031
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de fa12ef8 dans dev
+Vérification du commit : fa12ef8
+... clonage réussi dans : ExamSession021222 - STD21103 - 698078660
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21103, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21027
+[Q21P1...] Clonage de la dev depuis https://github.com/lianafinaritra/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21027 - 266460146
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de https://github.com/lianafinaritra/hei-prog3p1-exam-161222 dans dev
+Vérification du commit : https://github.com/lianafinaritra/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21027 - 629454125
+[...Q21P2] org.eclipse.jgit.api.errors.RefNotFoundException: Ref https://github.com/lianafinaritra/hei-prog3p1-exam-161222 cannot be resolved
+[Q21P3...] Vérification de 09b92f2
+... clonage réussi dans : ExamSession021222 - STD21027 - 338596431
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 7c560f1
+Vérification du commit : 7c560f1
+... clonage réussi dans : ExamSession021222 - STD21027 - 475015230
+[...Q21P4] java.lang.RuntimeException: Vazo doit avoir 2  lignes au lieu de : 1
+[Q21P5...] Vérification de e597359
+Vérification du commit : e597359
+... clonage réussi dans : ExamSession021222 - STD21027 - 58981135
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de c4e7d75 dans dev
+Vérification du commit : c4e7d75
+... clonage réussi dans : ExamSession021222 - STD21027 - 532529061
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21027, points obtenus : 4
+
+[Correction d'un étudiant...] Réf étudiante : STD21101
+[Q21P1...] Clonage de la dev depuis https://github.com/Fabene/hei-prog3p1-exam-161222
+[...Q21P1] org.eclipse.jgit.api.errors.TransportException: Remote branch 'dev' not found in upstream origin
+[Q21P2...] Vérification de 249e20f dans dev
+Vérification du commit : 249e20f
+[Q21P3...] Vérification de
+[...Q21P2] org.eclipse.jgit.api.errors.TransportException: Remote branch 'dev' not found in upstream origin
+[Q21P4...] Vérification de a1915c6
+[...Q21P3] org.eclipse.jgit.api.errors.TransportException: Remote branch 'feat-and1' not found in upstream origin
+Vérification du commit : a1915c6
+[...Q21P4] org.eclipse.jgit.api.errors.TransportException: Remote branch 'feat-and2' not found in upstream origin
+[Q21P5...] Vérification de
+Vérification du commit :
+[...Q21P5] org.eclipse.jgit.api.errors.TransportException: Remote branch 'dev' not found in upstream origin
+[Q21P6...] Vérification de  dans dev
+Vérification du commit :
+[...Q21P6] org.eclipse.jgit.api.errors.TransportException: Remote branch 'dev' not found in upstream origin
+[... Correction d'un étudiant] Réf étudiante : STD21101, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD21024
+[Q21P1...] Clonage de la dev depuis https://github.com/Ranomenjanahary/hei-prog3p1-exam-161222.git
+... clonage réussi dans : ExamSession021222 - STD21024 - 408587680
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 026c928 dans dev
+Vérification du commit : 026c928
+... clonage réussi dans : ExamSession021222 - STD21024 - 490360741
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 7fe24d7
+... clonage réussi dans : ExamSession021222 - STD21024 - 517125169
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 862e3b5
+Vérification du commit : 862e3b5
+... clonage réussi dans : ExamSession021222 - STD21024 - 966078314
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 72d72b9efbf59a7c75a17382ad2121ce8510470a
+Vérification du commit : 72d72b9efbf59a7c75a17382ad2121ce8510470a
+... clonage réussi dans : ExamSession021222 - STD21024 - 516952031
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de ecc304ada3de33a9332ed945c4f47c1c86b83382 dans dev
+Vérification du commit : ecc304ada3de33a9332ed945c4f47c1c86b83382
+... clonage réussi dans : ExamSession021222 - STD21024 - 283575780
+[...Q21P6] java.lang.RuntimeException: Vazo doit avoir 3  lignes au lieu de : 4
+[... Correction d'un étudiant] Réf étudiante : STD21024, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21025
+[Q21P1...] Clonage de la dev depuis https://github.com/RyanIaro/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21025 - 515519618
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 857df0a dans dev
+Vérification du commit : 857df0a
+... clonage réussi dans : ExamSession021222 - STD21025 - 837282541
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de b5e776b
+... clonage réussi dans : ExamSession021222 - STD21025 - 160846993
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 686bbae
+Vérification du commit : 686bbae
+... clonage réussi dans : ExamSession021222 - STD21025 - 917189421
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 255de1d
+Vérification du commit : 255de1d
+... clonage réussi dans : ExamSession021222 - STD21025 - 881683787
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 0dfacf7 dans dev
+Vérification du commit : 0dfacf7
+... clonage réussi dans : ExamSession021222 - STD21025 - 920519551
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21025, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21069
+[Q21P1...] Clonage de la dev depuis https://github.com/Maheri29/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21069 - 652862733
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de c1a50a9 dans dev
+Vérification du commit : c1a50a9
+... clonage réussi dans : ExamSession021222 - STD21069 - 537892492
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 53e58ce
+... clonage réussi dans : ExamSession021222 - STD21069 - 878358313
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 1605483
+Vérification du commit : 1605483
+... clonage réussi dans : ExamSession021222 - STD21069 - 469611285
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 2f39658
+Vérification du commit : 2f39658
+... clonage réussi dans : ExamSession021222 - STD21069 - 645917644
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 84552b3 dans dev
+Vérification du commit : 84552b3
+... clonage réussi dans : ExamSession021222 - STD21069 - 726119330
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21069, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21011
+[Q21P1...] Clonage de la dev depuis https://github.com/Sarobidy-23/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21011 - 888170428
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 8b01fb0 dans dev
+Vérification du commit : 8b01fb0
+... clonage réussi dans : ExamSession021222 - STD21011 - 538784980
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 75e01d2
+... clonage réussi dans : ExamSession021222 - STD21011 - 660268803
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de b58dcda
+Vérification du commit : b58dcda
+... clonage réussi dans : ExamSession021222 - STD21011 - 166452063
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de f3d81fd
+Vérification du commit : f3d81fd
+... clonage réussi dans : ExamSession021222 - STD21011 - 728395062
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de dbba29f dans dev
+Vérification du commit : dbba29f
+... clonage réussi dans : ExamSession021222 - STD21011 - 8748901
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21011, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21052
+[Q21P1...] Clonage de la dev depuis https://github.com/AmourRamanantsiresy/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21052 - 262569700
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de c92f12c dans dev
+Vérification du commit : c92f12c
+... clonage réussi dans : ExamSession021222 - STD21052 - 23698928
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 7275a8e
+... clonage réussi dans : ExamSession021222 - STD21052 - 587383039
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de e85005a
+Vérification du commit : e85005a
+... clonage réussi dans : ExamSession021222 - STD21052 - 355078416
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de f7bba3470603ad4a23c4da87f2dfc4911e23b984
+Vérification du commit : f7bba3470603ad4a23c4da87f2dfc4911e23b984
+... clonage réussi dans : ExamSession021222 - STD21052 - 502474115
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de fabf80450ce6235f3733e17b60b08c1f1f723f0e dans dev
+Vérification du commit : fabf80450ce6235f3733e17b60b08c1f1f723f0e
+... clonage réussi dans : ExamSession021222 - STD21052 - 680195057
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21052, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21096
+[Q21P1...] Clonage de la dev depuis https://github.com/Michellah/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21096 - 618331035
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 88cd5ed dans dev
+Vérification du commit : 88cd5ed
+... clonage réussi dans : ExamSession021222 - STD21096 - 232917821
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de f136848
+... clonage réussi dans : ExamSession021222 - STD21096 - 830450120
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de d5c9aad
+Vérification du commit : d5c9aad
+... clonage réussi dans : ExamSession021222 - STD21096 - 897099953
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 62c16d6
+Vérification du commit : 62c16d6
+... clonage réussi dans : ExamSession021222 - STD21096 - 484857797
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 282f671 dans dev
+Vérification du commit : 282f671
+... clonage réussi dans : ExamSession021222 - STD21096 - 624854515
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21096, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21093
+[Q21P1...] Clonage de la dev depuis https://github.com/AinaR07/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21093 - 869880890
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 03de12f dans dev
+Vérification du commit : 03de12f
+... clonage réussi dans : ExamSession021222 - STD21093 - 650943263
+[Q21P3...] Vérification de 2d1d179
+[...Q21P2] java.lang.RuntimeException: Le titre est mauvais : vazon'ny lavitra
+... clonage réussi dans : ExamSession021222 - STD21093 - 442889495
+[...Q21P3] java.lang.RuntimeException: Le titre est mauvais : vazon'ny lavitra
+[Q21P4...] Vérification de bcfd226
+Vérification du commit : bcfd226
+... clonage réussi dans : ExamSession021222 - STD21093 - 252923668
+[Q21P5...] Vérification de
+[...Q21P4] java.lang.RuntimeException: Vazo doit avoir 2  lignes au lieu de : 4
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21093 - 97194300
+[...Q21P5] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[Q21P6...] Vérification de  dans dev
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21093 - 866396459
+[...Q21P6] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[... Correction d'un étudiant] Réf étudiante : STD21093, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21050
+[Q21P1...] Clonage de la dev depuis https://github.com/J-Roussel/hei-prog3p1-exam-161222.git
+... clonage réussi dans : ExamSession021222 - STD21050 - 864646421
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 0260eda dans dev
+Vérification du commit : 0260eda
+... clonage réussi dans : ExamSession021222 - STD21050 - 191053471
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de be4ffe0
+[...Q21P3] org.eclipse.jgit.api.errors.TransportException: Remote branch 'feat-and1' not found in upstream origin
+[Q21P4...] Vérification de b85f707
+Vérification du commit : b85f707
+... clonage réussi dans : ExamSession021222 - STD21050 - 17224800
+[Q21P5...] Vérification de be4ffe0
+[...Q21P4] java.lang.RuntimeException: Vazo doit avoir 2  lignes au lieu de : 3
+Vérification du commit : be4ffe0
+... clonage réussi dans : ExamSession021222 - STD21050 - 463062910
+[...Q21P5] java.lang.RuntimeException: Le and2 est mauvais : "Andininy voalohany"
+[Q21P6...] Vérification de 0260eda dans dev
+Vérification du commit : 0260eda
+... clonage réussi dans : ExamSession021222 - STD21050 - 130861965
+[...Q21P6] java.lang.RuntimeException: Vazo doit avoir 3  lignes au lieu de : 1
+[... Correction d'un étudiant] Réf étudiante : STD21050, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD21094
+[Q21P1...] Clonage de la dev depuis https://github.com/HEI-Franklin/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21094 - 591790050
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 91ba4fb dans dev
+Vérification du commit : 91ba4fb
+... clonage réussi dans : ExamSession021222 - STD21094 - 99600358
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 040294b
+... clonage réussi dans : ExamSession021222 - STD21094 - 858759774
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 9a84781
+Vérification du commit : 9a84781
+... clonage réussi dans : ExamSession021222 - STD21094 - 551568738
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de null
+Vérification du commit : null
+... clonage réussi dans : ExamSession021222 - STD21094 - 957226962
+[...Q21P5] org.eclipse.jgit.api.errors.InvalidRefNameException: Branch name <null> is not allowed
+[Q21P6...] Vérification de null dans dev
+Vérification du commit : null
+... clonage réussi dans : ExamSession021222 - STD21094 - 795433896
+[...Q21P6] org.eclipse.jgit.api.errors.InvalidRefNameException: Branch name <null> is not allowed
+[... Correction d'un étudiant] Réf étudiante : STD21094, points obtenus : 4
+
+[Correction d'un étudiant...] Réf étudiante : STD21091
+[Q21P1...] Clonage de la dev depuis https://github.com/MiRandria/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21091 - 546729845
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de d9daa98 dans dev
+Vérification du commit : d9daa98
+... clonage réussi dans : ExamSession021222 - STD21091 - 123885839
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de f8fc8a4
+... clonage réussi dans : ExamSession021222 - STD21091 - 265600241
+[...Q21P3] java.lang.RuntimeException: Vazo doit avoir 2  lignes au lieu de : 3
+[Q21P4...] Vérification de f72d7fc
+Vérification du commit : f72d7fc
+... clonage réussi dans : ExamSession021222 - STD21091 - 738109311
+[Q21P5...] Vérification de
+[...Q21P4] java.lang.RuntimeException: Vazo doit avoir 2  lignes au lieu de : 3
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21091 - 766184283
+[...Q21P5] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[Q21P6...] Vérification de  dans dev
+Vérification du commit :
+... clonage réussi dans : ExamSession021222 - STD21091 - 38103874
+[...Q21P6] org.eclipse.jgit.api.errors.RefNotFoundException: Ref  cannot be resolved
+[... Correction d'un étudiant] Réf étudiante : STD21091, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD21090
+[Q21P1...] Clonage de la dev depuis https://github.com/Jonas4884/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21090 - 329579512
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 4771a7a dans dev
+Vérification du commit : 4771a7a
+... clonage réussi dans : ExamSession021222 - STD21090 - 668981339
+[...Q21P2] java.lang.RuntimeException: Le titre est mauvais : vazon'ny lavitra
+[Q21P3...] Vérification de 1bf5d4e
+[...Q21P3] org.eclipse.jgit.api.errors.TransportException: Remote branch 'feat-and1' not found in upstream origin
+[Q21P4...] Vérification de b770744
+Vérification du commit : b770744
+[Q21P5...] Vérification de f4096ec
+[...Q21P4] org.eclipse.jgit.api.errors.TransportException: Remote branch 'feat-and2' not found in upstream origin
+Vérification du commit : f4096ec
+... clonage réussi dans : ExamSession021222 - STD21090 - 612450503
+[Q21P6...] Vérification de 4c18df8 dans dev
+[...Q21P5] java.lang.RuntimeException: Le titre est mauvais : vazon'ny lavitra
+Vérification du commit : 4c18df8
+... clonage réussi dans : ExamSession021222 - STD21090 - 930223766
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21090, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD21017
+[Q21P1...] Clonage de la dev depuis https://github.com/Abraham10000/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21017 - 375377579
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 8d0d535 dans dev
+Vérification du commit : 8d0d535
+... clonage réussi dans : ExamSession021222 - STD21017 - 266574808
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de be06a69
+... clonage réussi dans : ExamSession021222 - STD21017 - 507486778
+[...Q21P3] java.lang.RuntimeException: Vazo doit avoir 2  lignes au lieu de : 3
+Vérification du commit : 3378c6a
+[Q21P4...] Vérification de 3378c6a
+... clonage réussi dans : ExamSession021222 - STD21017 - 178091783
+[Q21P5...] Vérification de c90f805
+[...Q21P4] java.lang.RuntimeException: Vazo doit avoir 2  lignes au lieu de : 3
+Vérification du commit : c90f805
+... clonage réussi dans : ExamSession021222 - STD21017 - 650026834
+[...Q21P5] java.lang.RuntimeException: Vazo doit avoir 2  lignes au lieu de : 3
+[Q21P6...] Vérification de 14b3528 dans dev
+Vérification du commit : 14b3528
+... clonage réussi dans : ExamSession021222 - STD21017 - 828374949
+[...Q21P6] java.lang.RuntimeException: Vazo doit avoir 3  lignes au lieu de : 4
+[... Correction d'un étudiant] Réf étudiante : STD21017, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD21018
+[Q21P1...] Clonage de la dev depuis https://github.com/Onitsiky/hei-prog3p1-exam-161222.git
+... clonage réussi dans : ExamSession021222 - STD21018 - 209187988
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 73ccf1d dans dev
+Vérification du commit : 73ccf1d
+... clonage réussi dans : ExamSession021222 - STD21018 - 420388788
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 2fd3f3d
+... clonage réussi dans : ExamSession021222 - STD21018 - 294149020
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de 30128da
+Vérification du commit : 30128da
+... clonage réussi dans : ExamSession021222 - STD21018 - 269213764
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 3e7243b
+Vérification du commit : 3e7243b
+... clonage réussi dans : ExamSession021222 - STD21018 - 262352704
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de ecc3e95 dans dev
+Vérification du commit : ecc3e95
+... clonage réussi dans : ExamSession021222 - STD21018 - 482904449
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21018, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21015
+[Q21P1...] Clonage de la dev depuis https://github.com/Rakotonirinaonjaniaina/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21015 - 962695195
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de da3e972 dans dev
+Vérification du commit : da3e972
+... clonage réussi dans : ExamSession021222 - STD21015 - 427323861
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de cc5250d
+[Q21P4...] Vérification de e9546ba
+[...Q21P3] org.eclipse.jgit.api.errors.TransportException: Remote branch 'feat-and1' not found in upstream origin
+Vérification du commit : e9546ba
+[Q21P5...] Vérification de null
+[...Q21P4] org.eclipse.jgit.api.errors.TransportException: Remote branch 'feat-and2' not found in upstream origin
+Vérification du commit : null
+... clonage réussi dans : ExamSession021222 - STD21015 - 540832054
+[...Q21P5] org.eclipse.jgit.api.errors.InvalidRefNameException: Branch name <null> is not allowed
+[Q21P6...] Vérification de null dans dev
+Vérification du commit : null
+... clonage réussi dans : ExamSession021222 - STD21015 - 968531041
+[... Correction d'un étudiant] Réf étudiante : STD21015, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD21059
+[Q21P1...] Clonage de la dev depuis https://github.com/Fanirykeziah/hei-prog3p1-exam-161222.git
+[...Q21P6] org.eclipse.jgit.api.errors.InvalidRefNameException: Branch name <null> is not allowed
+... clonage réussi dans : ExamSession021222 - STD21059 - 550509999
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 1583ab6 dans dev
+Vérification du commit : 1583ab6
+... clonage réussi dans : ExamSession021222 - STD21059 - 922533228
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de b5eb92f
+... clonage réussi dans : ExamSession021222 - STD21059 - 483254634
+[...Q21P3] org.eclipse.jgit.api.errors.RefNotFoundException: Ref b5eb92f cannot be resolved
+[Q21P4...] Vérification de 0b76dff
+Vérification du commit : 0b76dff
+... clonage réussi dans : ExamSession021222 - STD21059 - 841788479
+[...Q21P4] java.lang.RuntimeException: Vazo doit avoir 2  lignes au lieu de : 3
+[Q21P5...] Vérification de 25dc211
+Vérification du commit : 25dc211
+... clonage réussi dans : ExamSession021222 - STD21059 - 842722187
+[...Q21P5] java.lang.RuntimeException: Vazo doit avoir 2  lignes au lieu de : 3
+[Q21P6...] Vérification de b85f9b7 dans dev
+Vérification du commit : b85f9b7
+... clonage réussi dans : ExamSession021222 - STD21059 - 710152008
+[...Q21P6] org.eclipse.jgit.api.errors.RefNotFoundException: Ref b85f9b7 cannot be resolved
+[... Correction d'un étudiant] Réf étudiante : STD21059, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD21014
+[Q21P1...] Clonage de la dev depuis https://github.com/njaina/hei-prog3p1-exam-161222
+... clonage réussi dans : ExamSession021222 - STD21014 - 900654060
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 5092514 dans dev
+Vérification du commit : 5092514
+... clonage réussi dans : ExamSession021222 - STD21014 - 903291092
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 7ab7f71
+... clonage réussi dans : ExamSession021222 - STD21014 - 239234320
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de e921de8
+Vérification du commit : e921de8
+... clonage réussi dans : ExamSession021222 - STD21014 - 842742416
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de e921de8aec16d311912762fb5a766e2b8fdc2f31
+Vérification du commit : e921de8aec16d311912762fb5a766e2b8fdc2f31
+... clonage réussi dans : ExamSession021222 - STD21014 - 319640444
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 7ab7f71daac53f8e07f3587bb7d8b70b5b2c0ef8 dans dev
+Vérification du commit : 7ab7f71daac53f8e07f3587bb7d8b70b5b2c0ef8
+... clonage réussi dans : ExamSession021222 - STD21014 - 298799996
+[...Q21P6] java.lang.RuntimeException: Vazo doit avoir 3  lignes au lieu de : 2
+[... Correction d'un étudiant] Réf étudiante : STD21014, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21058
+[Q21P1...] Clonage de la dev depuis https://github.com/Steven1805/hei-prog3p1-exam-161222.git
+... clonage réussi dans : ExamSession021222 - STD21058 - 778071888
+[...Q21P1] 1 point.
+[Q21P2...] Vérification de 32472f69ce3caf5467e0f4f75b5bec6e922b4da1 dans dev
+Vérification du commit : 32472f69ce3caf5467e0f4f75b5bec6e922b4da1
+... clonage réussi dans : ExamSession021222 - STD21058 - 765818047
+[...Q21P2] 1 point.
+[Q21P3...] Vérification de 9a5b5cfd648aaa5b2fd5f9f306a7306861e998c2
+... clonage réussi dans : ExamSession021222 - STD21058 - 801210422
+[...Q21P3] 1 point.
+[Q21P4...] Vérification de c4708783247334431ed20e3505dbab4c09871901
+Vérification du commit : c4708783247334431ed20e3505dbab4c09871901
+... clonage réussi dans : ExamSession021222 - STD21058 - 366658866
+[...Q21P4] 1 point.
+[Q21P5...] Vérification de 80997c1cb54aba3b25abb3e7312c4d3220a175aa
+Vérification du commit : 80997c1cb54aba3b25abb3e7312c4d3220a175aa
+... clonage réussi dans : ExamSession021222 - STD21058 - 266901450
+[...Q21P5] 1 point.
+[Q21P6...] Vérification de 3020e30f06aeff49e8331c71f4d28960a070bfe5 dans dev
+Vérification du commit : 3020e30f06aeff49e8331c71f4d28960a070bfe5
+... clonage réussi dans : ExamSession021222 - STD21058 - 414894621
+[...Q21P6] 1 point.
+[... Correction d'un étudiant] Réf étudiante : STD21058, points obtenus : 6
+
+
+##################################
+##################################
+
+Toutes les notes...
+
+STD21044,1,1,0,1,1,0
+STD21088,1,1,1,1,1,0
+STD21001,1,0,1,1,0,0
+STD21045,1,1,1,1,1,1
+STD21089,1,1,1,1,1,1
+STD21042,1,1,1,1,1,0
+STD21086,1,1,0,0,0,0
+STD21087,1,0,0,0,0,0
+STD21084,1,0,0,0,0,0
+STD21041,1,1,1,1,1,0
+STD21082,1,1,1,0,0,0
+STD21081,1,0,0,0,0,0
+STD21006,1,1,1,1,1,1
+STD21007,1,1,1,1,1,1
+STD21004,1,1,1,1,1,1
+STD21048,1,1,1,1,1,1
+STD21005,1,1,1,1,1,1
+STD21033,1,1,1,1,1,0
+STD21034,1,1,1,1,1,1
+STD21032,1,1,1,1,1,1
+STD21076,1,1,1,1,1,1
+STD21073,1,1,0,1,1,0
+STD21030,1,1,1,1,0,0
+STD21071,1,1,1,0,0,0
+STD21039,1,1,1,1,1,1
+STD21038,1,1,0,1,1,1
+STD21079,1,1,0,1,0,0
+STD21036,1,1,1,1,1,1
+STD21020,1,1,1,1,1,1
+STD21064,1,0,0,0,0,0
+STD21021,1,1,1,1,1,1
+STD21065,1,1,1,1,1,1
+STD21062,0,0,0,0,0,0
+STD21063,1,0,0,0,0,0
+STD21060,1,1,1,1,1,1
+STD21061,1,1,1,0,0,0
+STD21109,1,1,1,1,1,1
+STD21107,1,1,1,1,1,1
+STD21108,1,1,1,1,1,1
+STD21028,1,1,1,1,1,1
+STD21029,1,1,1,1,1,1
+STD21103,1,1,1,1,1,1
+STD21027,1,0,1,0,1,1
+STD21101,0,0,0,0,0,0
+STD21024,1,1,1,1,1,0
+STD21025,1,1,1,1,1,1
+STD21069,1,1,1,1,1,1
+STD21011,1,1,1,1,1,1
+STD21052,1,1,1,1,1,1
+STD21096,1,1,1,1,1,1
+STD21093,1,0,0,0,0,0
+STD21050,1,1,0,0,0,0
+STD21094,1,1,1,1,0,0
+STD21091,1,1,0,0,0,0
+STD21090,1,0,0,0,0,1
+STD21017,1,1,0,0,0,0
+STD21018,1,1,1,1,1,1
+STD21015,1,1,0,0,0,0
+STD21059,1,1,0,0,0,0
+STD21014,1,1,1,1,1,0
+STD21058,1,1,1,1,1,1
