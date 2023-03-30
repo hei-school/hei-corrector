@@ -65,18 +65,4 @@ public class ExamSession021222 implements ExamSession {
                 ).collect(joining(","))
         ).collect(joining("\n"));
     }
-
-    public static void saveScore(String stdRef, String question, int score) {
-        Map<String, Integer> scorePerQuestion;
-
-        var oldScorePerQuestion = SCORE_PER_STUDENT.get(stdRef);
-        if (oldScorePerQuestion == null) {
-            scorePerQuestion = new HashMap<>();
-        } else {
-            scorePerQuestion = SCORE_PER_STUDENT.get(stdRef);
-        }
-
-        scorePerQuestion.put(question, score);
-        SCORE_PER_STUDENT.put(stdRef, scorePerQuestion);
-    }
 }
