@@ -44,7 +44,7 @@ public class Utils {
 
     public static String randomRepoName(String stdRef) {
         int randomAppendix = (int) (Math.random() * 1_000_000_000); // so that scoring is idempotent
-        return ExamSession021222.class.getSimpleName() + "-" + stdRef + "-" + randomAppendix;
+        return "/tmp/ExamSession-" + stdRef + "-" + randomAppendix;
     }
 
     public static Git cloneRepo(URL remoteUrl, String localRepoName, String branchName) throws GitAPIException {
@@ -112,11 +112,16 @@ public class Utils {
         return prURL.toString().split("/")[4];
     }
 
+
     public static String execShCmdIn1mn(String cmd, boolean shouldLogOutput) {
+        return execShCmdInMn(cmd, shouldLogOutput, 1);
+    }
+
+    public static String execShCmdInMn(String cmd, boolean shouldLogOutput, int mn) {
         try {
             Process process = Runtime.getRuntime().exec(new String[]{"/bin/sh", "-c", cmd});
-            if(!process.waitFor(1, TimeUnit.MINUTES)) {
-                Log.error("L'exécution a pris trop de temps (>1mn) : abandon de la commande !");
+            if(!process.waitFor(mn, TimeUnit.MINUTES)) {
+                Log.error("L'exécution a pris trop de temps (>" + mn + "mn) : abandon de la commande !");
                 process.destroyForcibly();
             }
             if (shouldLogOutput) {
