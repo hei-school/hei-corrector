@@ -1,0 +1,740 @@
+[Chargement des réponses...] Nom du fichier : /projet1p3/rdc/answers_23-06-23.csv
+[... Chargement des réponses] Nombre de réponses chargées : 59
+
+[Correction d'un étudiant...] Réf étudiante : STD21044
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://69iqyb18x5.execute-api.us-east-1.amazonaws.com/Prod/hello?longitude=48) 403
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21044, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21088
+[Theorie]
+Score théorique initial: 3 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://f6k4l2t0b7.execute-api.eu-north-1.amazonaws.com/test/?longitude=48) 403
+Réponse attendue : false en code 200, mais a obtenu: (GET https://f6k4l2t0b7.execute-api.eu-north-1.amazonaws.com/test/?longitude=5) 403
+[Q4B]
+Impossible d'appeller baseUrl=
+[... Correction d'un étudiant] Réf étudiante : STD21088, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD21045
+[Theorie]
+Score théorique initial: 2 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21045, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21001
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://ho9uo1kzdc.execute-api.us-east-1.amazonaws.com/Prod/hello/?longitude=48) 403
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21001, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21089
+[Theorie]
+Score théorique initial: 3 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Impossible d'appeller baseUrl=https://3e1jqjmhol.execute-api.us-east-1.amazonaws.com/Prod/hello/
+[Q4B]
+Impossible d'appeller baseUrl=
+[... Correction d'un étudiant] Réf étudiante : STD21089, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD21042
+[Theorie]
+Score théorique initial: 1 point(s)
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21042, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21087
+[Theorie]
+Score théorique initial: 3 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21087, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21041
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21041, points obtenus : 7
+
+[Correction d'un étudiant...] Réf étudiante : STD21082
+[Theorie]
+Score théorique initial: 3 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://gejjxyleph.execute-api.eu-west-3.amazonaws.com/Prod/hello/?longitude=48) 200
+Réponse attendue : false en code 200, mais a obtenu: (GET https://gejjxyleph.execute-api.eu-west-3.amazonaws.com/Prod/hello/?longitude=5) 200
+[Q4B]
+Impossible d'appeller baseUrl=
+[... Correction d'un étudiant] Réf étudiante : STD21082, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD21081
+[Theorie]
+Score théorique initial: 1 point(s)
+[Q4A]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://gon4m6dnw4.execute-api.eu-west-3.amazonaws.com/Prod/hello?longitude=48) 200
+Réponse attendue : false en code 200, mais a obtenu: (GET https://gon4m6dnw4.execute-api.eu-west-3.amazonaws.com/Prod/hello?longitude=5) 200
+[Q4B]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://uvwmu0ncth.execute-api.eu-west-3.amazonaws.com/Prod/hello?longitude=48) 200
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21081, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD210984
+[Theorie]
+Score théorique initial: 2 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://ecip1f2uz3.execute-api.eu-west-3.amazonaws.com/Prod/AuthorizationHeader/?longitude=48) 403
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD210984, points obtenus : 4
+
+[Correction d'un étudiant...] Réf étudiante : STD21006
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, mais a obtenu: (GET https://nro0rl75rf.execute-api.eu-west-3.amazonaws.com/Prod/?longitude=5) 400
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21006, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21007
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21007, points obtenus : 7
+
+[Correction d'un étudiant...] Réf étudiante : STD21048
+[Theorie]
+Score théorique initial: 2 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21048, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21004
+[Theorie]
+Score théorique initial: 2 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21004, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21005
+[Theorie]
+Score théorique initial: 3 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://bqvy9yranf.execute-api.eu-west-3.amazonaws.com/Prod/hello/longitude?longitude=48) 403
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21005, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21033
+[Theorie]
+Score théorique initial: 3 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21033, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21034
+[Theorie]
+Score théorique initial: 3 point(s)
+[Q4A]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://k4tbtxsul9.execute-api.eu-west-3.amazonaws.com/Prod/api?longitude=48) 200
+Réponse attendue : false en code 200, mais a obtenu: (GET https://k4tbtxsul9.execute-api.eu-west-3.amazonaws.com/Prod/api?longitude=5) 200
+[Q4B]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://k4tbtxsul9.execute-api.eu-west-3.amazonaws.com/Prod/api-auth?longitude=48) 200
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21034, points obtenus : 4
+
+[Correction d'un étudiant...] Réf étudiante : STD21032
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21032, points obtenus : 7
+
+[Correction d'un étudiant...] Réf étudiante : STD21076
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21076, points obtenus : 7
+
+[Correction d'un étudiant...] Réf étudiante : STD21073
+[Theorie]
+Score théorique initial: 1 point(s)
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21073, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21071
+[Theorie]
+Score théorique initial: 3 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Impossible d'appeller baseUrl=
+[Q4B]
+Impossible d'appeller baseUrl=
+[... Correction d'un étudiant] Réf étudiante : STD21071, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD21039
+[Theorie]
+Score théorique initial: 3 point(s)
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21039, points obtenus : 7
+
+[Correction d'un étudiant...] Réf étudiante : STD21038
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21038, points obtenus : 7
+
+[Correction d'un étudiant...] Réf étudiante : STD21079
+[Theorie]
+Score théorique initial: 2 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21079, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21036
+[Theorie]
+Score théorique initial: 3 point(s)
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21036, points obtenus : 7
+
+[Correction d'un étudiant...] Réf étudiante : STD21064
+[Theorie]
+Score théorique initial: 2 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Impossible d'appeller baseUrl="https://mdtfn6lqab.execute-api.eu-north-1.amazonaws.com/
+[Q4B]
+Impossible d'appeller baseUrl=5"
+[... Correction d'un étudiant] Réf étudiante : STD21064, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21020
+[Theorie]
+Score théorique initial: 3 point(s)
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21020, points obtenus : 7
+
+[Correction d'un étudiant...] Réf étudiante : STD21021
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21021, points obtenus : 7
+
+[Correction d'un étudiant...] Réf étudiante : STD21065
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://lq6d424koe.execute-api.eu-central-1.amazonaws.com/?longitude=48) 404
+Réponse attendue : false en code 200, mais a obtenu: (GET https://lq6d424koe.execute-api.eu-central-1.amazonaws.com/?longitude=5) 404
+[Q4B]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://u31uts7ogk.execute-api.eu-central-1.amazonaws.com/?longitude=48) 500
+Réponse attendue : code 403, mais a obtenu: (GET https://u31uts7ogk.execute-api.eu-central-1.amazonaws.com/?longitude=48) 500
+[... Correction d'un étudiant] Réf étudiante : STD21065, points obtenus : 3
+
+[Correction d'un étudiant...] Réf étudiante : STD21062
+[Theorie]
+Score théorique initial: 3 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://ccncfzb6o9.execute-api.eu-west-3.amazonaws.com/Prod/hello/?longitude=48) 502
+[Q4B]
+Réponse attendue : false en code 200, mais a obtenu: (GET https://ccncfzb6o9.execute-api.eu-west-3.amazonaws.com/Prod/hello/?longitude=5) 502
+Réponse attendue : true en code 200, mais a obtenu: (GET https://trm028oa44.execute-api.eu-west-3.amazonaws.com/Prod/hello/?longitude=48) 502
+Réponse attendue : code 403, mais a obtenu: (GET https://trm028oa44.execute-api.eu-west-3.amazonaws.com/Prod/hello/?longitude=48) 502
+[... Correction d'un étudiant] Réf étudiante : STD21062, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD21063
+[Theorie]
+Score théorique initial: 2 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Impossible d'appeller baseUrl=
+[... Correction d'un étudiant] Réf étudiante : STD21063, points obtenus : 3
+
+[Correction d'un étudiant...] Réf étudiante : STD21060
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21060, points obtenus : 7
+
+[Correction d'un étudiant...] Réf étudiante : STD21109
+[Theorie]
+Score théorique initial: 1 point(s)
+[Q4A]
+Impossible d'appeller baseUrl=
+[Q4B]
+Impossible d'appeller baseUrl=
+[... Correction d'un étudiant] Réf étudiante : STD21109, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21107
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21107, points obtenus : 7
+
+[Correction d'un étudiant...] Réf étudiante : STD21108
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+[Q4B]
+Impossible d'appeller baseUrl=https://qlsetrwymc.execute-api.eu-west-3.amazonaws.com/Prod/mada
+Impossible d'appeller baseUrl=https://9oq9xoja68.execute-api.eu-west-3.amazonaws.com/Prod/mada/
+[... Correction d'un étudiant] Réf étudiante : STD21108, points obtenus : 3
+
+[Correction d'un étudiant...] Réf étudiante : STD21028
+[Theorie]
+Score théorique initial: 3 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://ax4uay75pc.execute-api.eu-west-3.amazonaws.com/Prod/authorized_longitude/?longitude=48) 403
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21028, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21029
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, mais a obtenu: (GET https://mgm7rrz6h6.execute-api.us-east-1.amazonaws.com/Prod/hello/?longitude=5) 403
+[Q4B]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://kf8ux87rub.execute-api.us-east-1.amazonaws.com/Prod/hello/?longitude=48) 403
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21029, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21103
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21103, points obtenus : 7
+
+[Correction d'un étudiant...] Réf étudiante : STD21027
+[Theorie]
+Score théorique initial: 3 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Impossible d'appeller baseUrl=https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/auth/
+[... Correction d'un étudiant] Réf étudiante : STD21027, points obtenus : 4
+
+[Correction d'un étudiant...] Réf étudiante : std21030
+[Theorie]
+Score théorique initial: 1 point(s)
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : std21030, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21024
+[Theorie]
+Score théorique initial: 2 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://6pf85orisb.execute-api.eu-west-3.amazonaws.com/Prod/awslongitude?longitude=48) 403
+Réponse attendue : false en code 200, mais a obtenu: (GET https://6pf85orisb.execute-api.eu-west-3.amazonaws.com/Prod/awslongitude?longitude=5) 403
+[Q4B]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://6pf85orisb.execute-api.eu-west-3.amazonaws.com/Prod/auth?longitude=48) 403
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21024, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD21102
+[Theorie]
+Score théorique initial: 1 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://ovb8bsnjxc.execute-api.eu-north-1.amazonaws.com/Prod/hello?longitude=48) 200
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21102, points obtenus : 3
+
+[Correction d'un étudiant...] Réf étudiante : STD21025
+[Theorie]
+Score théorique initial: 3 point(s)
+[Q4A]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://785xgz259d.execute-api.eu-west-3.amazonaws.com/Prod/hello/?longitude=48) 200
+Réponse attendue : false en code 200, mais a obtenu: (GET https://785xgz259d.execute-api.eu-west-3.amazonaws.com/Prod/hello/?longitude=5) 200
+[Q4B]
+Impossible d'appeller baseUrl=
+[... Correction d'un étudiant] Réf étudiante : STD21025, points obtenus : 3
+
+[Correction d'un étudiant...] Réf étudiante : STD21069
+[Theorie]
+Score théorique initial: 2 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://x8f97lcm25.execute-api.eu-west-3.amazonaws.com/Prod/hello?longitude=48) 500
+Réponse attendue : false en code 200, mais a obtenu: (GET https://x8f97lcm25.execute-api.eu-west-3.amazonaws.com/Prod/hello?longitude=5) 500
+[Q4B]
+Impossible d'appeller baseUrl=
+[... Correction d'un étudiant] Réf étudiante : STD21069, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21011
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://sy7f166kt2.execute-api.eu-west-3.amazonaws.com/Prod?longitude=48) 403
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21011, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21096
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21096, points obtenus : 7
+
+[Correction d'un étudiant...] Réf étudiante : STD21052
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21052, points obtenus : 7
+
+[Correction d'un étudiant...] Réf étudiante : STD21093
+[Theorie]
+Score théorique initial: 1 point(s)
+[Q4A]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://3ywk8qnxu6.execute-api.us-east-1.amazonaws.com/Prod/hello/?longitude=48) 500
+Réponse attendue : false en code 200, mais a obtenu: (GET https://3ywk8qnxu6.execute-api.us-east-1.amazonaws.com/Prod/hello/?longitude=5) 500
+[Q4B]
+Impossible d'appeller baseUrl=
+[... Correction d'un étudiant] Réf étudiante : STD21093, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21050
+[Theorie]
+Score théorique initial: 2 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Impossible d'appeller baseUrl=
+[Q4B]
+Impossible d'appeller baseUrl=
+[... Correction d'un étudiant] Réf étudiante : STD21050, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21091
+[Theorie]
+Score théorique initial: 3 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21091, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21092
+[Theorie]
+Score théorique initial: 3 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://lvgisaeaa7.execute-api.eu-north-1.amazonaws.com/Prod/hello/?longitude=48) 502
+Réponse attendue : false en code 200, mais a obtenu: (GET https://lvgisaeaa7.execute-api.eu-north-1.amazonaws.com/Prod/hello/?longitude=5) 502
+[Q4B]
+Impossible d'appeller baseUrl=
+[... Correction d'un étudiant] Réf étudiante : STD21092, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD21090
+[Theorie]
+Score théorique initial: 4 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Impossible d'appeller baseUrl=ttps://jntd0v2ioj.execute-api.us-east-1.amazonaws.com/Prod/hello/
+[Q4B]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://6ondl1j8m0.execute-api.us-east-1.amazonaws.com/Prod/hello/?longitude=48) 403
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21090, points obtenus : 4
+
+[Correction d'un étudiant...] Réf étudiante : STD21017
+[Theorie]
+Score théorique initial: 2 point(s)
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://quhjkvtcyf.execute-api.eu-west-3.amazonaws.com/Prod/authApi/?longitude=48) 403
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21017, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21018
+[Theorie]
+Score théorique initial: 3 point(s)
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21018, points obtenus : 7
+
+[Correction d'un étudiant...] Réf étudiante : STD21059
+[Theorie]
+Score théorique initial: 3 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21059, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21015
+[Theorie]
+Score théorique initial: 3 point(s)
+A reçu 1 point par erreur, la réponse était 40 millions à 50 millions: annulation sur le score théorique: -1 point
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://rjnzt3e40g.execute-api.eu-north-1.amazonaws.com/Prod/hello/?longitude=48) 403
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21015, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21058
+[Theorie]
+Score théorique initial: 1 point(s)
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21058, points obtenus : 5
+
+[Correction d'un étudiant...] Réf étudiante : STD21014
+[Theorie]
+Score théorique initial: 2 point(s)
+[Q4A]
+Réponse attendue : true en code 200, et a été obtenue: 1 point
+Réponse attendue : false en code 200, et a été obtenue: 1 point
+[Q4B]
+Réponse attendue : true en code 200, mais a obtenu: (GET https://n1sr7j9bud.execute-api.us-east-1.amazonaws.com/Prod/hello/?longitude=48) 500
+Réponse attendue : code 403, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21014, points obtenus : 5
+
+
+##################################
+##################################
+
+Toutes les notes...
+
+STD21044,6
+STD21088,2
+STD21045,5
+STD21001,6
+STD21089,2
+STD21042,5
+STD21087,6
+STD21041,7
+STD21082,2
+STD21081,2
+STD210984,4
+STD21006,6
+STD21007,7
+STD21048,5
+STD21004,5
+STD21005,5
+STD21033,6
+STD21034,4
+STD21032,7
+STD21076,7
+STD21073,5
+STD21071,2
+STD21039,7
+STD21038,7
+STD21079,5
+STD21036,7
+STD21064,1
+STD21020,7
+STD21021,7
+STD21065,3
+STD21062,2
+STD21063,3
+STD21060,7
+STD21109,1
+STD21107,7
+STD21108,3
+STD21028,5
+STD21029,5
+STD21103,7
+STD21027,4
+std21030,5
+STD21024,2
+STD21102,3
+STD21025,3
+STD21069,1
+STD21011,6
+STD21096,7
+STD21052,7
+STD21093,1
+STD21050,1
+STD21091,6
+STD21092,2
+STD21090,4
+STD21017,5
+STD21018,7
+STD21059,6
+STD21015,5
+STD21058,5
+STD21014,5
