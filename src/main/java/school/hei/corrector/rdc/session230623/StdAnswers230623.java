@@ -58,7 +58,7 @@ public record StdAnswers230623(
     try {
       var trueRequest = HttpRequest.newBuilder().uri(new URI(baseUriStr + "?longitude=48")).GET().build();
       var trueResponse = httpClient.send(trueRequest, BodyHandlers.ofString());
-      if (trueResponse.statusCode() == 200 && trueResponse.body().contains("true")) {
+      if (trueResponse.statusCode() == 200 && trueResponse.body().toLowerCase().contains("true")) {
         Log.info("Réponse attendue : true en code 200, et a été obtenue: 1 point");
         score++;
       } else {
@@ -67,7 +67,7 @@ public record StdAnswers230623(
 
       var falseRequest = HttpRequest.newBuilder().uri(new URI(baseUriStr + "?longitude=5")).GET().build();
       var falseResponse = httpClient.send(falseRequest, BodyHandlers.ofString());
-      if (falseResponse.statusCode() == 200 && falseResponse.body().contains("false")) {
+      if (falseResponse.statusCode() == 200 && falseResponse.body().toLowerCase().contains("false")) {
         Log.info("Réponse attendue : false en code 200, et a été obtenue: 1 point");
         score++;
       } else {
@@ -93,7 +93,7 @@ public record StdAnswers230623(
           .GET()
           .build();
       var trueResponse = httpClient.send(trueRequest, BodyHandlers.ofString());
-      if (trueResponse.statusCode() == 200 && trueResponse.body().contains("true")) {
+      if (trueResponse.statusCode() == 200 && trueResponse.body().toLowerCase().contains("true")) {
         Log.info("Réponse attendue : true en code 200, et a été obtenue: 1 point");
         score++;
       } else {

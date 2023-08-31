@@ -30,5 +30,8 @@ public class Corrector_All_Test {
 
     var answers21058 = scorePerStudent.get("STD21058");
     assertEquals(5, answers21058.get("all"));
+
+    var answers21034 = scorePerStudent.get("STD21034");
+    assertEquals(7, answers21034.get("all"));
   }
 }
