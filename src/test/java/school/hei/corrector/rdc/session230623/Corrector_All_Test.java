@@ -1,4 +1,4 @@
-package school.hei.corrector.projet1p3.rdc.session230623;
+package school.hei.corrector.rdc.session230623;
 
 import org.junit.jupiter.api.Test;
 import school.hei.corrector.Corrector;

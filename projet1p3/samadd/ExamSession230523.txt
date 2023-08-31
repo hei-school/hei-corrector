@@ -1,0 +1,299 @@
+[Chargement des réponses...] Nom du fichier : /projet1p3/samadd/answers_23-05-23.csv
+[... Chargement des réponses] Nombre de réponses chargées : 58
+
+[Correction d'un étudiant...] Réf étudiante : STD21088
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21088, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21044
+Impossible d'appeller baseUrl=https://drwa7rpvpb.execute-api.us-east-1.amazonaws.com/Prod/sum
+[... Correction d'un étudiant] Réf étudiante : STD21044, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD21045
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21045, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21089
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21089, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21001
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21001, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21042
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21042, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21087
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21087, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21084
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21084, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21041
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21041, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21082
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21082, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21081
+Impossible d'appeller baseUrl=https://1tk7gimtta.execute-api.eu-west-3.amazonaws.com/Prod/hello/
+[... Correction d'un étudiant] Réf étudiante : STD21081, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : hei.hajatiana@gmail.com
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : hei.hajatiana@gmail.com, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21006
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21006, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21007
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21007, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21004
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21004, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21005
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21005, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21033
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21033, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21034
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21034, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21032
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21032, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21076
+Réponse attendue : 51 en code 200, mais a obtenu: (GET https://83p2lwag88.execute-api.us-east-1.amazonaws.com/Prod/hello?a=48&b=3) 502
+[... Correction d'un étudiant] Réf étudiante : STD21076, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD21073
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21073, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21030
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21030, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21071
+Réponse attendue : 51 en code 200, mais a obtenu: (GET https://koi2hxiyw8.execute-api.us-east-1.amazonaws.com/Prod/hello/?a=48&b=3) 400
+[... Correction d'un étudiant] Réf étudiante : STD21071, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD21039
+Réponse attendue : 51 en code 200, mais a obtenu: (GET https://bxidbqfyr7.execute-api.eu-west-3.amazonaws.com/Prod/hello?a=48&b=3) 200
+[... Correction d'un étudiant] Réf étudiante : STD21039, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD21079
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21079, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21036
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21036, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21064
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21064, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21020
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21020, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21021
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21021, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21065
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21065, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21062
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21062, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21063
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21063, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21060
+[... Correction d'un étudiant] Réf étudiante : STD21060, points obtenus : 0
+Impossible d'appeller baseUrl=https://4a026ljw74.execute-api.us-east-1.amazonaws.com/Prod/hello/
+
+[Correction d'un étudiant...] Réf étudiante : RAKOTOMALALA Soa Mariaka
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : RAKOTOMALALA Soa Mariaka, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21109
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21109, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21107
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21107, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21108
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21108, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21028
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21028, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21029
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21029, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21103
+[... Correction d'un étudiant] Réf étudiante : STD21103, points obtenus : 0
+Réponse attendue : 51 en code 200, mais a obtenu: (GET https://cwg34pijn3.execute-api.eu-west-3.amazonaws.com/Prod/hello?a=48&b=3) 502
+
+[Correction d'un étudiant...] Réf étudiante : STD21027
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21027, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21024
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21024, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21102
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21102, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21069
+Réponse attendue : 51 en code 200, mais a obtenu: (GET https://s83hld47lc.execute-api.eu-west-3.amazonaws.com/Prod/hello?a=48&b=3) 500
+[... Correction d'un étudiant] Réf étudiante : STD21069, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD21025
+Impossible d'appeller baseUrl=hkzi0mwurc.execute-api.eu-west-3.amazonaws.com/Prod/add
+[... Correction d'un étudiant] Réf étudiante : STD21025, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD21011
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21011, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21052
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21052, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21096
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21096, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21093
+Réponse attendue : 51 en code 200, mais a obtenu: (GET https://e1eq7lpa84.execute-api.us-east-1.amazonaws.com/Prod/hello?a=48&b=3) 500
+[... Correction d'un étudiant] Réf étudiante : STD21093, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD21050
+Réponse attendue : 51 en code 200, mais a obtenu: (GET https://i16wpqmv0g.execute-api.us-east-1.amazonaws.com/Prod/hello/?a=48&b=3) 502
+[... Correction d'un étudiant] Réf étudiante : STD21050, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD21091
+Réponse attendue : 51 en code 200, mais a obtenu: (GET https://1go2jmft45.execute-api.eu-west-2.amazonaws.com/default?a=48&b=3) 404
+[... Correction d'un étudiant] Réf étudiante : STD21091, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD21092
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21092, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21090
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21090, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21018
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21018, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21059
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21059, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21015
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21015, points obtenus : 1
+
+[Correction d'un étudiant...] Réf étudiante : STD21014
+[... Correction d'un étudiant] Réf étudiante : STD21014, points obtenus : 0
+Impossible d'appeller baseUrl=https://19ykiwsfw3.execute-api.us-east-1.amazonaws.com/Prod/sum
+
+[Correction d'un étudiant...] Réf étudiante : STD21058
+Réponse attendue : 51 en code 200, et a été obtenue: 1 point
+[... Correction d'un étudiant] Réf étudiante : STD21058, points obtenus : 1
+
+
+##################################
+##################################
+
+Toutes les notes...
+
+STD21088,1
+STD21044,0
+STD21045,1
+STD21089,1
+STD21001,1
+STD21042,1
+STD21087,1
+STD21084,1
+STD21041,1
+STD21082,1
+STD21081,0
+hei.hajatiana@gmail.com,1
+STD21006,1
+STD21007,1
+STD21004,1
+STD21005,1
+STD21033,1
+STD21034,1
+STD21032,1
+STD21076,0
+STD21073,1
+STD21030,1
+STD21071,0
+STD21039,0
+STD21079,1
+STD21036,1
+STD21064,1
+STD21020,1
+STD21021,1
+STD21065,1
+STD21062,1
+STD21063,1
+STD21060,0
+RAKOTOMALALA Soa Mariaka,1
+STD21109,1
+STD21107,1
+STD21108,1
+STD21028,1
+STD21029,1
+STD21103,0
+STD21027,1
+STD21024,1
+STD21102,1
+STD21069,0
+STD21025,0
+STD21011,1
+STD21052,1
+STD21096,1
+STD21093,0
+STD21050,0
+STD21091,0
+STD21092,1
+STD21090,1
+STD21018,1
+STD21059,1
+STD21015,1
+STD21014,0
+STD21058,1
