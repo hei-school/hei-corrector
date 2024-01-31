@@ -48,16 +48,16 @@ class Collector_All_Test {
 
     var scorePerStudent = corrector.correct(examSession);
 
-    var std21034Answers = scorePerStudent.get("STD21034");
+    var std21034Answers = scorePerStudent.get("STD22028");
     assertEquals(4, std21034Answers.get("THEORY"));
     assertEquals(2, std21034Answers.get("Q3"));
-    assertEquals(0, std21034Answers.get("Q4"));
+    assertEquals(1, std21034Answers.get("Q4"));
     assertEquals(1, std21034Answers.get("Q6"));
-    assertEquals(0, std21034Answers.get("Q8"));
+    assertEquals(10, std21034Answers.get("all"));
 
-    var std21103Answers = scorePerStudent.get("STD21103");
-    assertEquals(2, std21103Answers.get("THEORY"));
-    assertEquals(1, std21103Answers.get("Q3")); // put null as Q3b
+    var std21103Answers = scorePerStudent.get("STD22101");
+    assertEquals(4, std21103Answers.get("THEORY"));
+    assertEquals(2, std21103Answers.get("Q3"));
     assertEquals(0, std21103Answers.get("Q6"));
   }
 }

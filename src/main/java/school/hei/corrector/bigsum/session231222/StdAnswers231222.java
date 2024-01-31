@@ -12,6 +12,6 @@ public class StdAnswers231222 extends StdAnswersBigSum {
 
   @Override
   protected boolean hasBonusBug() {
-    return true;
+    return false;
   }
 }

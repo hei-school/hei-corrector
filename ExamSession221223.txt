@@ -1,0 +1,3070 @@
+[Chargement des réponses...] Nom du fichier : /bigsum/answers_2023_12_22.csv
+[... Chargement des réponses] Nombre de réponses chargées : 81
+
+[Correction d'un étudiant...] Réf étudiante : STD22012
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Sheddy00/poja-sqlite/blob/prod/src/main/java/com/poja/sqlite/endpoint/rest/controller/health/BigSumController.java, branche : preprod
+Vérification du commit :
+Branche non clonable : preprod
+Clonant : https://github.com/Sheddy00/poja-sqlite/blob/prod/src/main/java/com/poja/sqlite/endpoint/rest/controller/health/BigSumController.java, branche : prod
+Vérification du commit :
+Vérification de la version poja
+Branche non clonable : prod
+Impossible de checkout :
+poja.yml non lisible
+Points Q3 : 0/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Sheddy00/poja-sqlite/blob/prod/src/main/java/com/poja/sqlite/endpoint/rest/controller/health/BigSumController.java, branche : prod
+Vérification du commit :
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Sheddy00/poja-sqlite/blob/prod/src/main/java/com/poja/sqlite/endpoint/rest/controller/health/BigSumController.java, branche : prod
+Vérification du commit :
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22012, points obtenus : 4/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22056
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/ManoaHEI/poja-big-sum-std22056, branche : preprod
+Vérification du commit : aaf9641941f78857c9ae12574464f45914406c6f
+Branche non clonable : preprod
+Clonant : https://github.com/ManoaHEI/poja-big-sum-std22056, branche : prod
+Vérification du commit : aaf9641941f78857c9ae12574464f45914406c6f
+... clonage réussi dans : /tmp/ExamSession-STD22056-570504156
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/ManoaHEI/poja-big-sum-std22056, branche : prod
+Vérification du commit : aaf9641941f78857c9ae12574464f45914406c6f
+... clonage réussi dans : /tmp/ExamSession-STD22056-68225141
+Job non lisible: null
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/ManoaHEI/poja-big-sum-std22056, branche : prod
+Vérification du commit : aaf9641941f78857c9ae12574464f45914406c6f
+... clonage réussi dans : /tmp/ExamSession-STD22056-563788343
+Job non lisible: null
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22056, points obtenus : 4/13
+
+[Correction d'un étudiant...] Réf étudiante : STD21089
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/gitdeverstein/poja-big-sum-std21089, branche : preprod
+Vérification du commit : 1ea588506412a250e31dba9f76aa6e73dff26fbd
+Clonant : https://github.com/gitdeverstein/poja-big-sum-std21089, branche : prod
+Branche non clonable : preprod
+Vérification du commit : 1ea588506412a250e31dba9f76aa6e73dff26fbd
+... clonage réussi dans : /tmp/ExamSession-STD21089-85264898
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/gitdeverstein/poja-big-sum-std21089, branche : prod
+Vérification du commit : 1ea588506412a250e31dba9f76aa6e73dff26fbd
+... clonage réussi dans : /tmp/ExamSession-STD21089-379542551
+cd /tmp/ExamSession-STD21089-379542551 && gh run view 7296642702
+Points Q4 : 1/1
+[Q6] CI ok ?
+Clonant : https://github.com/gitdeverstein/poja-big-sum-std21089, branche : prod
+Vérification du commit : 1ea588506412a250e31dba9f76aa6e73dff26fbd
+... clonage réussi dans : /tmp/ExamSession-STD21089-313563485
+cd /tmp/ExamSession-STD21089-313563485 && gh run view 7296642693
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=https://2tm7iomhza.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q7 : 3/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD21089, points obtenus : 9/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22057
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/faniryKely/Poja-big-sum-std22057, branche : preprod
+Vérification du commit : https://github.com/faniryKely/Poja-big-sum-std22057/commit/9314446ee1bdfa05e8ccace7f1e8e2bbc1c3a5d7
+Branche non clonable : preprod
+Clonant : https://github.com/faniryKely/Poja-big-sum-std22057, branche : prod
+Vérification du commit : https://github.com/faniryKely/Poja-big-sum-std22057/commit/9314446ee1bdfa05e8ccace7f1e8e2bbc1c3a5d7
+... clonage réussi dans : /tmp/ExamSession-STD22057-487754705
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout : https://github.com/faniryKely/Poja-big-sum-std22057/commit/9314446ee1bdfa05e8ccace7f1e8e2bbc1c3a5d7
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/faniryKely/Poja-big-sum-std22057, branche : prod
+Vérification du commit : https://github.com/faniryKely/Poja-big-sum-std22057/commit/9314446ee1bdfa05e8ccace7f1e8e2bbc1c3a5d7
+... clonage réussi dans : /tmp/ExamSession-STD22057-24391761
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/faniryKely/Poja-big-sum-std22057, branche : prod
+Vérification du commit : https://github.com/faniryKely/Poja-big-sum-std22057/commit/9314446ee1bdfa05e8ccace7f1e8e2bbc1c3a5d7
+... clonage réussi dans : /tmp/ExamSession-STD22057-311543382
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22057, points obtenus : 5/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22054
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/nirinaHelena/poja-big-sum-std22054.git, branche : preprod
+Vérification du commit : 48bfc10ac67d4b0316fc3aaae28166aa3fe59dfa
+Clonant : https://github.com/nirinaHelena/poja-big-sum-std22054.git, branche : prod
+Branche non clonable : preprod
+Vérification du commit : 48bfc10ac67d4b0316fc3aaae28166aa3fe59dfa
+... clonage réussi dans : /tmp/ExamSession-STD22054-638506026
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/nirinaHelena/poja-big-sum-std22054.git, branche : prod
+Vérification du commit : 48bfc10ac67d4b0316fc3aaae28166aa3fe59dfa
+... clonage réussi dans : /tmp/ExamSession-STD22054-580764060
+cd /tmp/ExamSession-STD22054-580764060 && gh run view 7296570121
+Points Q4 : 1/1
+[Q6] CI ok ?
+Clonant : https://github.com/nirinaHelena/poja-big-sum-std22054.git, branche : prod
+Vérification du commit : 48bfc10ac67d4b0316fc3aaae28166aa3fe59dfa
+... clonage réussi dans : /tmp/ExamSession-STD22054-65293375
+cd /tmp/ExamSession-STD22054-65293375 && gh run view 7296570114
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=https://12820anrek.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7!=8
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22054, points obtenus : 8/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22098
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Tombosoa/poja-big-sum-std22098, branche : preprod
+Vérification du commit : 4b0f925f11640b99ac1715ce23bb07d246d2bbe3
+Branche non clonable : preprod
+Clonant : https://github.com/Tombosoa/poja-big-sum-std22098, branche : prod
+Vérification du commit : 4b0f925f11640b99ac1715ce23bb07d246d2bbe3
+... clonage réussi dans : /tmp/ExamSession-STD22098-995178014
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Tombosoa/poja-big-sum-std22098, branche : prod
+Vérification du commit : 4b0f925f11640b99ac1715ce23bb07d246d2bbe3
+... clonage réussi dans : /tmp/ExamSession-STD22098-459463599
+cd /tmp/ExamSession-STD22098-459463599 && gh run view 7296785882
+Non trouvé : ✓ check-sync-stack && jobId=19885290916
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Tombosoa/poja-big-sum-std22098, branche : prod
+Vérification du commit : 4b0f925f11640b99ac1715ce23bb07d246d2bbe3
+... clonage réussi dans : /tmp/ExamSession-STD22098-3343626
+cd /tmp/ExamSession-STD22098-3343626 && gh run view 7296560352
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=
+baseUri non trouvé
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22098, points obtenus : 5/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22099
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Karenathi/poja-big-sum-std22099, branche : preprod
+Vérification du commit : 59b16ef7b9a684f033e6cbc46543e0b20114e119
+Branche non clonable : preprod
+Clonant : https://github.com/Karenathi/poja-big-sum-std22099, branche : prod
+Vérification du commit : 59b16ef7b9a684f033e6cbc46543e0b20114e119
+... clonage réussi dans : /tmp/ExamSession-STD22099-384174383
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Karenathi/poja-big-sum-std22099, branche : prod
+Vérification du commit : 59b16ef7b9a684f033e6cbc46543e0b20114e119
+... clonage réussi dans : /tmp/ExamSession-STD22099-453362126
+cd /tmp/ExamSession-STD22099-453362126 && gh run view 7296712475
+Non trouvé : ✓ check-sync-stack && jobId=19884890811
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Karenathi/poja-big-sum-std22099, branche : prod
+Vérification du commit : 59b16ef7b9a684f033e6cbc46543e0b20114e119
+... clonage réussi dans : /tmp/ExamSession-STD22099-926426302
+cd /tmp/ExamSession-STD22099-926426302 && gh run view ci.yml
+Non trouvé :✓ prod CI
+baseUri non trouvé
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22099, points obtenus : 6/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22055
+[Theorie]
+Points théorique : 1/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/itsmiaetzzz/poja-big-sum-STD22055, branche : preprod
+Vérification du commit : db0c37f992d1ae094248b13025b2e09e36c73673
+Branche non clonable : preprod
+Clonant : https://github.com/itsmiaetzzz/poja-big-sum-STD22055, branche : prod
+Vérification du commit : db0c37f992d1ae094248b13025b2e09e36c73673
+... clonage réussi dans : /tmp/ExamSession-STD22055-722083791
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/itsmiaetzzz/poja-big-sum-STD22055, branche : prod
+Vérification du commit : db0c37f992d1ae094248b13025b2e09e36c73673
+... clonage réussi dans : /tmp/ExamSession-STD22055-563418515
+cd /tmp/ExamSession-STD22055-563418515 && gh run view 7296913397
+Non trouvé : ✓ check-sync-stack && jobId=19885390867
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/itsmiaetzzz/poja-big-sum-STD22055, branche : prod
+Vérification du commit : db0c37f992d1ae094248b13025b2e09e36c73673
+... clonage réussi dans : /tmp/ExamSession-STD22055-37090583
+cd /tmp/ExamSession-STD22055-37090583 && gh run view 7296646151
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22055, points obtenus : 4/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22052
+[Theorie]
+Points théorique : 1/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/RickaPrincy/poja-big-sum-std22052, branche : preprod
+Vérification du commit : https://github.com/RickaPrincy/poja-big-sum-std22052/commit/ae295e63264c1fbb842a16182d21c22f6083d707
+Branche non clonable : preprod
+Clonant : https://github.com/RickaPrincy/poja-big-sum-std22052, branche : prod
+Vérification du commit : https://github.com/RickaPrincy/poja-big-sum-std22052/commit/ae295e63264c1fbb842a16182d21c22f6083d707
+... clonage réussi dans : /tmp/ExamSession-STD22052-465781706
+Vérification de la version poja
+Branche non clonable : prod
+Impossible de checkout : https://github.com/RickaPrincy/poja-big-sum-std22052/commit/ae295e63264c1fbb842a16182d21c22f6083d707
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/RickaPrincy/poja-big-sum-std22052, branche : prod
+Vérification du commit : https://github.com/RickaPrincy/poja-big-sum-std22052/commit/ae295e63264c1fbb842a16182d21c22f6083d707
+... clonage réussi dans : /tmp/ExamSession-STD22052-707694864
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/RickaPrincy/poja-big-sum-std22052, branche : prod
+Vérification du commit : https://github.com/RickaPrincy/poja-big-sum-std22052/commit/ae295e63264c1fbb842a16182d21c22f6083d707
+... clonage réussi dans : /tmp/ExamSession-STD22052-155147694
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://kpcn5eoit4.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+Points Q7 : 3/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22052, points obtenus : 7/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22096
+[Theorie]
+Points théorique : 1/4
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/fabrichgit/poja-big-sum-std22096, branche : preprod
+Vérification du commit :
+Branche non clonable : preprod
+Clonant : https://github.com/fabrichgit/poja-big-sum-std22096, branche : prod
+Vérification du commit :
+... clonage réussi dans : /tmp/ExamSession-STD22096-360072050
+Branche non clonable : prod
+Impossible de checkout :
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/fabrichgit/poja-big-sum-std22096, branche : prod
+Vérification du commit :
+... clonage réussi dans : /tmp/ExamSession-STD22096-373702468
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/fabrichgit/poja-big-sum-std22096, branche : prod
+Vérification du commit :
+Branche non clonable : prod
+... clonage réussi dans : /tmp/ExamSession-STD22096-907062594
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+Points Q7 : 0/3
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q8 : 0/2
+p95 non lisible
+p95 <=3 : non réaliste
+[... Correction d'un étudiant] Réf étudiante : STD22096, points obtenus : 2/13
+
+[Correction d'un étudiant...] Réf étudiante : STD21084
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Sarobidy-nantenaina/poja-big-sum-std21084, branche : preprod
+Vérification du commit : 7ef55785c9d01d390a88c7bf38776c0e4a2f5865
+Branche non clonable : preprod
+Clonant : https://github.com/Sarobidy-nantenaina/poja-big-sum-std21084, branche : prod
+Vérification du commit : 7ef55785c9d01d390a88c7bf38776c0e4a2f5865
+... clonage réussi dans : /tmp/ExamSession-STD21084-873035639
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Sarobidy-nantenaina/poja-big-sum-std21084, branche : prod
+Vérification du commit : 7ef55785c9d01d390a88c7bf38776c0e4a2f5865
+... clonage réussi dans : /tmp/ExamSession-STD21084-9762387
+cd /tmp/ExamSession-STD21084-9762387 && gh run view 7297029690
+Non trouvé : ✓ check-sync-stack && jobId=19885663834
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Sarobidy-nantenaina/poja-big-sum-std21084, branche : prod
+Vérification du commit : 7ef55785c9d01d390a88c7bf38776c0e4a2f5865
+... clonage réussi dans : /tmp/ExamSession-STD21084-389322634
+cd /tmp/ExamSession-STD21084-389322634 && gh run view 7296923302
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD21084, points obtenus : 7/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22097
+[Theorie]
+Points théorique : 1/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/lovasoa3/poja-big-sum-std22097, branche : preprod
+Vérification du commit : 0521fcf47b5ea67b7116a02aad18dff0c6fda113
+... clonage réussi dans : /tmp/ExamSession-STD22097-283019447
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/lovasoa3/poja-big-sum-std22097, branche : preprod
+Vérification du commit : 0521fcf47b5ea67b7116a02aad18dff0c6fda113
+... clonage réussi dans : /tmp/ExamSession-STD22097-561792060
+cd /tmp/ExamSession-STD22097-561792060 && gh run view
+Non trouvé : ✓ check-sync-stack && jobId=preprod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/lovasoa3/poja-big-sum-std22097, branche : preprod
+Vérification du commit : 0521fcf47b5ea67b7116a02aad18dff0c6fda113
+... clonage réussi dans : /tmp/ExamSession-STD22097-967666849
+cd /tmp/ExamSession-STD22097-967666849 && gh run view 7296942483
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=
+baseUri non trouvé
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22097, points obtenus : 4/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22050
+[Theorie]
+Points théorique : 1/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/AndoKami/poja-big-sum-std22050, branche : preprod
+Vérification du commit : https://github.com/AndoKami/poja-big-sum-std22050/commit/fd5a6b0869a444ad849af13720322bf2fe2a05d2
+Branche non clonable : preprod
+Clonant : https://github.com/AndoKami/poja-big-sum-std22050, branche : prod
+Vérification du commit : https://github.com/AndoKami/poja-big-sum-std22050/commit/fd5a6b0869a444ad849af13720322bf2fe2a05d2
+... clonage réussi dans : /tmp/ExamSession-STD22050-309226148
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout : https://github.com/AndoKami/poja-big-sum-std22050/commit/fd5a6b0869a444ad849af13720322bf2fe2a05d2
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/AndoKami/poja-big-sum-std22050, branche : prod
+Vérification du commit : https://github.com/AndoKami/poja-big-sum-std22050/commit/fd5a6b0869a444ad849af13720322bf2fe2a05d2
+... clonage réussi dans : /tmp/ExamSession-STD22050-495170036
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/AndoKami/poja-big-sum-std22050, branche : prod
+Branche non clonable : prod
+Vérification du commit : https://github.com/AndoKami/poja-big-sum-std22050/commit/fd5a6b0869a444ad849af13720322bf2fe2a05d2
+... clonage réussi dans : /tmp/ExamSession-STD22050-106779957
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://ww5motmuak.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q7 : 3/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22050, points obtenus : 5/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22095
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Marc985/poja-big-sum-std22095, branche : preprod
+Vérification du commit : https://github.com/Marc985/poja-big-sum-std22095/commit/b5980c24d977a5ba8d111e129e6025c358cfc504
+Branche non clonable : preprod
+Clonant : https://github.com/Marc985/poja-big-sum-std22095, branche : prod
+Vérification du commit : https://github.com/Marc985/poja-big-sum-std22095/commit/b5980c24d977a5ba8d111e129e6025c358cfc504
+... clonage réussi dans : /tmp/ExamSession-STD22095-292908440
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout : https://github.com/Marc985/poja-big-sum-std22095/commit/b5980c24d977a5ba8d111e129e6025c358cfc504
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Marc985/poja-big-sum-std22095, branche : prod
+Vérification du commit : https://github.com/Marc985/poja-big-sum-std22095/commit/b5980c24d977a5ba8d111e129e6025c358cfc504
+... clonage réussi dans : /tmp/ExamSession-STD22095-774820810
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Marc985/poja-big-sum-std22095, branche : prod
+Vérification du commit : https://github.com/Marc985/poja-big-sum-std22095/commit/b5980c24d977a5ba8d111e129e6025c358cfc504
+... clonage réussi dans : /tmp/ExamSession-STD22095-748816464
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://s933iqg9r1.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+p95 <=3 : non réaliste
+Points Q7 : 3/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22095, points obtenus : 6/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22093
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/mampiononavoahary/poja-big-sum-std22093, branche : preprod
+Vérification du commit : https://github.com/mampiononavoahary/poja-big-sum-std22093/commits/prod/01be9de4ef5ee12ec605d94bccb35a696851f992
+Branche non clonable : preprod
+Clonant : https://github.com/mampiononavoahary/poja-big-sum-std22093, branche : prod
+Vérification du commit : https://github.com/mampiononavoahary/poja-big-sum-std22093/commits/prod/01be9de4ef5ee12ec605d94bccb35a696851f992
+... clonage réussi dans : /tmp/ExamSession-STD22093-684653363
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout : https://github.com/mampiononavoahary/poja-big-sum-std22093/commits/prod/01be9de4ef5ee12ec605d94bccb35a696851f992
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/mampiononavoahary/poja-big-sum-std22093, branche : prod
+Vérification du commit : https://github.com/mampiononavoahary/poja-big-sum-std22093/commits/prod/01be9de4ef5ee12ec605d94bccb35a696851f992
+... clonage réussi dans : /tmp/ExamSession-STD22093-142598190
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/mampiononavoahary/poja-big-sum-std22093, branche : prod
+Vérification du commit : https://github.com/mampiononavoahary/poja-big-sum-std22093/commits/prod/01be9de4ef5ee12ec605d94bccb35a696851f992
+... clonage réussi dans : /tmp/ExamSession-STD22093-532890328
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=
+baseUri non trouvé
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22093, points obtenus : 3/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22090
+[Theorie]
+Points théorique : 3/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/kareemnomenjanahary/poja-big-sum-std22090.git, branche : preprod
+Vérification du commit : null
+Branche non clonable : preprod
+Clonant : https://github.com/kareemnomenjanahary/poja-big-sum-std22090.git, branche : prod
+Vérification du commit : null
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout : null
+poja.yml non lisible
+Points Q3 : 0/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/kareemnomenjanahary/poja-big-sum-std22090.git, branche : prod
+Vérification du commit : null
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/kareemnomenjanahary/poja-big-sum-std22090.git, branche : prod
+Vérification du commit : null
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22090, points obtenus : 3/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22019
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/MihajaFi/poja-big-sum-std22019, branche : preprod
+Vérification du commit : https://github.com/MihajaFi/poja-big-sum-std22019/commit/6e75e7354a230274897b876a4aaa958457556e61
+Branche non clonable : preprod
+Clonant : https://github.com/MihajaFi/poja-big-sum-std22019, branche : prod
+Vérification du commit : https://github.com/MihajaFi/poja-big-sum-std22019/commit/6e75e7354a230274897b876a4aaa958457556e61
+... clonage réussi dans : /tmp/ExamSession-STD22019-956860813
+Vérification de la version poja
+Branche non clonable : prod
+Impossible de checkout : https://github.com/MihajaFi/poja-big-sum-std22019/commit/6e75e7354a230274897b876a4aaa958457556e61
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/MihajaFi/poja-big-sum-std22019, branche : prod
+Vérification du commit : https://github.com/MihajaFi/poja-big-sum-std22019/commit/6e75e7354a230274897b876a4aaa958457556e61
+... clonage réussi dans : /tmp/ExamSession-STD22019-290794997
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/MihajaFi/poja-big-sum-std22019, branche : prod
+Vérification du commit : https://github.com/MihajaFi/poja-big-sum-std22019/commit/6e75e7354a230274897b876a4aaa958457556e61
+... clonage réussi dans : /tmp/ExamSession-STD22019-55171471
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://1ynei3nlwa.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+Points Q7 : 3/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22019, points obtenus : 10/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22016
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/tyfia-rak/poja_big_sum_std22016, branche : preprod
+Vérification du commit : c19b0857128c35ff5cb0fa8a95eae8841f6429c2
+Branche non clonable : preprod
+Clonant : https://github.com/tyfia-rak/poja_big_sum_std22016, branche : prod
+Vérification du commit : c19b0857128c35ff5cb0fa8a95eae8841f6429c2
+... clonage réussi dans : /tmp/ExamSession-STD22016-862604681
+Vérification de la version poja
+Points Q3 : 1/2
+poja.yml non lisible
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/tyfia-rak/poja_big_sum_std22016, branche : prod
+Vérification du commit : c19b0857128c35ff5cb0fa8a95eae8841f6429c2
+... clonage réussi dans : /tmp/ExamSession-STD22016-830109631
+Job non lisible: null
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/tyfia-rak/poja_big_sum_std22016, branche : prod
+Vérification du commit : c19b0857128c35ff5cb0fa8a95eae8841f6429c2
+... clonage réussi dans : /tmp/ExamSession-STD22016-22875030
+Job non lisible: null
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=
+baseUri non trouvé
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22016, points obtenus : 3/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22017
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/ZoFitahiana/poja-big-sum-std22017.git, branche : preprod
+Vérification du commit : https://github.com/ZoFitahiana/poja-big-sum-std22017/commit/d3d5e7b2c1d5ac6ccc2d12fc1ab586644c19823a
+Clonant : https://github.com/ZoFitahiana/poja-big-sum-std22017.git, branche : prod
+Branche non clonable : preprod
+Vérification du commit : https://github.com/ZoFitahiana/poja-big-sum-std22017/commit/d3d5e7b2c1d5ac6ccc2d12fc1ab586644c19823a
+... clonage réussi dans : /tmp/ExamSession-STD22017-415416587
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout : https://github.com/ZoFitahiana/poja-big-sum-std22017/commit/d3d5e7b2c1d5ac6ccc2d12fc1ab586644c19823a
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/ZoFitahiana/poja-big-sum-std22017.git, branche : prod
+Vérification du commit : https://github.com/ZoFitahiana/poja-big-sum-std22017/commit/d3d5e7b2c1d5ac6ccc2d12fc1ab586644c19823a
+... clonage réussi dans : /tmp/ExamSession-STD22017-550314424
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/ZoFitahiana/poja-big-sum-std22017.git, branche : prod
+Vérification du commit : https://github.com/ZoFitahiana/poja-big-sum-std22017/commit/d3d5e7b2c1d5ac6ccc2d12fc1ab586644c19823a
+... clonage réussi dans : /tmp/ExamSession-STD22017-270095900
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://jswxney8jh.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+Points Q7 : 3/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22017, points obtenus : 10/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22058
+[Theorie]
+Points théorique : 1/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/fandresenaravohary/poja-big-sum-std22058.git, branche : preprod
+Vérification du commit :
+Branche non clonable : preprod
+Clonant : https://github.com/fandresenaravohary/poja-big-sum-std22058.git, branche : prod
+Vérification du commit :
+... clonage réussi dans : /tmp/ExamSession-STD22058-682626287
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout :
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/fandresenaravohary/poja-big-sum-std22058.git, branche : prod
+Vérification du commit :
+... clonage réussi dans : /tmp/ExamSession-STD22058-466868784
+Points Q4 : 0/1
+[Q6] CI ok ?
+Branche non clonable : prod
+Clonant : https://github.com/fandresenaravohary/poja-big-sum-std22058.git, branche : prod
+Vérification du commit :
+... clonage réussi dans : /tmp/ExamSession-STD22058-296274717
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22058, points obtenus : 2/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22059
+[Theorie]
+Points théorique : 3/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Ravo1401/poja-big-sum-std22059, branche : preprod
+Vérification du commit : b8904d08eaebd05a4e9e92437c24899f6fe6c77c
+Branche non clonable : preprod
+Clonant : https://github.com/Ravo1401/poja-big-sum-std22059, branche : prod
+Vérification du commit : b8904d08eaebd05a4e9e92437c24899f6fe6c77c
+... clonage réussi dans : /tmp/ExamSession-STD22059-23243876
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Ravo1401/poja-big-sum-std22059, branche : prod
+Vérification du commit : b8904d08eaebd05a4e9e92437c24899f6fe6c77c
+... clonage réussi dans : /tmp/ExamSession-STD22059-116848350
+Job non lisible:
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Ravo1401/poja-big-sum-std22059, branche : prod
+Vérification du commit : b8904d08eaebd05a4e9e92437c24899f6fe6c77c
+... clonage réussi dans : /tmp/ExamSession-STD22059-10598099
+cd /tmp/ExamSession-STD22059-10598099 && gh run view
+Non trouvé :✓ prod CI
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22059, points obtenus : 5/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22089
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/andyDevMdg/poja-big-sum-std22089.git, branche : preprod
+Vérification du commit : d5971b1f00df1167d96b8bfc6f80c48e6a045854
+Branche non clonable : preprod
+Clonant : https://github.com/andyDevMdg/poja-big-sum-std22089.git, branche : prod
+Vérification du commit : d5971b1f00df1167d96b8bfc6f80c48e6a045854
+... clonage réussi dans : /tmp/ExamSession-STD22089-424257685
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/andyDevMdg/poja-big-sum-std22089.git, branche : prod
+Vérification du commit : d5971b1f00df1167d96b8bfc6f80c48e6a045854
+... clonage réussi dans : /tmp/ExamSession-STD22089-480029271
+cd /tmp/ExamSession-STD22089-480029271 && gh run view actions
+Non trouvé : ✓ check-sync-stack && jobId=7296770267
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/andyDevMdg/poja-big-sum-std22089.git, branche : prod
+Vérification du commit : d5971b1f00df1167d96b8bfc6f80c48e6a045854
+... clonage réussi dans : /tmp/ExamSession-STD22089-609514759
+cd /tmp/ExamSession-STD22089-609514759 && gh run view 7296724187
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=
+baseUri non trouvé
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22089, points obtenus : 7/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22001
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/loiqua/poja-big-sum-std22001.git, branche : preprod
+Vérification du commit : https://github.com/loiqua/poja-big-sum-std22001/commit/b1d6d6965643b9330bd43676a3c8ef590cd2f099
+Branche non clonable : preprod
+Clonant : https://github.com/loiqua/poja-big-sum-std22001.git, branche : prod
+Vérification du commit : https://github.com/loiqua/poja-big-sum-std22001/commit/b1d6d6965643b9330bd43676a3c8ef590cd2f099
+... clonage réussi dans : /tmp/ExamSession-STD22001-382449890
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout : https://github.com/loiqua/poja-big-sum-std22001/commit/b1d6d6965643b9330bd43676a3c8ef590cd2f099
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/loiqua/poja-big-sum-std22001.git, branche : prod
+Vérification du commit : https://github.com/loiqua/poja-big-sum-std22001/commit/b1d6d6965643b9330bd43676a3c8ef590cd2f099
+... clonage réussi dans : /tmp/ExamSession-STD22001-705233400
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/loiqua/poja-big-sum-std22001.git, branche : prod
+Vérification du commit : https://github.com/loiqua/poja-big-sum-std22001/commit/b1d6d6965643b9330bd43676a3c8ef590cd2f099
+... clonage réussi dans : /tmp/ExamSession-STD22001-473905835
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22001, points obtenus : 5/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22045
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Lovatiana15/poja-sum-std22045.git, branche : preprod
+Vérification du commit : 6758b6e286504e62b5ca819bae84ff43f5ddec49
+... clonage réussi dans : /tmp/ExamSession-STD22045-990323011
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Lovatiana15/poja-sum-std22045.git, branche : preprod
+Vérification du commit : 6758b6e286504e62b5ca819bae84ff43f5ddec49
+Job non lisible:
+... clonage réussi dans : /tmp/ExamSession-STD22045-862278263
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Lovatiana15/poja-sum-std22045.git, branche : preprod
+Vérification du commit : 6758b6e286504e62b5ca819bae84ff43f5ddec49
+... clonage réussi dans : /tmp/ExamSession-STD22045-552609032
+cd /tmp/ExamSession-STD22045-552609032 && gh run view 7296958353
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=
+baseUri non trouvé
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 0/2
+p95 <=3 : non réaliste
+[... Correction d'un étudiant] Réf étudiante : STD22045, points obtenus : 5/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22046
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/KevinDonovan2/poja-big-sum-std22046, branche : preprod
+Vérification du commit :
+Branche non clonable : preprod
+Clonant : https://github.com/KevinDonovan2/poja-big-sum-std22046, branche : prod
+Vérification du commit :
+... clonage réussi dans : /tmp/ExamSession-STD22046-963755046
+Vérification de la version poja
+Branche non clonable : prod
+Impossible de checkout :
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/KevinDonovan2/poja-big-sum-std22046, branche : prod
+Vérification du commit :
+... clonage réussi dans : /tmp/ExamSession-STD22046-267598572
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/KevinDonovan2/poja-big-sum-std22046, branche : prod
+Vérification du commit :
+... clonage réussi dans : /tmp/ExamSession-STD22046-721311531
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://ojh8t72ol9.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7!=8
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+p95 non lisible
+Points Q8 : 0/2
+p95 <=3 : non réaliste
+[... Correction d'un étudiant] Réf étudiante : STD22046, points obtenus : 3/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22087
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/allan-12/poja-big-sum-std22087, branche : preprod
+Vérification du commit : Erreur
+... clonage réussi dans : /tmp/ExamSession-STD22087-230292120
+Branche non clonable : preprod
+Clonant : https://github.com/allan-12/poja-big-sum-std22087, branche : prod
+Vérification du commit : Erreur
+Branche non clonable : prod
+Impossible de checkout : Erreur
+poja.yml non lisible
+Vérification de la version poja
+Points Q3 : 0/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/allan-12/poja-big-sum-std22087, branche : prod
+Vérification du commit : Erreur
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/allan-12/poja-big-sum-std22087, branche : prod
+Vérification du commit : Erreur
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 0/2
+p95 non lisible
+p95 <=3 : non réaliste
+[... Correction d'un étudiant] Réf étudiante : STD22087, points obtenus : 4/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22043
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/JeanMarc-RAJAONARIVELONA/poja-big-sum-std22043.git, branche : preprod
+Vérification du commit : c08f82e42c334f2c43af6e36412d9a1ce84ffa59
+Clonant : https://github.com/JeanMarc-RAJAONARIVELONA/poja-big-sum-std22043.git, branche : prod
+Branche non clonable : preprod
+Vérification du commit : c08f82e42c334f2c43af6e36412d9a1ce84ffa59
+... clonage réussi dans : /tmp/ExamSession-STD22043-644124486
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/JeanMarc-RAJAONARIVELONA/poja-big-sum-std22043.git, branche : prod
+Vérification du commit : c08f82e42c334f2c43af6e36412d9a1ce84ffa59
+... clonage réussi dans : /tmp/ExamSession-STD22043-574083526
+Job non lisible:
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/JeanMarc-RAJAONARIVELONA/poja-big-sum-std22043.git, branche : prod
+Vérification du commit : c08f82e42c334f2c43af6e36412d9a1ce84ffa59
+... clonage réussi dans : /tmp/ExamSession-STD22043-675550983
+cd /tmp/ExamSession-STD22043-675550983 && gh run view 7296682760
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=https://b82ifa08y7.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q7 : 3/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22043, points obtenus : 8/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22044
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/andyxrakoto/poja-big-sum-std22044, branche : preprod
+Vérification du commit :
+Branche non clonable : preprod
+Clonant : https://github.com/andyxrakoto/poja-big-sum-std22044, branche : prod
+Vérification du commit :
+... clonage réussi dans : /tmp/ExamSession-STD22044-870866094
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout :
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/andyxrakoto/poja-big-sum-std22044, branche : prod
+Vérification du commit :
+... clonage réussi dans : /tmp/ExamSession-STD22044-513581018
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/andyxrakoto/poja-big-sum-std22044, branche : prod
+Vérification du commit :
+... clonage réussi dans : /tmp/ExamSession-STD22044-369494043
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 0/2
+p95 non lisible
+p95 <=3 : non réaliste
+[... Correction d'un étudiant] Réf étudiante : STD22044, points obtenus : 3/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22085
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/ManoaRatsimandresy/poja-big-sum-std22085.git, branche : preprod
+Vérification du commit : 5521fdaf1fc2ab4c8418b12207b536b80d6d242f
+Branche non clonable : preprod
+Clonant : https://github.com/ManoaRatsimandresy/poja-big-sum-std22085.git, branche : prod
+Vérification du commit : 5521fdaf1fc2ab4c8418b12207b536b80d6d242f
+... clonage réussi dans : /tmp/ExamSession-STD22085-426164810
+Vérification de la version poja
+Points Q3 : 1/2
+poja.yml non lisible
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/ManoaRatsimandresy/poja-big-sum-std22085.git, branche : prod
+Vérification du commit : 5521fdaf1fc2ab4c8418b12207b536b80d6d242f
+... clonage réussi dans : /tmp/ExamSession-STD22085-779257085
+Job non lisible: null
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/ManoaRatsimandresy/poja-big-sum-std22085.git, branche : prod
+Vérification du commit : 5521fdaf1fc2ab4c8418b12207b536b80d6d242f
+... clonage réussi dans : /tmp/ExamSession-STD22085-92333809
+Job non lisible: null
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22085, points obtenus : 3/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22086
+[Theorie]
+Points théorique : 3/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/HarenaFiantso/poja-big-sum-std22086, branche : preprod
+Vérification du commit : 9bc0e137424c6ae8a31e69eb057f8d171cd83198
+p95 non lisible
+p95 <=3 : non réaliste
+Branche non clonable : preprod
+Clonant : https://github.com/HarenaFiantso/poja-big-sum-std22086, branche : prod
+Vérification du commit : 9bc0e137424c6ae8a31e69eb057f8d171cd83198
+... clonage réussi dans : /tmp/ExamSession-STD22086-958165905
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/HarenaFiantso/poja-big-sum-std22086, branche : prod
+Vérification du commit : 9bc0e137424c6ae8a31e69eb057f8d171cd83198
+... clonage réussi dans : /tmp/ExamSession-STD22086-49489946
+cd /tmp/ExamSession-STD22086-49489946 && gh run view 7296747943
+Points Q4 : 1/1
+[Q6] CI ok ?
+Clonant : https://github.com/HarenaFiantso/poja-big-sum-std22086, branche : prod
+Vérification du commit : 9bc0e137424c6ae8a31e69eb057f8d171cd83198
+... clonage réussi dans : /tmp/ExamSession-STD22086-174873652
+cd /tmp/ExamSession-STD22086-174873652 && gh run view 7296662435
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=https://nn9uaruxs4.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+Points Q7 : 3/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22086, points obtenus : 12/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22083
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Zo-Tsilavina/poja-big-sum-std222083.git, branche : preprod
+Vérification du commit : e8f5dbd5a2686cdc5d2ded60514cfc5e5ef49399
+Branche non clonable : preprod
+Clonant : https://github.com/Zo-Tsilavina/poja-big-sum-std222083.git, branche : prod
+Vérification du commit : e8f5dbd5a2686cdc5d2ded60514cfc5e5ef49399
+... clonage réussi dans : /tmp/ExamSession-STD22083-967895392
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Zo-Tsilavina/poja-big-sum-std222083.git, branche : prod
+Vérification du commit : e8f5dbd5a2686cdc5d2ded60514cfc5e5ef49399
+... clonage réussi dans : /tmp/ExamSession-STD22083-263972153
+cd /tmp/ExamSession-STD22083-263972153 && gh run view actions
+Non trouvé : ✓ check-sync-stack && jobId=7296612865
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Zo-Tsilavina/poja-big-sum-std222083.git, branche : prod
+Vérification du commit : e8f5dbd5a2686cdc5d2ded60514cfc5e5ef49399
+... clonage réussi dans : /tmp/ExamSession-STD22083-418816006
+cd /tmp/ExamSession-STD22083-418816006 && gh run view .
+Non trouvé :✓ prod CI
+baseUri non trouvé
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22083, points obtenus : 4/13
+
+[Correction d'un étudiant...] Réf étudiante : STD21071
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Mitsanta12/poja-big-sum-std21071, branche : preprod
+Vérification du commit : 8872ab207549ecfb3836eb78dfa89726c3986703
+... clonage réussi dans : /tmp/ExamSession-STD21071-421516524
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Mitsanta12/poja-big-sum-std21071, branche : preprod
+Vérification du commit : 8872ab207549ecfb3836eb78dfa89726c3986703
+... clonage réussi dans : /tmp/ExamSession-STD21071-524985610
+Job non lisible:
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Mitsanta12/poja-big-sum-std21071, branche : preprod
+Vérification du commit : 8872ab207549ecfb3836eb78dfa89726c3986703
+... clonage réussi dans : /tmp/ExamSession-STD21071-219539235
+cd /tmp/ExamSession-STD21071-219539235 && gh run view 7296726321
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD21071, points obtenus : 7/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22081
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/kirisaki-vk/poja-big-sum-std22081, branche : preprod
+Vérification du commit : 5c79486c4dc18aeb7a5226875ff1b0e76f370ecd
+Branche non clonable : preprod
+Clonant : https://github.com/kirisaki-vk/poja-big-sum-std22081, branche : prod
+Vérification du commit : 5c79486c4dc18aeb7a5226875ff1b0e76f370ecd
+... clonage réussi dans : /tmp/ExamSession-STD22081-323248941
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/kirisaki-vk/poja-big-sum-std22081, branche : prod
+Vérification du commit : 5c79486c4dc18aeb7a5226875ff1b0e76f370ecd
+... clonage réussi dans : /tmp/ExamSession-STD22081-253916935
+cd /tmp/ExamSession-STD22081-253916935 && gh run view 7296570897
+Points Q4 : 1/1
+[Q6] CI ok ?
+Clonant : https://github.com/kirisaki-vk/poja-big-sum-std22081, branche : prod
+Vérification du commit : 5c79486c4dc18aeb7a5226875ff1b0e76f370ecd
+... clonage réussi dans : /tmp/ExamSession-STD22081-92192873
+cd /tmp/ExamSession-STD22081-92192873 && gh run view 7296570890
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=https://1igujlulj0.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+Points Q7 : 3/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22081, points obtenus : 13/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22082
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/mvjdev/poja-big-sum-std22082, branche : preprod
+Vérification du commit : https://github.com/mvjdev/poja-big-sum-std22082/commit/c0abdb1e7636f1e34e9ae21e2051f0a029923f5f
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+Branche non clonable : preprod
+Clonant : https://github.com/mvjdev/poja-big-sum-std22082, branche : prod
+Vérification du commit : https://github.com/mvjdev/poja-big-sum-std22082/commit/c0abdb1e7636f1e34e9ae21e2051f0a029923f5f
+... clonage réussi dans : /tmp/ExamSession-STD22082-604834995
+Vérification de la version poja
+Branche non clonable : prod
+Impossible de checkout : https://github.com/mvjdev/poja-big-sum-std22082/commit/c0abdb1e7636f1e34e9ae21e2051f0a029923f5f
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/mvjdev/poja-big-sum-std22082, branche : prod
+Vérification du commit : https://github.com/mvjdev/poja-big-sum-std22082/commit/c0abdb1e7636f1e34e9ae21e2051f0a029923f5f
+... clonage réussi dans : /tmp/ExamSession-STD22082-159166037
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/mvjdev/poja-big-sum-std22082, branche : prod
+Vérification du commit : https://github.com/mvjdev/poja-big-sum-std22082/commit/c0abdb1e7636f1e34e9ae21e2051f0a029923f5f
+... clonage réussi dans : /tmp/ExamSession-STD22082-644381657
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22082, points obtenus : 5/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22080
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Maharavo1/poja-big-sum-std22080, branche : preprod
+Vérification du commit : https://github.com/Maharavo1/poja-big-sum-std22080/commit/7ff00fcfc6567f5bf078e98163ec03a383d3d858
+Branche non clonable : prod
+baseUri non trouvé
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Branche non clonable : preprod
+Clonant : https://github.com/Maharavo1/poja-big-sum-std22080, branche : prod
+Vérification du commit : https://github.com/Maharavo1/poja-big-sum-std22080/commit/7ff00fcfc6567f5bf078e98163ec03a383d3d858
+... clonage réussi dans : /tmp/ExamSession-STD22080-106986939
+Branche non clonable : prod
+Impossible de checkout : https://github.com/Maharavo1/poja-big-sum-std22080/commit/7ff00fcfc6567f5bf078e98163ec03a383d3d858
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Maharavo1/poja-big-sum-std22080, branche : prod
+Vérification du commit : https://github.com/Maharavo1/poja-big-sum-std22080/commit/7ff00fcfc6567f5bf078e98163ec03a383d3d858
+... clonage réussi dans : /tmp/ExamSession-STD22080-788314133
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Maharavo1/poja-big-sum-std22080, branche : prod
+Vérification du commit : https://github.com/Maharavo1/poja-big-sum-std22080/commit/7ff00fcfc6567f5bf078e98163ec03a383d3d858
+Branche non clonable : prod
+... clonage réussi dans : /tmp/ExamSession-STD22080-96330309
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://51gjy75co1.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7!=8
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22080, points obtenus : 7/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22007
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Eclisher/poja-big-sum-std22007/, branche : preprod
+Vérification du commit : 60c56e0e7183ec320dea1f9b9435dfad8be3b513
+Branche non clonable : preprod
+Clonant : https://github.com/Eclisher/poja-big-sum-std22007/, branche : prod
+Vérification du commit : 60c56e0e7183ec320dea1f9b9435dfad8be3b513
+... clonage réussi dans : /tmp/ExamSession-STD22007-178707044
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Eclisher/poja-big-sum-std22007/, branche : prod
+Vérification du commit : 60c56e0e7183ec320dea1f9b9435dfad8be3b513
+... clonage réussi dans : /tmp/ExamSession-STD22007-694083730
+cd /tmp/ExamSession-STD22007-694083730 && gh run view 7296512846
+Points Q4 : 1/1
+[Q6] CI ok ?
+Clonant : https://github.com/Eclisher/poja-big-sum-std22007/, branche : prod
+Vérification du commit : 60c56e0e7183ec320dea1f9b9435dfad8be3b513
+... clonage réussi dans : /tmp/ExamSession-STD22007-641183694
+cd /tmp/ExamSession-STD22007-641183694 && gh run view 7296512844
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=https://ldw9x76db4.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+Points Q7 : 3/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22007, points obtenus : 11/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22005
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/FanomezanaNat/poja-big-sum-std22005, branche : preprod
+Vérification du commit : d19d7ad34d21a8cd3761a06799002739ed06f7f0
+Branche non clonable : preprod
+Clonant : https://github.com/FanomezanaNat/poja-big-sum-std22005, branche : prod
+Vérification du commit : d19d7ad34d21a8cd3761a06799002739ed06f7f0
+... clonage réussi dans : /tmp/ExamSession-STD22005-638648875
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/FanomezanaNat/poja-big-sum-std22005, branche : prod
+Vérification du commit : d19d7ad34d21a8cd3761a06799002739ed06f7f0
+... clonage réussi dans : /tmp/ExamSession-STD22005-149435568
+cd /tmp/ExamSession-STD22005-149435568 && gh run view 7296652990
+Points Q4 : 1/1
+[Q6] CI ok ?
+Clonant : https://github.com/FanomezanaNat/poja-big-sum-std22005, branche : prod
+Vérification du commit : d19d7ad34d21a8cd3761a06799002739ed06f7f0
+... clonage réussi dans : /tmp/ExamSession-STD22005-365959537
+cd /tmp/ExamSession-STD22005-365959537 && gh run view 19884815609
+Non trouvé :✓ prod CI
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://a7t668a9n2.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+p95 <=3 : non réaliste
+Points Q7 : 3/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22005, points obtenus : 10/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22006
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/fanambynana/poja-big-sum-std22006, branche : preprod
+Vérification du commit : 6c70e74c238d60f23fc6edb62552e022f2b9de11
+Clonant : https://github.com/fanambynana/poja-big-sum-std22006, branche : prod
+Branche non clonable : preprod
+Vérification du commit : 6c70e74c238d60f23fc6edb62552e022f2b9de11
+... clonage réussi dans : /tmp/ExamSession-STD22006-646696717
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/fanambynana/poja-big-sum-std22006, branche : prod
+Vérification du commit : 6c70e74c238d60f23fc6edb62552e022f2b9de11
+... clonage réussi dans : /tmp/ExamSession-STD22006-594272068
+Job non lisible: null
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/fanambynana/poja-big-sum-std22006, branche : prod
+Vérification du commit : 6c70e74c238d60f23fc6edb62552e022f2b9de11
+... clonage réussi dans : /tmp/ExamSession-STD22006-903779321
+Job non lisible: null
+baseUri non trouvé
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22006, points obtenus : 6/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22047
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Ngitangita/poja-big-sum-std22047, branche : preprod
+Vérification du commit : https://github.com/Ngitangita/poja-big-sum-std22047/commit/dbcb95d0edb23c4cd25963850b37a221fe770b61
+Clonant : https://github.com/Ngitangita/poja-big-sum-std22047, branche : prod
+Branche non clonable : preprod
+Vérification du commit : https://github.com/Ngitangita/poja-big-sum-std22047/commit/dbcb95d0edb23c4cd25963850b37a221fe770b61
+... clonage réussi dans : /tmp/ExamSession-STD22047-448440222
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout : https://github.com/Ngitangita/poja-big-sum-std22047/commit/dbcb95d0edb23c4cd25963850b37a221fe770b61
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Ngitangita/poja-big-sum-std22047, branche : prod
+Vérification du commit : https://github.com/Ngitangita/poja-big-sum-std22047/commit/dbcb95d0edb23c4cd25963850b37a221fe770b61
+... clonage réussi dans : /tmp/ExamSession-STD22047-347957495
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Ngitangita/poja-big-sum-std22047, branche : prod
+Vérification du commit : https://github.com/Ngitangita/poja-big-sum-std22047/commit/dbcb95d0edb23c4cd25963850b37a221fe770b61
+... clonage réussi dans : /tmp/ExamSession-STD22047-487574327
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22047, points obtenus : 3/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22048
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Sullivan1301/poja-big-sum-std22048.git, branche : preprod
+Vérification du commit : 7bfc86c3cfaaea863ebb9402c023e57a5b25ddb5
+Branche non clonable : preprod
+Clonant : https://github.com/Sullivan1301/poja-big-sum-std22048.git, branche : prod
+Vérification du commit : 7bfc86c3cfaaea863ebb9402c023e57a5b25ddb5
+... clonage réussi dans : /tmp/ExamSession-STD22048-565572873
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Sullivan1301/poja-big-sum-std22048.git, branche : prod
+Vérification du commit : 7bfc86c3cfaaea863ebb9402c023e57a5b25ddb5
+... clonage réussi dans : /tmp/ExamSession-STD22048-708779100
+Job non lisible:
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Sullivan1301/poja-big-sum-std22048.git, branche : prod
+Vérification du commit : 7bfc86c3cfaaea863ebb9402c023e57a5b25ddb5
+... clonage réussi dans : /tmp/ExamSession-STD22048-201439607
+cd /tmp/ExamSession-STD22048-201439607 && gh run view 7296664674
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=https://t4z33y4yp2.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7!=8
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22048, points obtenus : 7/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22078
+[Theorie]
+Points théorique : 1/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Abi-Nf/poja-big-sum-std22078, branche : preprod
+Vérification du commit : 8f9fde39643f7021d71b22af7d0bd517cb4e8094
+Branche non clonable : preprod
+Clonant : https://github.com/Abi-Nf/poja-big-sum-std22078, branche : prod
+Vérification du commit : 8f9fde39643f7021d71b22af7d0bd517cb4e8094
+... clonage réussi dans : /tmp/ExamSession-STD22078-896844539
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Abi-Nf/poja-big-sum-std22078, branche : prod
+Vérification du commit : 8f9fde39643f7021d71b22af7d0bd517cb4e8094
+... clonage réussi dans : /tmp/ExamSession-STD22078-679637474
+cd /tmp/ExamSession-STD22078-679637474 && gh run view 7296654592
+Points Q4 : 1/1
+[Q6] CI ok ?
+Clonant : https://github.com/Abi-Nf/poja-big-sum-std22078, branche : prod
+Vérification du commit : 8f9fde39643f7021d71b22af7d0bd517cb4e8094
+... clonage réussi dans : /tmp/ExamSession-STD22078-133035682
+cd /tmp/ExamSession-STD22078-133035682 && gh run view 7296654599
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=https://pcia841lll.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+p95 <=3 : non réaliste
+Points Q7 : 3/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22078, points obtenus : 8/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22079
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/MiiJack/poja-big-sum-std22079, branche : preprod
+Vérification du commit : https://github.com/MiiJack/poja-big-sum-std22079/commit/4e461b4e099b1565de9153e53a1174c45a3952fa
+Branche non clonable : preprod
+Clonant : https://github.com/MiiJack/poja-big-sum-std22079, branche : prod
+Vérification du commit : https://github.com/MiiJack/poja-big-sum-std22079/commit/4e461b4e099b1565de9153e53a1174c45a3952fa
+... clonage réussi dans : /tmp/ExamSession-STD22079-367049331
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout : https://github.com/MiiJack/poja-big-sum-std22079/commit/4e461b4e099b1565de9153e53a1174c45a3952fa
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/MiiJack/poja-big-sum-std22079, branche : prod
+Vérification du commit : https://github.com/MiiJack/poja-big-sum-std22079/commit/4e461b4e099b1565de9153e53a1174c45a3952fa
+... clonage réussi dans : /tmp/ExamSession-STD22079-208668593
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/MiiJack/poja-big-sum-std22079, branche : prod
+Vérification du commit : https://github.com/MiiJack/poja-big-sum-std22079/commit/4e461b4e099b1565de9153e53a1174c45a3952fa
+... clonage réussi dans : /tmp/ExamSession-STD22079-818914235
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://eobifd8118.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+Points Q7 : 3/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22079, points obtenus : 10/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22035
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Mampiononatc07/poja-big-sum-STD22035, branche : preprod
+Vérification du commit : null
+Branche non clonable : preprod
+Clonant : https://github.com/Mampiononatc07/poja-big-sum-STD22035, branche : prod
+Vérification du commit : null
+Branche non clonable : prod
+Impossible de checkout : null
+poja.yml non lisible
+Vérification de la version poja
+Points Q3 : 0/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Mampiononatc07/poja-big-sum-STD22035, branche : prod
+Vérification du commit : null
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Mampiononatc07/poja-big-sum-STD22035, branche : prod
+Vérification du commit : null
+Branche non clonable : prod
+baseUri non trouvé
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22035, points obtenus : 2/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22076
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Tendry24/poja-big-sum-std22076.git, branche : preprod
+Vérification du commit : f6bce49b3e78cab2a522c127b1bcdb0674d3ebbb
+Branche non clonable : preprod
+Clonant : https://github.com/Tendry24/poja-big-sum-std22076.git, branche : prod
+Vérification du commit : f6bce49b3e78cab2a522c127b1bcdb0674d3ebbb
+... clonage réussi dans : /tmp/ExamSession-STD22076-751851589
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Tendry24/poja-big-sum-std22076.git, branche : prod
+Vérification du commit : f6bce49b3e78cab2a522c127b1bcdb0674d3ebbb
+... clonage réussi dans : /tmp/ExamSession-STD22076-775070199
+cd /tmp/ExamSession-STD22076-775070199 && gh run view 7296565664
+Points Q4 : 1/1
+[Q6] CI ok ?
+Clonant : https://github.com/Tendry24/poja-big-sum-std22076.git, branche : prod
+Vérification du commit : f6bce49b3e78cab2a522c127b1bcdb0674d3ebbb
+... clonage réussi dans : /tmp/ExamSession-STD22076-710401301
+cd /tmp/ExamSession-STD22076-710401301 && gh run view 7296565663
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=https://5kvuz1cm60.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+p95 <=3 : non réaliste
+Points Q7 : 3/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22076, points obtenus : 11/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22033
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Tiavina19/poja-big-sum-std22033, branche : preprod
+Vérification du commit : https://github.com/Tiavina19/poja-big-sum-std22033/commits/prod/9ef8421a4d7a9710372d6f0dbb16650a258f7853
+Branche non clonable : preprod
+Clonant : https://github.com/Tiavina19/poja-big-sum-std22033, branche : prod
+Vérification du commit : https://github.com/Tiavina19/poja-big-sum-std22033/commits/prod/9ef8421a4d7a9710372d6f0dbb16650a258f7853
+... clonage réussi dans : /tmp/ExamSession-STD22033-420026001
+Branche non clonable : prod
+Impossible de checkout : https://github.com/Tiavina19/poja-big-sum-std22033/commits/prod/9ef8421a4d7a9710372d6f0dbb16650a258f7853
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Tiavina19/poja-big-sum-std22033, branche : prod
+Vérification du commit : https://github.com/Tiavina19/poja-big-sum-std22033/commits/prod/9ef8421a4d7a9710372d6f0dbb16650a258f7853
+... clonage réussi dans : /tmp/ExamSession-STD22033-711509511
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Tiavina19/poja-big-sum-std22033, branche : prod
+Vérification du commit : https://github.com/Tiavina19/poja-big-sum-std22033/commits/prod/9ef8421a4d7a9710372d6f0dbb16650a258f7853
+... clonage réussi dans : /tmp/ExamSession-STD22033-112576214
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://o5o56ln1xb.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+Branche non clonable : prod
+1+7!=8
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22033, points obtenus : 5/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22077
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Akartis03/poja-big-sum-std22077.git, branche : preprod
+Vérification du commit : https://github.com/Akartis03/poja-big-sum-std22077/commit/9ed8ec2afd1f378c7cf9fcc4ae1630beb03f4bd3
+Branche non clonable : preprod
+Clonant : https://github.com/Akartis03/poja-big-sum-std22077.git, branche : prod
+Vérification du commit : https://github.com/Akartis03/poja-big-sum-std22077/commit/9ed8ec2afd1f378c7cf9fcc4ae1630beb03f4bd3
+... clonage réussi dans : /tmp/ExamSession-STD22077-316266686
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout : https://github.com/Akartis03/poja-big-sum-std22077/commit/9ed8ec2afd1f378c7cf9fcc4ae1630beb03f4bd3
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Akartis03/poja-big-sum-std22077.git, branche : prod
+Vérification du commit : https://github.com/Akartis03/poja-big-sum-std22077/commit/9ed8ec2afd1f378c7cf9fcc4ae1630beb03f4bd3
+... clonage réussi dans : /tmp/ExamSession-STD22077-354185341
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Akartis03/poja-big-sum-std22077.git, branche : prod
+Vérification du commit : https://github.com/Akartis03/poja-big-sum-std22077/commit/9ed8ec2afd1f378c7cf9fcc4ae1630beb03f4bd3
+Branche non clonable : prod
+... clonage réussi dans : /tmp/ExamSession-STD22077-590101511
+Branche non clonable : prod
+baseUri non trouvé
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22077, points obtenus : 3/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22074
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/RianAina/poja-big-sum-std22074, branche : preprod
+Vérification du commit : 6ae8e5fae2f0b3ef8c4e8137071399310c4fe67e
+Branche non clonable : preprod
+Clonant : https://github.com/RianAina/poja-big-sum-std22074, branche : prod
+Vérification du commit : 6ae8e5fae2f0b3ef8c4e8137071399310c4fe67e
+Branche non clonable : prod
+Impossible de checkout : 6ae8e5fae2f0b3ef8c4e8137071399310c4fe67e
+poja.yml non lisible
+Vérification de la version poja
+Points Q3 : 0/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/RianAina/poja-big-sum-std22074, branche : prod
+Vérification du commit : 6ae8e5fae2f0b3ef8c4e8137071399310c4fe67e
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/RianAina/poja-big-sum-std22074, branche : prod
+Vérification du commit : 6ae8e5fae2f0b3ef8c4e8137071399310c4fe67e
+Branche non clonable : prod
+baseUri non trouvé
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+Points Q7 : 0/3
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q8 : 0/2
+p95 <=3 : non réaliste
+[... Correction d'un étudiant] Réf étudiante : STD22074, points obtenus : 2/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22075
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/tendryAxel/poja-big-sum-std22075, branche : preprod
+Vérification du commit : https://github.com/tendryAxel/poja-big-sum-std22075/commit/b81e229a93ebe81548da2beb8e0ff2c10ddaf60a
+Branche non clonable : preprod
+Clonant : https://github.com/tendryAxel/poja-big-sum-std22075, branche : prod
+Vérification du commit : https://github.com/tendryAxel/poja-big-sum-std22075/commit/b81e229a93ebe81548da2beb8e0ff2c10ddaf60a
+... clonage réussi dans : /tmp/ExamSession-STD22075-321332004
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/tendryAxel/poja-big-sum-std22075, branche : prod
+Vérification du commit : https://github.com/tendryAxel/poja-big-sum-std22075/commit/b81e229a93ebe81548da2beb8e0ff2c10ddaf60a
+Branche non clonable : prod
+Impossible de checkout : https://github.com/tendryAxel/poja-big-sum-std22075/commit/b81e229a93ebe81548da2beb8e0ff2c10ddaf60a
+... clonage réussi dans : /tmp/ExamSession-STD22075-45654826
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/tendryAxel/poja-big-sum-std22075, branche : prod
+Vérification du commit : https://github.com/tendryAxel/poja-big-sum-std22075/commit/b81e229a93ebe81548da2beb8e0ff2c10ddaf60a
+Branche non clonable : prod
+... clonage réussi dans : /tmp/ExamSession-STD22075-432013191
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://3l7u6k7fsj.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+Branche non clonable : prod
+1+7==8 ==> 1 points
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 1/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22075, points obtenus : 6/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22073
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Antenaina2002/poja-big-sum-std22073.git, branche : preprod
+Vérification du commit : b1e581ffa950174b1c1944bd15fe0024190f0af8
+Branche non clonable : preprod
+Clonant : https://github.com/Antenaina2002/poja-big-sum-std22073.git, branche : prod
+Vérification du commit : b1e581ffa950174b1c1944bd15fe0024190f0af8
+... clonage réussi dans : /tmp/ExamSession-STD22073-566085299
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Antenaina2002/poja-big-sum-std22073.git, branche : prod
+Vérification du commit : b1e581ffa950174b1c1944bd15fe0024190f0af8
+... clonage réussi dans : /tmp/ExamSession-STD22073-757842220
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Antenaina2002/poja-big-sum-std22073.git, branche : prod
+Vérification du commit : b1e581ffa950174b1c1944bd15fe0024190f0af8
+Job non lisible: Néant
+... clonage réussi dans : /tmp/ExamSession-STD22073-590569708
+cd /tmp/ExamSession-STD22073-590569708 && gh run view 7296666106
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=https://bj3ibqqj3h.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7!=8
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 <=3 : non réaliste
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22073, points obtenus : 5/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22070
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/tanjonaaa/poja-big-sum-std22070, branche : preprod
+Vérification du commit : 897a32553d7adc264082cb1d3d4d3fec73bd4e79
+Branche non clonable : preprod
+Clonant : https://github.com/tanjonaaa/poja-big-sum-std22070, branche : prod
+Vérification du commit : 897a32553d7adc264082cb1d3d4d3fec73bd4e79
+... clonage réussi dans : /tmp/ExamSession-STD22070-764819523
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/tanjonaaa/poja-big-sum-std22070, branche : prod
+Vérification du commit : 897a32553d7adc264082cb1d3d4d3fec73bd4e79
+... clonage réussi dans : /tmp/ExamSession-STD22070-940694679
+cd /tmp/ExamSession-STD22070-940694679 && gh run view 7296600218
+Points Q4 : 1/1
+[Q6] CI ok ?
+Clonant : https://github.com/tanjonaaa/poja-big-sum-std22070, branche : prod
+Vérification du commit : 897a32553d7adc264082cb1d3d4d3fec73bd4e79
+... clonage réussi dans : /tmp/ExamSession-STD22070-101624108
+cd /tmp/ExamSession-STD22070-101624108 && gh run view 7296600222
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=https://ev6o34xtdc.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+Points Q7 : 3/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22070, points obtenus : 13/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22071
+[Theorie]
+Points théorique : 1/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : , branche : preprod
+Clonant : , branche : prod
+Branche non clonable : preprod
+Vérification de la version poja
+Branche non clonable : prod
+Impossible de checkout :
+poja.yml non lisible
+Points Q3 : 0/2
+[Q4] health-check sync-stack ok ?
+Clonant : , branche : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : , branche : prod
+Branche non clonable : prod
+Points Q6 : 0/1
+Branche non clonable : prod
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+Points Q7 : 0/3
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22071, points obtenus : 1/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22119
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/A-Dylan-R/poja-big-sum-std22119, branche : preprod
+Vérification du commit : 0338044119de9b0e947ec3c96686b047418432cf
+Branche non clonable : preprod
+Clonant : https://github.com/A-Dylan-R/poja-big-sum-std22119, branche : prod
+Vérification du commit : 0338044119de9b0e947ec3c96686b047418432cf
+Vérification de la version poja
+Branche non clonable : prod
+Impossible de checkout : 0338044119de9b0e947ec3c96686b047418432cf
+poja.yml non lisible
+Points Q3 : 0/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/A-Dylan-R/poja-big-sum-std22119, branche : prod
+Vérification du commit : 0338044119de9b0e947ec3c96686b047418432cf
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/A-Dylan-R/poja-big-sum-std22119, branche : prod
+Vérification du commit : 0338044119de9b0e947ec3c96686b047418432cf
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://lshdbb9ji8.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+API invocation failed: https://lshdbb9ji8.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7!=8
+API invocation failed: https://lshdbb9ji8.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22119, points obtenus : 6/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22038
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Sun-2302/poja-big-sum-std22038, branche : preprod
+Vérification du commit : 4f4cfae5ff6a37ca22cd8addc7dc67b4bd4e60aa
+Branche non clonable : preprod
+Clonant : https://github.com/Sun-2302/poja-big-sum-std22038, branche : prod
+Vérification du commit : 4f4cfae5ff6a37ca22cd8addc7dc67b4bd4e60aa
+... clonage réussi dans : /tmp/ExamSession-STD22038-545785663
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Sun-2302/poja-big-sum-std22038, branche : prod
+Vérification du commit : 4f4cfae5ff6a37ca22cd8addc7dc67b4bd4e60aa
+... clonage réussi dans : /tmp/ExamSession-STD22038-733119689
+cd /tmp/ExamSession-STD22038-733119689 && gh run view 7296735632
+Points Q4 : 1/1
+[Q6] CI ok ?
+Clonant : https://github.com/Sun-2302/poja-big-sum-std22038, branche : prod
+Vérification du commit : 4f4cfae5ff6a37ca22cd8addc7dc67b4bd4e60aa
+... clonage réussi dans : /tmp/ExamSession-STD22038-866402269
+cd /tmp/ExamSession-STD22038-866402269 && gh run view 19884969978
+Non trouvé :✓ prod CI
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://yo8nrzm907.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+Points Q7 : 3/3
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22038, points obtenus : 10/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22113
+[Theorie]
+Points théorique : 1/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Lalaina0904/poja-big-sum-std22113, branche : preprod
+Vérification du commit : https://github.com/Lalaina0904/poja-big-sum-std22113/commit/1e22102c50a5192b79f45a5ffa2c7b1e2faebbd5
+Branche non clonable : preprod
+Clonant : https://github.com/Lalaina0904/poja-big-sum-std22113, branche : prod
+Vérification du commit : https://github.com/Lalaina0904/poja-big-sum-std22113/commit/1e22102c50a5192b79f45a5ffa2c7b1e2faebbd5
+... clonage réussi dans : /tmp/ExamSession-STD22113-724546089
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout : https://github.com/Lalaina0904/poja-big-sum-std22113/commit/1e22102c50a5192b79f45a5ffa2c7b1e2faebbd5
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Lalaina0904/poja-big-sum-std22113, branche : prod
+Vérification du commit : https://github.com/Lalaina0904/poja-big-sum-std22113/commit/1e22102c50a5192b79f45a5ffa2c7b1e2faebbd5
+... clonage réussi dans : /tmp/ExamSession-STD22113-122665837
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Lalaina0904/poja-big-sum-std22113, branche : prod
+Vérification du commit : https://github.com/Lalaina0904/poja-big-sum-std22113/commit/1e22102c50a5192b79f45a5ffa2c7b1e2faebbd5
+... clonage réussi dans : /tmp/ExamSession-STD22113-588023024
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://pc5r909538.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+Points Q7 : 3/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22113, points obtenus : 7/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22036
+[Theorie]
+Points théorique : 1/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Hevitriniavo/poja-big-sum-std22036, branche : preprod
+Vérification du commit : https://github.com/Hevitriniavo/poja-big-sum-std22036/commit/50a433934c84d26a59f44348cc2dde1855c0b935
+Branche non clonable : preprod
+Clonant : https://github.com/Hevitriniavo/poja-big-sum-std22036, branche : prod
+Vérification du commit : https://github.com/Hevitriniavo/poja-big-sum-std22036/commit/50a433934c84d26a59f44348cc2dde1855c0b935
+... clonage réussi dans : /tmp/ExamSession-STD22036-327086349
+Vérification de la version poja
+Branche non clonable : prod
+Impossible de checkout : https://github.com/Hevitriniavo/poja-big-sum-std22036/commit/50a433934c84d26a59f44348cc2dde1855c0b935
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Hevitriniavo/poja-big-sum-std22036, branche : prod
+Vérification du commit : https://github.com/Hevitriniavo/poja-big-sum-std22036/commit/50a433934c84d26a59f44348cc2dde1855c0b935
+... clonage réussi dans : /tmp/ExamSession-STD22036-709336807
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Hevitriniavo/poja-big-sum-std22036, branche : prod
+Vérification du commit : https://github.com/Hevitriniavo/poja-big-sum-std22036/commit/50a433934c84d26a59f44348cc2dde1855c0b935
+... clonage réussi dans : /tmp/ExamSession-STD22036-66866348
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=
+baseUri non trouvé
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 <=3 : non réaliste
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22036, points obtenus : 2/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22037
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Rafaliarison/poja-big-sum-std22037.git, branche : preprod
+Vérification du commit : null
+Branche non clonable : preprod
+Clonant : https://github.com/Rafaliarison/poja-big-sum-std22037.git, branche : prod
+Vérification du commit : null
+... clonage réussi dans : /tmp/ExamSession-STD22037-760121713
+Vérification de la version poja
+Impossible de checkout : null
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Rafaliarison/poja-big-sum-std22037.git, branche : prod
+Vérification du commit : null
+... clonage réussi dans : /tmp/ExamSession-STD22037-468004199
+Job non lisible: null
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Rafaliarison/poja-big-sum-std22037.git, branche : prod
+Vérification du commit : null
+... clonage réussi dans : /tmp/ExamSession-STD22037-328144287
+Job non lisible: null
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+p95 non lisible
+Points Q8 : 0/2
+p95 <=3 : non réaliste
+[... Correction d'un étudiant] Réf étudiante : STD22037, points obtenus : 4/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22023
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Tiana-Finaritra/poja-big-sum-std22023.git, branche : preprod
+Vérification du commit : https://github.com/Tiana-Finaritra/poja-big-sum-std22023/commit/90c682232185252b298762ba2b3112f1b51c26cb
+Branche non clonable : preprod
+Clonant : https://github.com/Tiana-Finaritra/poja-big-sum-std22023.git, branche : prod
+Vérification du commit : https://github.com/Tiana-Finaritra/poja-big-sum-std22023/commit/90c682232185252b298762ba2b3112f1b51c26cb
+... clonage réussi dans : /tmp/ExamSession-STD22023-743836965
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout : https://github.com/Tiana-Finaritra/poja-big-sum-std22023/commit/90c682232185252b298762ba2b3112f1b51c26cb
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Tiana-Finaritra/poja-big-sum-std22023.git, branche : prod
+Vérification du commit : https://github.com/Tiana-Finaritra/poja-big-sum-std22023/commit/90c682232185252b298762ba2b3112f1b51c26cb
+... clonage réussi dans : /tmp/ExamSession-STD22023-619565795
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Tiana-Finaritra/poja-big-sum-std22023.git, branche : prod
+Vérification du commit : https://github.com/Tiana-Finaritra/poja-big-sum-std22023/commit/90c682232185252b298762ba2b3112f1b51c26cb
+... clonage réussi dans : /tmp/ExamSession-STD22023-265827399
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+Points Q7 : 0/3
+Points Q8 : 2/2
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+[... Correction d'un étudiant] Réf étudiante : STD22023, points obtenus : 7/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22100
+[Theorie]
+Points théorique : 1/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Maminiainaando/-poja-big-sum-std22100.git, branche : preprod
+Vérification du commit : /6bc70303ec2405977d74827878f7d77e1d839865
+Branche non clonable : preprod
+Clonant : https://github.com/Maminiainaando/-poja-big-sum-std22100.git, branche : prod
+Vérification du commit : /6bc70303ec2405977d74827878f7d77e1d839865
+... clonage réussi dans : /tmp/ExamSession-STD22100-598829221
+Vérification de la version poja
+Branche non clonable : prod
+Impossible de checkout : /6bc70303ec2405977d74827878f7d77e1d839865
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Maminiainaando/-poja-big-sum-std22100.git, branche : prod
+Vérification du commit : /6bc70303ec2405977d74827878f7d77e1d839865
+... clonage réussi dans : /tmp/ExamSession-STD22100-20874893
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Maminiainaando/-poja-big-sum-std22100.git, branche : prod
+Vérification du commit : /6bc70303ec2405977d74827878f7d77e1d839865
+... clonage réussi dans : /tmp/ExamSession-STD22100-991793994
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22100, points obtenus : 4/13
+
+[Correction d'un étudiant...] Réf étudiante : STD21099
+[Theorie]
+Points théorique : 1/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Daris02/poja-big-sum-std21099, branche : preprod
+Vérification du commit : https://github.com/Daris02/poja-big-sum-std21099/commit/f6e3ac034e72cbcab2ba00fa945e353e4c472fca
+... clonage réussi dans : /tmp/ExamSession-STD21099-750641404
+Branche non clonable : preprod
+Clonant : https://github.com/Daris02/poja-big-sum-std21099, branche : prod
+Vérification du commit : https://github.com/Daris02/poja-big-sum-std21099/commit/f6e3ac034e72cbcab2ba00fa945e353e4c472fca
+... clonage réussi dans : /tmp/ExamSession-STD21099-895814087
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout : https://github.com/Daris02/poja-big-sum-std21099/commit/f6e3ac034e72cbcab2ba00fa945e353e4c472fca
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Daris02/poja-big-sum-std21099, branche : prod
+Vérification du commit : https://github.com/Daris02/poja-big-sum-std21099/commit/f6e3ac034e72cbcab2ba00fa945e353e4c472fca
+... clonage réussi dans : /tmp/ExamSession-STD21099-319143554
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Daris02/poja-big-sum-std21099, branche : prod
+Vérification du commit : https://github.com/Daris02/poja-big-sum-std21099/commit/f6e3ac034e72cbcab2ba00fa945e353e4c472fca
+... clonage réussi dans : /tmp/ExamSession-STD21099-507963596
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://uq4uqkwl2e.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+Points Q7 : 3/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD21099, points obtenus : 7/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22101
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/II-Chelmi-II/poja-big-sum-std22101.git, branche : preprod
+Vérification du commit : 33e479cb96be7a1b2352ed36c5c05ce451e98aff
+Branche non clonable : preprod
+Clonant : https://github.com/II-Chelmi-II/poja-big-sum-std22101.git, branche : prod
+Vérification du commit : 33e479cb96be7a1b2352ed36c5c05ce451e98aff
+... clonage réussi dans : /tmp/ExamSession-STD22101-310655028
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/II-Chelmi-II/poja-big-sum-std22101.git, branche : prod
+Vérification du commit : 33e479cb96be7a1b2352ed36c5c05ce451e98aff
+... clonage réussi dans : /tmp/ExamSession-STD22101-292725229
+cd /tmp/ExamSession-STD22101-292725229 && gh run view actions
+Non trouvé : ✓ check-sync-stack && jobId=7296884039
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/II-Chelmi-II/poja-big-sum-std22101.git, branche : prod
+Vérification du commit : 33e479cb96be7a1b2352ed36c5c05ce451e98aff
+... clonage réussi dans : /tmp/ExamSession-STD22101-79618103
+cd /tmp/ExamSession-STD22101-79618103 && gh run view ci.yml
+Non trouvé :✓ prod CI
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=
+baseUri non trouvé
+API invocation failed:
+1+7!=8
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22101, points obtenus : 6/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22065
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/junkaM/poja-big-sum-std22065.git, branche : preprod
+Vérification du commit : 3330b18d67a5e64e74e4625c856c03224bd9656b
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Branche non clonable : preprod
+Clonant : https://github.com/junkaM/poja-big-sum-std22065.git, branche : prod
+Vérification du commit : 3330b18d67a5e64e74e4625c856c03224bd9656b
+... clonage réussi dans : /tmp/ExamSession-STD22065-43877338
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/junkaM/poja-big-sum-std22065.git, branche : prod
+Vérification du commit : 3330b18d67a5e64e74e4625c856c03224bd9656b
+... clonage réussi dans : /tmp/ExamSession-STD22065-543346472
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/junkaM/poja-big-sum-std22065.git, branche : prod
+Vérification du commit : 3330b18d67a5e64e74e4625c856c03224bd9656b
+Job non lisible:
+... clonage réussi dans : /tmp/ExamSession-STD22065-220342207
+cd /tmp/ExamSession-STD22065-220342207 && gh run view ci.yml
+Non trouvé :✓ prod CI
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=
+baseUri non trouvé
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 0/2
+p95 non lisible
+p95 <=3 : non réaliste
+[... Correction d'un étudiant] Réf étudiante : STD22065, points obtenus : 4/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22022
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/DinahFitiavana/poja-big-sum-std22022.git, branche : preprod
+Vérification du commit : https://github.com/DinahFitiavana/poja-big-sum-std22022/commit/eac67e7c075785af5350a340d4e53ba0408e2fd3
+Branche non clonable : preprod
+Clonant : https://github.com/DinahFitiavana/poja-big-sum-std22022.git, branche : prod
+Vérification du commit : https://github.com/DinahFitiavana/poja-big-sum-std22022/commit/eac67e7c075785af5350a340d4e53ba0408e2fd3
+... clonage réussi dans : /tmp/ExamSession-STD22022-961679615
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout : https://github.com/DinahFitiavana/poja-big-sum-std22022/commit/eac67e7c075785af5350a340d4e53ba0408e2fd3
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/DinahFitiavana/poja-big-sum-std22022.git, branche : prod
+Vérification du commit : https://github.com/DinahFitiavana/poja-big-sum-std22022/commit/eac67e7c075785af5350a340d4e53ba0408e2fd3
+... clonage réussi dans : /tmp/ExamSession-STD22022-979271302
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/DinahFitiavana/poja-big-sum-std22022.git, branche : prod
+Vérification du commit : https://github.com/DinahFitiavana/poja-big-sum-std22022/commit/eac67e7c075785af5350a340d4e53ba0408e2fd3
+... clonage réussi dans : /tmp/ExamSession-STD22022-512490112
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22022, points obtenus : 3/13
+
+[Correction d'un étudiant...] Réf étudiante : STD21010
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/EspereJonathan/poja-big-sum-std21010, branche : preprod
+Vérification du commit :
+Branche non clonable : preprod
+Clonant : https://github.com/EspereJonathan/poja-big-sum-std21010, branche : prod
+Vérification du commit :
+... clonage réussi dans : /tmp/ExamSession-STD21010-694557370
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout :
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/EspereJonathan/poja-big-sum-std21010, branche : prod
+Vérification du commit :
+... clonage réussi dans : /tmp/ExamSession-STD21010-334545860
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/EspereJonathan/poja-big-sum-std21010, branche : prod
+Vérification du commit :
+... clonage réussi dans : /tmp/ExamSession-STD21010-581812890
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 <=3 : non réaliste
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD21010, points obtenus : 3/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22064
+[Theorie]
+Points théorique : 3/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/josiaJj/poja-big-sum-std22064, branche : preprod
+Vérification du commit : ab073a9109c54501d1ebd79d9dab4a15e2ac4d42
+Branche non clonable : preprod
+Clonant : https://github.com/josiaJj/poja-big-sum-std22064, branche : prod
+Vérification du commit : ab073a9109c54501d1ebd79d9dab4a15e2ac4d42
+... clonage réussi dans : /tmp/ExamSession-STD22064-290004610
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout : ab073a9109c54501d1ebd79d9dab4a15e2ac4d42
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/josiaJj/poja-big-sum-std22064, branche : prod
+Vérification du commit : ab073a9109c54501d1ebd79d9dab4a15e2ac4d42
+... clonage réussi dans : /tmp/ExamSession-STD22064-306385282
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/josiaJj/poja-big-sum-std22064, branche : prod
+Vérification du commit : ab073a9109c54501d1ebd79d9dab4a15e2ac4d42
+... clonage réussi dans : /tmp/ExamSession-STD22064-420856810
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22064, points obtenus : 4/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22020
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Nante1805/poja-big-sum-std22020, branche : preprod
+Vérification du commit :
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Branche non clonable : preprod
+Clonant : https://github.com/Nante1805/poja-big-sum-std22020, branche : prod
+Vérification du commit :
+... clonage réussi dans : /tmp/ExamSession-STD22020-657361215
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout :
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Nante1805/poja-big-sum-std22020, branche : prod
+Vérification du commit :
+... clonage réussi dans : /tmp/ExamSession-STD22020-760928439
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Nante1805/poja-big-sum-std22020, branche : prod
+Vérification du commit :
+... clonage réussi dans : /tmp/ExamSession-STD22020-912969973
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22020, points obtenus : 7/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22062
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Salohyy212/poja-big-sum-std22062.git, branche : preprod
+Vérification du commit : f24189a4d5e890514d01a69c08e9d494d75360aa
+Branche non clonable : preprod
+Clonant : https://github.com/Salohyy212/poja-big-sum-std22062.git, branche : prod
+Vérification du commit : f24189a4d5e890514d01a69c08e9d494d75360aa
+... clonage réussi dans : /tmp/ExamSession-STD22062-965725327
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Salohyy212/poja-big-sum-std22062.git, branche : prod
+Vérification du commit : f24189a4d5e890514d01a69c08e9d494d75360aa
+... clonage réussi dans : /tmp/ExamSession-STD22062-857000607
+cd /tmp/ExamSession-STD22062-857000607 && gh run view 7290015001
+Non trouvé : ✓ check-sync-stack && jobId=19867298516
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Salohyy212/poja-big-sum-std22062.git, branche : prod
+Vérification du commit : f24189a4d5e890514d01a69c08e9d494d75360aa
+... clonage réussi dans : /tmp/ExamSession-STD22062-847230957
+cd /tmp/ExamSession-STD22062-847230957 && gh run view 19884686271
+Non trouvé :✓ prod CI
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://vfjts28ohg.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+API invocation failed: https://vfjts28ohg.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7!=8
+API invocation failed: https://vfjts28ohg.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22062, points obtenus : 4/13
+
+[Correction d'un étudiant...] Réf étudiante : STD21092
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Safidy-Randriantseheno/poja-big-sum-std21092.git, branche : preprod
+Vérification du commit : 637c791bcb7949790d436832369c257d33bcca55
+Branche non clonable : preprod
+Clonant : https://github.com/Safidy-Randriantseheno/poja-big-sum-std21092.git, branche : prod
+Vérification du commit : 637c791bcb7949790d436832369c257d33bcca55
+... clonage réussi dans : /tmp/ExamSession-STD21092-359951159
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Safidy-Randriantseheno/poja-big-sum-std21092.git, branche : prod
+Vérification du commit : 637c791bcb7949790d436832369c257d33bcca55
+... clonage réussi dans : /tmp/ExamSession-STD21092-868187910
+cd /tmp/ExamSession-STD21092-868187910 && gh run view 7296823521
+Points Q4 : 1/1
+[Q6] CI ok ?
+Clonant : https://github.com/Safidy-Randriantseheno/poja-big-sum-std21092.git, branche : prod
+Vérification du commit : 637c791bcb7949790d436832369c257d33bcca55
+... clonage réussi dans : /tmp/ExamSession-STD21092-934339683
+cd /tmp/ExamSession-STD21092-934339683 && gh run view 19884651745
+Non trouvé :✓ prod CI
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://t5zx9n11ic.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+Points Q7 : 3/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD21092, points obtenus : 12/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22060
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Artahal01/poja-big-sum-std22060.git, branche : preprod
+Vérification du commit : 3e89a9cf27049c1988bef20228d42d55036c004f
+Branche non clonable : preprod
+Clonant : https://github.com/Artahal01/poja-big-sum-std22060.git, branche : prod
+Vérification du commit : 3e89a9cf27049c1988bef20228d42d55036c004f
+Vérification de la version poja
+Branche non clonable : prod
+Impossible de checkout : 3e89a9cf27049c1988bef20228d42d55036c004f
+poja.yml non lisible
+Points Q3 : 0/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Artahal01/poja-big-sum-std22060.git, branche : prod
+Vérification du commit : 3e89a9cf27049c1988bef20228d42d55036c004f
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Artahal01/poja-big-sum-std22060.git, branche : prod
+Vérification du commit : 3e89a9cf27049c1988bef20228d42d55036c004f
+Branche non clonable : prod
+Points Q6 : 0/1
+baseUri non trouvé
+[Q7] Grosse addition marche ?
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+Points Q7 : 0/3
+Points Q8 : 0/2
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 <=3 : non réaliste
+[... Correction d'un étudiant] Réf étudiante : STD22060, points obtenus : 2/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22108
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Ramananolo/poja-big-sum-std22108..git, branche : preprod
+Vérification du commit : https://github.com/Ramananolo/poja-big-sum-std22108./commit/e4664c264b6bb619a8a9d977454fd60bb4765475
+Branche non clonable : preprod
+Clonant : https://github.com/Ramananolo/poja-big-sum-std22108..git, branche : prod
+Vérification du commit : https://github.com/Ramananolo/poja-big-sum-std22108./commit/e4664c264b6bb619a8a9d977454fd60bb4765475
+... clonage réussi dans : /tmp/ExamSession-STD22108-956353435
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout : https://github.com/Ramananolo/poja-big-sum-std22108./commit/e4664c264b6bb619a8a9d977454fd60bb4765475
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Ramananolo/poja-big-sum-std22108..git, branche : prod
+Vérification du commit : https://github.com/Ramananolo/poja-big-sum-std22108./commit/e4664c264b6bb619a8a9d977454fd60bb4765475
+... clonage réussi dans : /tmp/ExamSession-STD22108-55594076
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Ramananolo/poja-big-sum-std22108..git, branche : prod
+Vérification du commit : https://github.com/Ramananolo/poja-big-sum-std22108./commit/e4664c264b6bb619a8a9d977454fd60bb4765475
+... clonage réussi dans : /tmp/ExamSession-STD22108-990448810
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22108, points obtenus : 3/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22109
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/TsioryRasoloarijaona/poja-sqlite, branche : preprod
+Vérification du commit : 4707275cb936e1c19e9a3634c459623db2d093d5
+Branche non clonable : preprod
+Clonant : https://github.com/TsioryRasoloarijaona/poja-sqlite, branche : prod
+Vérification du commit : 4707275cb936e1c19e9a3634c459623db2d093d5
+... clonage réussi dans : /tmp/ExamSession-STD22109-879107422
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/TsioryRasoloarijaona/poja-sqlite, branche : prod
+Vérification du commit : 4707275cb936e1c19e9a3634c459623db2d093d5
+... clonage réussi dans : /tmp/ExamSession-STD22109-855583442
+cd /tmp/ExamSession-STD22109-855583442 && gh run view 7296641035
+Points Q4 : 1/1
+[Q6] CI ok ?
+Clonant : https://github.com/TsioryRasoloarijaona/poja-sqlite, branche : prod
+Vérification du commit : 4707275cb936e1c19e9a3634c459623db2d093d5
+... clonage réussi dans : /tmp/ExamSession-STD22109-622617881
+cd /tmp/ExamSession-STD22109-622617881 && gh run view 7296669712
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=https://oh8njb3gc4.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7!=8
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22109, points obtenus : 8/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22029
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Rado23-04/poja-big-sum-std22029, branche : preprod
+Vérification du commit : 44afe9c0a0b956677e2e7ecaa03743913061837c
+Branche non clonable : preprod
+Clonant : https://github.com/Rado23-04/poja-big-sum-std22029, branche : prod
+Vérification du commit : 44afe9c0a0b956677e2e7ecaa03743913061837c
+... clonage réussi dans : /tmp/ExamSession-STD22029-13352820
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Rado23-04/poja-big-sum-std22029, branche : prod
+Vérification du commit : 44afe9c0a0b956677e2e7ecaa03743913061837c
+... clonage réussi dans : /tmp/ExamSession-STD22029-317845579
+cd /tmp/ExamSession-STD22029-317845579 && gh run view 7296610032
+Points Q4 : 1/1
+[Q6] CI ok ?
+Clonant : https://github.com/Rado23-04/poja-big-sum-std22029, branche : prod
+Vérification du commit : 44afe9c0a0b956677e2e7ecaa03743913061837c
+... clonage réussi dans : /tmp/ExamSession-STD22029-587430942
+cd /tmp/ExamSession-STD22029-587430942 && gh run view 19884558036
+Non trouvé :✓ prod CI
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://vb2fucger2.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7!=8
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22029, points obtenus : 9/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22106
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Tokiniainaa/poja-big-sum-std22106, branche : preprod
+Vérification du commit : 649c893b6279c74fb9687f3a00d9386e409f43b2
+Branche non clonable : preprod
+Clonant : https://github.com/Tokiniainaa/poja-big-sum-std22106, branche : prod
+Vérification du commit : 649c893b6279c74fb9687f3a00d9386e409f43b2
+... clonage réussi dans : /tmp/ExamSession-STD22106-586442088
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Tokiniainaa/poja-big-sum-std22106, branche : prod
+Vérification du commit : 649c893b6279c74fb9687f3a00d9386e409f43b2
+... clonage réussi dans : /tmp/ExamSession-STD22106-509249382
+cd /tmp/ExamSession-STD22106-509249382 && gh run view 7296653741
+Points Q4 : 1/1
+[Q6] CI ok ?
+Clonant : https://github.com/Tokiniainaa/poja-big-sum-std22106, branche : prod
+Vérification du commit : 649c893b6279c74fb9687f3a00d9386e409f43b2
+... clonage réussi dans : /tmp/ExamSession-STD22106-926603215
+cd /tmp/ExamSession-STD22106-926603215 && gh run view 19884602667
+Non trouvé :✓ prod CI
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22106, points obtenus : 9/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22107
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Artiana01/poja-big-sum-std22107.git, branche : preprod
+Vérification du commit : af59dbb176fa15b836d04fc909abe3e4eb2a1487
+Branche non clonable : preprod
+Clonant : https://github.com/Artiana01/poja-big-sum-std22107.git, branche : prod
+Vérification du commit : af59dbb176fa15b836d04fc909abe3e4eb2a1487
+... clonage réussi dans : /tmp/ExamSession-STD22107-810229704
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Artiana01/poja-big-sum-std22107.git, branche : prod
+Vérification du commit : af59dbb176fa15b836d04fc909abe3e4eb2a1487
+... clonage réussi dans : /tmp/ExamSession-STD22107-44112551
+cd /tmp/ExamSession-STD22107-44112551 && gh run view 7296526692
+Non trouvé : ✓ check-sync-stack && jobId=19885567152
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Artiana01/poja-big-sum-std22107.git, branche : prod
+Vérification du commit : af59dbb176fa15b836d04fc909abe3e4eb2a1487
+... clonage réussi dans : /tmp/ExamSession-STD22107-841826593
+cd /tmp/ExamSession-STD22107-841826593 && gh run view 7296703233
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=https://ihbatnuqbi.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7!=8
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 <=3 : non réaliste
+Points Q7 : 0/3
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22107, points obtenus : 7/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22027
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/Astna17/-poja-big-sum-std22027, branche : preprod
+Vérification du commit : https://github.com/Astna17/-poja-big-sum-std22027/commit/03916436b99ed4e966522ecb746706122658714b
+Branche non clonable : preprod
+Clonant : https://github.com/Astna17/-poja-big-sum-std22027, branche : prod
+Vérification du commit : https://github.com/Astna17/-poja-big-sum-std22027/commit/03916436b99ed4e966522ecb746706122658714b
+... clonage réussi dans : /tmp/ExamSession-STD22027-251282114
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout : https://github.com/Astna17/-poja-big-sum-std22027/commit/03916436b99ed4e966522ecb746706122658714b
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Astna17/-poja-big-sum-std22027, branche : prod
+Vérification du commit : https://github.com/Astna17/-poja-big-sum-std22027/commit/03916436b99ed4e966522ecb746706122658714b
+... clonage réussi dans : /tmp/ExamSession-STD22027-381250595
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Astna17/-poja-big-sum-std22027, branche : prod
+Vérification du commit : https://github.com/Astna17/-poja-big-sum-std22027/commit/03916436b99ed4e966522ecb746706122658714b
+... clonage réussi dans : /tmp/ExamSession-STD22027-518055462
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22027, points obtenus : 5/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22104
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/bonarson/poja-big-sum-std22104.git, branche : preprod
+Vérification du commit : ea3bab733462b9a8c8bb149b8375e886c320cce5
+Branche non clonable : preprod
+Clonant : https://github.com/bonarson/poja-big-sum-std22104.git, branche : prod
+Vérification du commit : ea3bab733462b9a8c8bb149b8375e886c320cce5
+... clonage réussi dans : /tmp/ExamSession-STD22104-536995601
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/bonarson/poja-big-sum-std22104.git, branche : prod
+Vérification du commit : ea3bab733462b9a8c8bb149b8375e886c320cce5
+... clonage réussi dans : /tmp/ExamSession-STD22104-315675643
+cd /tmp/ExamSession-STD22104-315675643 && gh run view actions
+Non trouvé : ✓ check-sync-stack && jobId=cd-storage-bucket.yml
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/bonarson/poja-big-sum-std22104.git, branche : prod
+Vérification du commit : ea3bab733462b9a8c8bb149b8375e886c320cce5
+... clonage réussi dans : /tmp/ExamSession-STD22104-688233328
+cd /tmp/ExamSession-STD22104-688233328 && gh run view 7296531299
+Non trouvé :✓ prod CI
+Points Q6 : 0/1
+baseUri non trouvé
+[Q7] Grosse addition marche ?
+baseUri=
+Points Q7 : 0/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22104, points obtenus : 6/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22105
+[Theorie]
+Points théorique : 4/4
+API invocation failed:
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+1+7!=8
+Clonant : https://github.com/Rjonathan03t/poja-big-sum-std22105, branche : preprod
+API invocation failed:
+Vérification du commit : https://github.com/Rjonathan03t/poja-big-sum-std22105/commit/d7b4eb53c2b9ac7fa962a643c417b18ed4faca95
+100000000000000000000000000000+7!=100000000000000000000000000007
+Branche non clonable : preprod
+Clonant : https://github.com/Rjonathan03t/poja-big-sum-std22105, branche : prod
+Vérification du commit : https://github.com/Rjonathan03t/poja-big-sum-std22105/commit/d7b4eb53c2b9ac7fa962a643c417b18ed4faca95
+... clonage réussi dans : /tmp/ExamSession-STD22105-255806972
+Branche non clonable : prod
+Impossible de checkout : https://github.com/Rjonathan03t/poja-big-sum-std22105/commit/d7b4eb53c2b9ac7fa962a643c417b18ed4faca95
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/Rjonathan03t/poja-big-sum-std22105, branche : prod
+Vérification du commit : https://github.com/Rjonathan03t/poja-big-sum-std22105/commit/d7b4eb53c2b9ac7fa962a643c417b18ed4faca95
+... clonage réussi dans : /tmp/ExamSession-STD22105-727475469
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/Rjonathan03t/poja-big-sum-std22105, branche : prod
+Vérification du commit : https://github.com/Rjonathan03t/poja-big-sum-std22105/commit/d7b4eb53c2b9ac7fa962a643c417b18ed4faca95
+... clonage réussi dans : /tmp/ExamSession-STD22105-583289580
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri=https://nduqv5fa0f.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7!=8
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22105, points obtenus : 7/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22028
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/AndyPendragon/poja-big-sum-std22028.git, branche : preprod
+Vérification du commit : a59f50ebe615ecd56613ab9a296293a2ae56e3cb
+Branche non clonable : preprod
+Clonant : https://github.com/AndyPendragon/poja-big-sum-std22028.git, branche : prod
+Vérification du commit : a59f50ebe615ecd56613ab9a296293a2ae56e3cb
+... clonage réussi dans : /tmp/ExamSession-STD22028-926283337
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/AndyPendragon/poja-big-sum-std22028.git, branche : prod
+Vérification du commit : a59f50ebe615ecd56613ab9a296293a2ae56e3cb
+... clonage réussi dans : /tmp/ExamSession-STD22028-893567205
+cd /tmp/ExamSession-STD22028-893567205 && gh run view 7296997483
+Points Q4 : 1/1
+[Q6] CI ok ?
+Clonant : https://github.com/AndyPendragon/poja-big-sum-std22028.git, branche : prod
+Vérification du commit : a59f50ebe615ecd56613ab9a296293a2ae56e3cb
+... clonage réussi dans : /tmp/ExamSession-STD22028-943462286
+cd /tmp/ExamSession-STD22028-943462286 && gh run view 7296878405
+baseUri non trouvé
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22028, points obtenus : 10/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22069
+[Theorie]
+Points théorique : 1/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/sanda03/poja-big-sum-std22069, branche : preprod
+Vérification du commit : https://github.com/sanda03/poja-big-sum-std22069/commit/9b4c8552492977e3e406ab34ea619384b61dda7a
+Clonant : https://github.com/sanda03/poja-big-sum-std22069, branche : prod
+Branche non clonable : preprod
+Vérification du commit : https://github.com/sanda03/poja-big-sum-std22069/commit/9b4c8552492977e3e406ab34ea619384b61dda7a
+... clonage réussi dans : /tmp/ExamSession-STD22069-207728924
+Branche non clonable : prod
+Vérification de la version poja
+Impossible de checkout : https://github.com/sanda03/poja-big-sum-std22069/commit/9b4c8552492977e3e406ab34ea619384b61dda7a
+Bonne version de poja
+Points Q3 : 1/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/sanda03/poja-big-sum-std22069, branche : prod
+Vérification du commit : https://github.com/sanda03/poja-big-sum-std22069/commit/9b4c8552492977e3e406ab34ea619384b61dda7a
+... clonage réussi dans : /tmp/ExamSession-STD22069-442434638
+Branche non clonable : prod
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/sanda03/poja-big-sum-std22069, branche : prod
+Vérification du commit : https://github.com/sanda03/poja-big-sum-std22069/commit/9b4c8552492977e3e406ab34ea619384b61dda7a
+... clonage réussi dans : /tmp/ExamSession-STD22069-580479367
+Branche non clonable : prod
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+100000000000000000000000000000+7!=100000000000000000000000000007
+Points Q7 : 0/3
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22069, points obtenus : 2/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22025
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/RotsyMandrindra/poja-big-sum-std22025, branche : preprod
+Vérification du commit : 527594134dba2ff1fba8abfeac3e5b414ca021c9
+Branche non clonable : preprod
+Clonant : https://github.com/RotsyMandrindra/poja-big-sum-std22025, branche : prod
+Vérification du commit : 527594134dba2ff1fba8abfeac3e5b414ca021c9
+... clonage réussi dans : /tmp/ExamSession-STD22025-104048542
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/RotsyMandrindra/poja-big-sum-std22025, branche : prod
+Vérification du commit : 527594134dba2ff1fba8abfeac3e5b414ca021c9
+... clonage réussi dans : /tmp/ExamSession-STD22025-337621438
+cd /tmp/ExamSession-STD22025-337621438 && gh run view 7296991062
+Non trouvé : ✓ check-sync-stack && jobId=19885575115
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/RotsyMandrindra/poja-big-sum-std22025, branche : prod
+Vérification du commit : 527594134dba2ff1fba8abfeac3e5b414ca021c9
+... clonage réussi dans : /tmp/ExamSession-STD22025-574857418
+Job non lisible: https://github.com/RotsyMandrindra/poja-big-sum-std22025/actions/runs/7296991062/job/19885575115
+Points Q6 : 0/1
+[Q7] Grosse addition marche ?
+baseUri non trouvé
+baseUri=
+API invocation failed:
+1+7!=8
+API invocation failed:
+Points Q7 : 0/3
+100000000000000000000000000000+7!=100000000000000000000000000007
+p95 non lisible
+p95 <=3 : non réaliste
+Points Q8 : 0/2
+[... Correction d'un étudiant] Réf étudiante : STD22025, points obtenus : 4/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22103
+[Theorie]
+Points théorique : 4/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/HRojotiana/poja-big-sum-std22103.git, branche : preprod
+Vérification du commit : 78cd88e1d59806df16f8087725c89053f74a41f8
+Branche non clonable : preprod
+Clonant : https://github.com/HRojotiana/poja-big-sum-std22103.git, branche : prod
+Vérification du commit : 78cd88e1d59806df16f8087725c89053f74a41f8
+... clonage réussi dans : /tmp/ExamSession-STD22103-772958508
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/HRojotiana/poja-big-sum-std22103.git, branche : prod
+Vérification du commit : 78cd88e1d59806df16f8087725c89053f74a41f8
+... clonage réussi dans : /tmp/ExamSession-STD22103-112667583
+cd /tmp/ExamSession-STD22103-112667583 && gh run view 7296749197
+Points Q4 : 1/1
+[Q6] CI ok ?
+Clonant : https://github.com/HRojotiana/poja-big-sum-std22103.git, branche : prod
+Vérification du commit : 78cd88e1d59806df16f8087725c89053f74a41f8
+... clonage réussi dans : /tmp/ExamSession-STD22103-568553727
+cd /tmp/ExamSession-STD22103-568553727 && gh run view 7296633132
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=https://y5g0ojokl1.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+Points Q7 : 3/3
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22103, points obtenus : 13/13
+
+[Correction d'un étudiant...] Réf étudiante : STD22026
+[Theorie]
+Points théorique : 2/4
+[Q3a et Q3b] Utilise poja 8.0.x ou 9.0.x ?
+Clonant : https://github.com/rasoanirinamialisoa/poja-big-sum-std22026, branche : preprod
+Vérification du commit : 495add1397a45587fc7fd3855a8ec9ca11af2b22
+Branche non clonable : preprod
+Clonant : https://github.com/rasoanirinamialisoa/poja-big-sum-std22026, branche : prod
+Vérification du commit : 495add1397a45587fc7fd3855a8ec9ca11af2b22
+... clonage réussi dans : /tmp/ExamSession-STD22026-694238117
+Vérification de la version poja
+Bonne version de poja
+Points Q3 : 2/2
+[Q4] health-check sync-stack ok ?
+Clonant : https://github.com/rasoanirinamialisoa/poja-big-sum-std22026, branche : prod
+Vérification du commit : 495add1397a45587fc7fd3855a8ec9ca11af2b22
+... clonage réussi dans : /tmp/ExamSession-STD22026-948339249
+cd /tmp/ExamSession-STD22026-948339249 && gh run view 7296720854
+Non trouvé : ✓ check-sync-stack && jobId=19884911903
+Points Q4 : 0/1
+[Q6] CI ok ?
+Clonant : https://github.com/rasoanirinamialisoa/poja-big-sum-std22026, branche : prod
+Vérification du commit : 495add1397a45587fc7fd3855a8ec9ca11af2b22
+... clonage réussi dans : /tmp/ExamSession-STD22026-770433324
+cd /tmp/ExamSession-STD22026-770433324 && gh run view 7296720851
+Points Q6 : 1/1
+[Q7] Grosse addition marche ?
+baseUri=https://io6ekumw57.execute-api.eu-west-3.amazonaws.com/Prod/big-sum
+1+7==8 ==> 1 points
+100000000000000000000000000000+7==100000000000000000000000000007 ==> 2 points
+Points Q7 : 3/3
+Points Q8 : 2/2
+[... Correction d'un étudiant] Réf étudiante : STD22026, points obtenus : 10/13
+
+
+##################################
+##################################
+
+Toutes les notes...
+
+STD22012,4
+STD22056,4
+STD21089,9
+STD22057,5
+STD22054,8
+STD22098,5
+STD22099,6
+STD22055,4
+STD22052,7
+STD22096,2
+STD21084,7
+STD22097,4
+STD22050,5
+STD22095,6
+STD22093,3
+STD22090,3
+STD22019,10
+STD22016,3
+STD22017,10
+STD22058,2
+STD22059,5
+STD22089,7
+STD22001,5
+STD22045,5
+STD22046,3
+STD22087,4
+STD22043,8
+STD22044,3
+STD22085,3
+STD22086,12
+STD22083,4
+STD21071,7
+STD22081,13
+STD22082,5
+STD22080,7
+STD22007,11
+STD22005,10
+STD22006,6
+STD22047,3
+STD22048,7
+STD22078,8
+STD22079,10
+STD22035,2
+STD22076,11
+STD22033,5
+STD22077,3
+STD22074,2
+STD22075,6
+STD22073,5
+STD22070,13
+STD22071,1
+STD22119,6
+STD22038,10
+STD22113,7
+STD22036,2
+STD22037,4
+STD22023,7
+STD22100,4
+STD21099,7
+STD22101,6
+STD22065,4
+STD22022,3
+STD21010,3
+STD22064,4
+STD22020,7
+STD22062,4
+STD21092,12
+STD22060,2
+STD22108,3
+STD22109,8
+STD22029,9
+STD22106,9
+STD22107,7
+STD22027,5
+STD22104,6
+STD22105,7
+STD22028,10
+STD22069,2
+STD22025,4
+STD22103,13
+STD22026,10
+
+Process finished with exit code 0
