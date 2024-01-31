@@ -15,16 +15,16 @@ import java.util.Map;
 
 import static java.lang.Integer.parseInt;
 import static java.net.http.HttpClient.newHttpClient;
-import static school.hei.corrector.bigsum.ExamSession231221.SCORE_PER_STUDENT;
+import static school.hei.corrector.bigsum.ExamSessionBigSum.SCORE_PER_STUDENT;
 import static school.hei.utils.Utils.branchMustHaveCommit;
 import static school.hei.utils.Utils.execShCmdIn1mn;
 import static school.hei.utils.Utils.randomRepoName;
 import static school.hei.utils.Utils.saveScore;
 
-public class StdAnswers231221 implements StdAnswers {
+public abstract class StdAnswersBigSum implements StdAnswers {
   private final String stdRef, theory, q3a, q3b, q4, q6, q7a, q7b, q8a;
 
-  public StdAnswers231221(String stdRef,
+  public StdAnswersBigSum(String stdRef,
                           String theory,
                           String q3a, String q3b, String q4, String q6, String q7a, String q7b, String q8a) {
     this.stdRef = stdRef;
@@ -55,13 +55,17 @@ public class StdAnswers231221 implements StdAnswers {
     score = score + correctQ7();
     score = score + correctQ8();
 
-    Log.info("Bonus de bug : 2/2");
-    score += 2;
+    if (hasBonusBug()) {
+      Log.info("Bonus de bug : 2/2");
+      score += 2;
+    }
 
     Log.info("[... Correction d'un étudiant] Réf étudiante : " + stdRef + ", points obtenus : " + score + "/15\n");
     saveScore(SCORE_PER_STUDENT, stdRef, "all", score);
     return score;
   }
+
+  protected abstract boolean hasBonusBug();
 
   private int correctTheory() {
     Log.info("[Theorie]");

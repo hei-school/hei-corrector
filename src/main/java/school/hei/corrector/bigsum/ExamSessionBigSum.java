@@ -2,6 +2,7 @@ package school.hei.corrector.bigsum;
 
 import school.hei.corrector.ExamSession;
 import school.hei.corrector.StdAnswers;
+import school.hei.corrector.bigsum.session231221.StdAnswers231221;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,9 +10,7 @@ import java.util.Map;
 import static java.util.stream.Collectors.joining;
 import static school.hei.utils.Utils.infallibleSupply;
 
-public class ExamSession231221 implements ExamSession {
-
-  private static final String ANSWERS_SHEET_PATH = "/bigsum/answers_2023_12_21.csv";
+public abstract class ExamSessionBigSum implements ExamSession {
   private static final int STDREF_INDEX_IN_SHEET = 4;
   private static final int THEORY_INDEX_IN_SHEET = 2;
   private static final int Q3A_INDEX_IN_SHEET = 7;
@@ -23,16 +22,6 @@ public class ExamSession231221 implements ExamSession {
   private static final int Q8A_INDEX_IN_SHEET = 14;
 
   public static final Map<String/*stdRef*/, Map<String/*question*/, Integer>> SCORE_PER_STUDENT = new HashMap<>();
-
-  @Override
-  public String name() {
-    return "PROG5P1 - Code maintenable";
-  }
-
-  @Override
-  public String answersSheetPath() {
-    return ANSWERS_SHEET_PATH;
-  }
 
   @Override
   public StdAnswers toStdAnswers(String line) {

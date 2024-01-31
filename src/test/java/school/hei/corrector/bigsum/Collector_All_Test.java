@@ -2,6 +2,7 @@ package school.hei.corrector.bigsum;
 
 import org.junit.jupiter.api.Test;
 import school.hei.corrector.Corrector;
+import school.hei.corrector.bigsum.session231221.ExamSession231221;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
