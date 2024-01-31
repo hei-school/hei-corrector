@@ -60,7 +60,7 @@ public abstract class StdAnswersBigSum implements StdAnswers {
       score += 2;
     }
 
-    Log.info("[... Correction d'un étudiant] Réf étudiante : " + stdRef + ", points obtenus : " + score + "/15\n");
+    Log.info("[... Correction d'un étudiant] Réf étudiante : " + stdRef + ", points obtenus : " + score + "/13\n");
     saveScore(SCORE_PER_STUDENT, stdRef, "all", score);
     return score;
   }
@@ -71,7 +71,7 @@ public abstract class StdAnswersBigSum implements StdAnswers {
     Log.info("[Theorie]");
 
     var theoryScore = parseInt(theory.split("/")[0].trim());
-    Log.info("Points théorique : " + theoryScore + "/6");
+    Log.info("Points théorique : " + theoryScore + "/4");
 
     saveScore(SCORE_PER_STUDENT, stdRef, "THEORY", theoryScore);
     return theoryScore;
