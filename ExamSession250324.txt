@@ -1,0 +1,2102 @@
+[Chargement des réponses...] Nom du fichier : /soratra/answers_25-03-24.csv
+[... Chargement des réponses] Nombre de réponses chargées : 80
+
+[Correction d'un étudiant...] Réf étudiante : STD22012
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Sheddy00/poja-soratra-std22012, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22012-194816164
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Sheddy00/poja-soratra-std22012/actions/workflows/cd-storage-efs.yml, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Sheddy00/poja-soratra-std22012, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22012-139254281
+cd /tmp/ExamSession-STD22012-139254281 && gh run view actions
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Sheddy00/poja-soratra-std22012/actions/workflows/cd-storage-efs.yml, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Sheddy00/poja-soratra-std22012, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22012-339396133
+cd /tmp/ExamSession-STD22012-339396133 && gh run view actions
+Non trouvé : 0 point
+PUT https://github.com/Sheddy00/poja-soratra-std22012/actions/runs/8416111706/job/23042424910/soratra/STD22012
+Statut http reçu : 403
+GET https://github.com/Sheddy00/poja-soratra-std22012/actions/runs/8416111706/job/23042424910/soratra/STD22012
+Statut http reçu : 404
+Erreur : com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (StringReader); line: 7, column: 2]
+[... Correction d'un étudiant] Réf étudiante : STD22012, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22056
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/ManoaHEI/poja-soratra-std22056, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22056-147225542
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/ManoaHEI/poja-soratra-std22056/actions/runs/8415545610/job/23041169831, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/ManoaHEI/poja-soratra-std22056, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22056-766986529
+cd /tmp/ExamSession-STD22056-766986529 && gh run view 8415545610
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/ManoaHEI/poja-soratra-std22056/actions/runs/8415545610/job/23041169831, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/ManoaHEI/poja-soratra-std22056, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22056-364069300
+cd /tmp/ExamSession-STD22056-364069300 && gh run view 8415545610
+Non trouvé : 0 point
+PUT null/soratra/STD22056
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+GET null/soratra/STD22056
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+[... Correction d'un étudiant] Réf étudiante : STD22056, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22057
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/faniryKely/poja-soratra-STD22057, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22057-538873769
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/faniryKely/poja-soratra-STD22057/actions/runs/8415560443/job/23040878037, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/faniryKely/poja-soratra-STD22057, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22057-121687602
+cd /tmp/ExamSession-STD22057-121687602 && gh run view 8415560443
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/faniryKely/poja-soratra-STD22057/actions/runs/8415560443/job/23040878037, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/faniryKely/poja-soratra-STD22057, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22057-75810995
+cd /tmp/ExamSession-STD22057-75810995 && gh run view 8415560443
+Non trouvé : 0 point
+PUT https://ffm5rtt6w1.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22057
+Statut http reçu : 400
+GET https://ffm5rtt6w1.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22057
+Statut http reçu : 405
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22057, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD21089
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/HEI-Andy/poja-soratra-std21089, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD21089-151682340
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/HEI-Andy/poja-soratra-std21089/actions/runs/8415861439/job/23041653796, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/HEI-Andy/poja-soratra-std21089, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD21089-367710618
+cd /tmp/ExamSession-STD21089-367710618 && gh run view 8415861439
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/HEI-Andy/poja-soratra-std21089/actions/runs/8415861439/job/23041653796, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/HEI-Andy/poja-soratra-std21089, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD21089-429672602
+cd /tmp/ExamSession-STD21089-429672602 && gh run view 8415861439
+Non trouvé : 0 point
+Erreur : java.lang.IllegalArgumentException: invalid URI scheme arn
+Erreur : java.lang.IllegalArgumentException: invalid URI scheme arn
+PUT arn:aws:cloudformation:eu-west-3:851725449686:stack/preprod-compute-poja-soratra-std21089/501f3a30-ea6e-11ee-a98a-0e5d06b9fcb5/soratra/STD21089
+GET arn:aws:cloudformation:eu-west-3:851725449686:stack/preprod-compute-poja-soratra-std21089/501f3a30-ea6e-11ee-a98a-0e5d06b9fcb5/soratra/STD21089
+[... Correction d'un étudiant] Réf étudiante : STD21089, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22098
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Tombosoa/poja-soratra-std22098, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22098-514893253
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Tombosoa/poja-soratra-std22098/actions/runs/8416158006/job/23042451554, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Tombosoa/poja-soratra-std22098, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22098-335836188
+cd /tmp/ExamSession-STD22098-335836188 && gh run view 8416158006
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/Tombosoa/poja-soratra-std22098/actions/runs/8416158006/job/23042451554, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Tombosoa/poja-soratra-std22098, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22098-475506734
+cd /tmp/ExamSession-STD22098-475506734 && gh run view 8416158006
+Trouvé : 3 points
+PUT https://bnxdilsxrj.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22098
+Statut http reçu : 500
+GET https://bnxdilsxrj.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22098
+200 OK reçu : 2 points
+Format de réponse correct, déserialisation OK : 2 points
+Les Url sont présignées, et sont de poja.soratra : 2 points
+[... Correction d'un étudiant] Réf étudiante : STD22098, points obtenus : 18
+
+[Correction d'un étudiant...] Réf étudiante : STD22054
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/nirinaHelena/poja-soratra-std22054.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22054-477986181
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/nirinaHelena/poja-soratra-std22054/actions/runs/8415553753, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/nirinaHelena/poja-soratra-std22054.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22054-437541274
+cd /tmp/ExamSession-STD22054-437541274 && gh run view actions
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/nirinaHelena/poja-soratra-std22054/actions/runs/8415553753, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/nirinaHelena/poja-soratra-std22054.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22054-781935196
+cd /tmp/ExamSession-STD22054-781935196 && gh run view actions
+Non trouvé : 0 point
+PUT https://96kga94rx7.execute-api.eu-west-3.amazonaws.com/Preprod/soratra/STD22054
+Statut http reçu : 403
+GET https://96kga94rx7.execute-api.eu-west-3.amazonaws.com/Preprod/soratra/STD22054
+Statut http reçu : 403
+Erreur : com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "message" (class school.hei.corrector.soratra.Soratra), not marked as ignorable (2 known properties: "original_url", "transformed_url"])
+ at [Source: (String)"{"message":"Forbidden"}"; line: 1, column: 13] (through reference chain: school.hei.corrector.soratra.Soratra["message"])
+[... Correction d'un étudiant] Réf étudiante : STD22054, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD22052
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/RickaPrincy/poja-soratra-std22052, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22052-981596865
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/RickaPrincy/poja-soratra-std22052/actions/runs/8415628585/job/23041044179, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/RickaPrincy/poja-soratra-std22052, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22052-155030285
+cd /tmp/ExamSession-STD22052-155030285 && gh run view 8415628585
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/RickaPrincy/poja-soratra-std22052/actions/runs/8415628585/job/23041044179, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/RickaPrincy/poja-soratra-std22052, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22052-711777667
+cd /tmp/ExamSession-STD22052-711777667 && gh run view 8415628585
+Trouvé : 3 points
+PUT https://10n8r4k3bg.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22052
+200 OK reçu : 6 points
+GET https://10n8r4k3bg.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22052
+200 OK reçu : 2 points
+Format de réponse correct, déserialisation OK : 2 points
+Les Url sont présignées, et sont de poja.soratra : 2 points
+[... Correction d'un étudiant] Réf étudiante : STD22052, points obtenus : 24
+
+[Correction d'un étudiant...] Réf étudiante : STD21084
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Sarobidy-nantenaina/poja-soratra-std21084, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD21084-427441733
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Sarobidy-nantenaina/poja-soratra-std21084/actions/runs/8416231790/job/23042662606, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Sarobidy-nantenaina/poja-soratra-std21084, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD21084-569492017
+cd /tmp/ExamSession-STD21084-569492017 && gh run view 8416231790
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/Sarobidy-nantenaina/poja-soratra-std21084/actions/runs/8416231790/job/23042662606, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Sarobidy-nantenaina/poja-soratra-std21084, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD21084-455068325
+cd /tmp/ExamSession-STD21084-455068325 && gh run view 8416231790
+Trouvé : 3 points
+PUT https://bom394qy05.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD21084
+Statut http reçu : 502
+GET https://bom394qy05.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD21084
+200 OK reçu : 2 points
+Format de réponse correct, déserialisation OK : 2 points
+Les Url sont présignées, et sont de poja.soratra : 2 points
+[... Correction d'un étudiant] Réf étudiante : STD21084, points obtenus : 18
+
+[Correction d'un étudiant...] Réf étudiante : STD22097
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/lovasoa3/poja-soratra-std22097, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22097-824343334
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/lovasoa3/poja-soratra-std22097/actions/runs/8415562193/job/23041993346, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/lovasoa3/poja-soratra-std22097, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22097-388912914
+cd /tmp/ExamSession-STD22097-388912914 && gh run view 8415562193
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/lovasoa3/poja-soratra-std22097/actions/runs/8415562193/job/23041993346, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/lovasoa3/poja-soratra-std22097, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22097-176655074
+cd /tmp/ExamSession-STD22097-176655074 && gh run view 8415562193
+Non trouvé : 0 point
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+PUT null/soratra/STD22097
+GET null/soratra/STD22097
+[... Correction d'un étudiant] Réf étudiante : STD22097, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22050
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/AndoKami/poja-soratra-std22050, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22050-667741528
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/AndoKami/poja-soratra-std22050/actions/runs/8415925202/job/23041813788, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/AndoKami/poja-soratra-std22050, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22050-379549804
+cd /tmp/ExamSession-STD22050-379549804 && gh run view 8415925202
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/AndoKami/poja-soratra-std22050/actions/runs/8415925202/job/23041813788, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/AndoKami/poja-soratra-std22050, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22050-341151624
+cd /tmp/ExamSession-STD22050-341151624 && gh run view 8415925202
+Non trouvé : 0 point
+PUT https://npwf8nlfj2.execute-api.eu-west-3.amazonaws.com/Prod/ping/soratra/STD22050
+Statut http reçu : 404
+GET https://npwf8nlfj2.execute-api.eu-west-3.amazonaws.com/Prod/ping/soratra/STD22050
+Statut http reçu : 404
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22050, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22095
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Marc985/poja-soratra-std22095, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22095-870095039
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Marc985/poja-soratra-std22095/actions/runs/8415450084/job/23040719502, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Marc985/poja-soratra-std22095, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22095-774346841
+cd /tmp/ExamSession-STD22095-774346841 && gh run view 8415450084
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/Marc985/poja-soratra-std22095/actions/runs/8415450084/job/23040719502, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Marc985/poja-soratra-std22095, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22095-617156594
+cd /tmp/ExamSession-STD22095-617156594 && gh run view 8415450084
+Trouvé : 3 points
+PUT https://jvzk0ip4g5.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22095
+GET https://jvzk0ip4g5.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22095
+Statut http reçu : 404
+Statut http reçu : 404
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22095, points obtenus : 8
+
+[Correction d'un étudiant...] Réf étudiante : STD22092
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/tsanta-niaina-MT/poja-soratra-std22092, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22092-597580341
+Version de poja non reconnue : 0 point
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/tsanta-niaina-MT/poja-soratra-std22092, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22092-479709948
+Erreur : java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "runUrl" is null
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/tsanta-niaina-MT/poja-soratra-std22092, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22092-244143833
+PUT null/soratra/STD22092
+Erreur : java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "runUrl" is null
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+GET null/soratra/STD22092
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+[... Correction d'un étudiant] Réf étudiante : STD22092, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD22093
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/mampiononavoahary/poja-soratra-std22093, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22093-8019483
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/mampiononavoahary/poja-soratra-std22093/actions/runs/8415770066, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/mampiononavoahary/poja-soratra-std22093, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22093-450827632
+cd /tmp/ExamSession-STD22093-450827632 && gh run view actions
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/mampiononavoahary/poja-soratra-std22093/actions/runs/8415770066, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/mampiononavoahary/poja-soratra-std22093, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22093-699003630
+cd /tmp/ExamSession-STD22093-699003630 && gh run view actions
+Non trouvé : 0 point
+PUT null/soratra/STD22093
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+GET null/soratra/STD22093
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+[... Correction d'un étudiant] Réf étudiante : STD22093, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22090
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/kareemnomenjanahary/poja-soratra-std22090.git, branche : preprod
+Version de poja non reconnue : 0 point
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/kareemnomenjanahary/poja-soratra-std22090.git, branche : preprod
+Erreur : org.eclipse.jgit.api.errors.TransportException: Remote branch 'preprod' not found in upstream origin
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/kareemnomenjanahary/poja-soratra-std22090.git, branche : preprod
+Erreur : org.eclipse.jgit.api.errors.TransportException: Remote branch 'preprod' not found in upstream origin
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+PUT null/soratra/STD22090
+GET null/soratra/STD22090
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+[... Correction d'un étudiant] Réf étudiante : STD22090, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD22019
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/MihajaFi/poja-soratra-std22019, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22019-656746872
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/MihajaFi/poja-soratra-std22019/actions/runs/8415499080/job/23040738586, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/MihajaFi/poja-soratra-std22019, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22019-742674033
+cd /tmp/ExamSession-STD22019-742674033 && gh run view 8415499080
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/MihajaFi/poja-soratra-std22019/actions/runs/8415499080/job/23040738586, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/MihajaFi/poja-soratra-std22019, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22019-350311152
+cd /tmp/ExamSession-STD22019-350311152 && gh run view 8415499080
+Trouvé : 3 points
+PUT https://sog5klncc1.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22019
+GET https://sog5klncc1.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22019
+Statut http reçu : 504
+200 OK reçu : 2 points
+Format de réponse correct, déserialisation OK : 2 points
+[... Correction d'un étudiant] Réf étudiante : STD22019, points obtenus : 12
+
+[Correction d'un étudiant...] Réf étudiante : STD22016
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/tyfia-rak/poja-soratra-std22016, branche : preprod
+Les URL ne sont pas présignées, ou ne sont pas de poja.sarisary : BlackAndWhite{original_url='https://original.url', transformed_url='https://transformed.url'}
+Version de poja non reconnue : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/tyfia-rak/poja-soratra-std22016/actions/runs/8416030033/job/23042080606, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/tyfia-rak/poja-soratra-std22016, branche : preprod
+Erreur : org.eclipse.jgit.api.errors.TransportException: Remote branch 'preprod' not found in upstream origin
+health-check ? branch=preprod, runUrl=https://github.com/tyfia-rak/poja-soratra-std22016/actions/runs/8416030033/job/23042080606, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/tyfia-rak/poja-soratra-std22016, branche : preprod
+Erreur : org.eclipse.jgit.api.errors.TransportException: Remote branch 'preprod' not found in upstream origin
+PUT null/soratra/STD22016
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+GET null/soratra/STD22016
+[... Correction d'un étudiant] Réf étudiante : STD22016, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD22017
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/ZoFitahiana/poja-soratra-std22017, branche : preprod
+Version de poja non reconnue : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/ZoFitahiana/poja-soratra-std22017/actions/runs/8415573520/job/23040908732, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/ZoFitahiana/poja-soratra-std22017, branche : preprod
+Erreur : org.eclipse.jgit.api.errors.TransportException: Remote branch 'preprod' not found in upstream origin
+health-check ? branch=preprod, runUrl=https://github.com/ZoFitahiana/poja-soratra-std22017/actions/runs/8415573520/job/23040908732, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/ZoFitahiana/poja-soratra-std22017, branche : preprod
+Erreur : org.eclipse.jgit.api.errors.TransportException: Remote branch 'preprod' not found in upstream origin
+PUT https://352zgr72lc.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22017
+Statut http reçu : 404
+GET https://352zgr72lc.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22017
+Statut http reçu : 404
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22017, points obtenus : 4
+
+[Correction d'un étudiant...] Réf étudiante : STD22058
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/fandresenaravohary/poja-soratra-std22058, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22058-21956126
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/fandresenaravohary/poja-soratra-std22058/actions/runs/8415877601/job/23041740446, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/fandresenaravohary/poja-soratra-std22058, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22058-627275481
+cd /tmp/ExamSession-STD22058-627275481 && gh run view 8415877601
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/fandresenaravohary/poja-soratra-std22058/actions/runs/8415877601/job/23041740446, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/fandresenaravohary/poja-soratra-std22058, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22058-772041714
+cd /tmp/ExamSession-STD22058-772041714 && gh run view 8415877601
+Trouvé : 3 points
+PUT https://75wamrvlrf.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22058
+Statut http reçu : 404
+GET https://75wamrvlrf.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22058
+Statut http reçu : 404
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+[... Correction d'un étudiant] Réf étudiante : STD22058, points obtenus : 8
+ at [Source: (String)""; line: 1, column: 0]
+
+[Correction d'un étudiant...] Réf étudiante : STD22059
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Ravo1401/poja-soratra-std22059, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22059-918541655
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Ravo1401/poja-soratra-std22059/actions/runs/8415640906/job/23041076083, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Ravo1401/poja-soratra-std22059, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22059-330537437
+cd /tmp/ExamSession-STD22059-330537437 && gh run view 8415640906
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Ravo1401/poja-soratra-std22059/actions/runs/8415640906/job/23041076083, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Ravo1401/poja-soratra-std22059, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22059-18873013
+cd /tmp/ExamSession-STD22059-18873013 && gh run view 8415640906
+Non trouvé : 0 point
+PUT null/soratra/STD22059
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+GET null/soratra/STD22059
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+[... Correction d'un étudiant] Réf étudiante : STD22059, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD22045
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Lovatiana15/poja-soratra-std22045, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22045-741988869
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Lovatiana15/poja-soratra-std22045/actions/runs/8415541541/job/23040833419, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Lovatiana15/poja-soratra-std22045, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22045-558770038
+cd /tmp/ExamSession-STD22045-558770038 && gh run view 8415541541
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Lovatiana15/poja-soratra-std22045/actions/runs/8415541541/job/23040833419, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Lovatiana15/poja-soratra-std22045, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22045-427553900
+cd /tmp/ExamSession-STD22045-427553900 && gh run view 8415541541
+Non trouvé : 0 point
+PUT https://ldcxfxtwf3.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22045
+Statut http reçu : 504
+GET https://ldcxfxtwf3.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22045
+Statut http reçu : 504
+Erreur : com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "message" (class school.hei.corrector.soratra.Soratra), not marked as ignorable (2 known properties: "original_url", "transformed_url"])
+ at [Source: (String)"{"message": "Endpoint request timed out"}"; line: 1, column: 14] (through reference chain: school.hei.corrector.soratra.Soratra["message"])
+[... Correction d'un étudiant] Réf étudiante : STD22045, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22089
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/andydevlabs/poja-soratra-std22089.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22089-722928633
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/andydevlabs/poja-soratra-std22089.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22089-108987884
+Erreur : java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "runUrl" is null
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/andydevlabs/poja-soratra-std22089.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22089-825459742
+Erreur : java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "runUrl" is null
+PUT null/soratra/STD22089
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+GET null/soratra/STD22089
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+[... Correction d'un étudiant] Réf étudiante : STD22089, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD22001
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/loiqua/poja-soratra-std22001.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22001-970403256
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 non trouvée : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/loiqua/poja-soratra-std22001/actions/runs/8416121292/job/23042311010, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/loiqua/poja-soratra-std22001.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22001-522123938
+cd /tmp/ExamSession-STD22001-522123938 && gh run view 8416121292
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/loiqua/poja-soratra-std22001/actions/runs/8416121292/job/23042311010, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/loiqua/poja-soratra-std22001.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22001-183277523
+cd /tmp/ExamSession-STD22001-183277523 && gh run view 8416121292
+Non trouvé : 0 point
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+PUT null/soratra/STD22001
+GET null/soratra/STD22001
+[... Correction d'un étudiant] Réf étudiante : STD22001, points obtenus : 4
+
+[Correction d'un étudiant...] Réf étudiante : STD22046
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/KevinDonovan2/poja-soratra-std22046, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22046-548362627
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/KevinDonovan2/poja-soratra-std22046/actions/runs/8415520314/job/23040784345, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/KevinDonovan2/poja-soratra-std22046, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22046-898169207
+cd /tmp/ExamSession-STD22046-898169207 && gh run view 8415520314
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/KevinDonovan2/poja-soratra-std22046/actions/runs/8415520314/job/23040784345, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/KevinDonovan2/poja-soratra-std22046, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22046-202950759
+cd /tmp/ExamSession-STD22046-202950759 && gh run view 8415520314
+Non trouvé : 0 point
+PUT https://ch530xmh0j.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22046
+Statut http reçu : 404
+GET https://ch530xmh0j.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22046
+Statut http reçu : 404
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22046, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22087
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/allan-12/poja-soratra-std22087, branche : preprod
+Version de poja non reconnue : 0 point
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/allan-12/poja-soratra-std22087, branche : preprod
+Erreur : org.eclipse.jgit.api.errors.TransportException: Remote branch 'preprod' not found in upstream origin
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/allan-12/poja-soratra-std22087, branche : preprod
+Erreur : org.eclipse.jgit.api.errors.TransportException: Remote branch 'preprod' not found in upstream origin
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+PUT null/soratra/STD22087
+GET null/soratra/STD22087
+[... Correction d'un étudiant] Réf étudiante : STD22087, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD22044
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/andyxrakoto/poja-soratra-std22044, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22044-42737085
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/andyxrakoto/poja-soratra-std22044/actions/runs/8415525620/job/23040796513, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/andyxrakoto/poja-soratra-std22044, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22044-364915035
+cd /tmp/ExamSession-STD22044-364915035 && gh run view 8415525620
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/andyxrakoto/poja-soratra-std22044/actions/runs/8415525620/job/23040796513, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/andyxrakoto/poja-soratra-std22044, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22044-181912620
+cd /tmp/ExamSession-STD22044-181912620 && gh run view 8415525620
+Non trouvé : 0 point
+PUT https://eu-west-3.console.aws.amazon.com/apigateway/main/apis/675mgk2rrk/resources?api=675mgk2rrk&region=eu-west-3/soratra/STD22044
+Statut http reçu : 405
+GET https://eu-west-3.console.aws.amazon.com/apigateway/main/apis/675mgk2rrk/resources?api=675mgk2rrk&region=eu-west-3/soratra/STD22044
+200 OK reçu : 2 points
+Erreur : com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"
+<!DOCTYPE html>
+<html lang="en">
+<head><style >html { background-color: #f2f3f3; }</style></head>
+<body class="">
+  <script type="text/javascript">
+[... Correction d'un étudiant] Réf étudiante : STD22044, points obtenus : 4
+    (function() {
+        var hashArgs = "#" + (window.location.href.split("#")[1] || "");
+        var queryParams = window.location.search ? (window.location.search + "&") : "?";
+
+        var encodedHashArgs = "hashArgs=" + encodeURIComponent( hashArgs );
+        var redirectUrl = window.location.pathname + queryParams + encodedHashArgs;
+
+[Correction d'un étudiant...] Réf étudiante : STD22085
+Attribution de bonus si hébergement personnel
+        wi"[truncated 404 chars]; line: 2, column: 2]
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/ManoaRatsimandresy/poja-soratra-std22085, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22085-492067303
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/ManoaRatsimandresy/poja-soratra-std22085/actions/runs/8416169303, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/ManoaRatsimandresy/poja-soratra-std22085, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22085-238274681
+cd /tmp/ExamSession-STD22085-238274681 && gh run view actions
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/ManoaRatsimandresy/poja-soratra-std22085/actions/runs/8416169303, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/ManoaRatsimandresy/poja-soratra-std22085, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22085-716108791
+cd /tmp/ExamSession-STD22085-716108791 && gh run view actions
+Non trouvé : 0 point
+PUT null/soratra/STD22085
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+GET null/soratra/STD22085
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+[... Correction d'un étudiant] Réf étudiante : STD22085, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22086
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/HarenaFiantso/poja-soratra-std22086.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22086-675110903
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/HarenaFiantso/poja-soratra-std22086/actions/runs/8416187068/job/23042523866, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/HarenaFiantso/poja-soratra-std22086.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22086-838532582
+cd /tmp/ExamSession-STD22086-838532582 && gh run view 8416187068
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/HarenaFiantso/poja-soratra-std22086/actions/runs/8416187068/job/23042523866, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/HarenaFiantso/poja-soratra-std22086.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22086-427568261
+cd /tmp/ExamSession-STD22086-427568261 && gh run view 8416187068
+Trouvé : 3 points
+PUT https://6qxdialnv6.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22086
+Statut http reçu : 504
+GET https://6qxdialnv6.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22086
+200 OK reçu : 2 points
+[... Correction d'un étudiant] Réf étudiante : STD22086, points obtenus : 10
+
+[Correction d'un étudiant...] Réf étudiante : STD22083
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Erreur : com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'OK': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"OK"; line: 1, column: 3]
+Clonant : https://github.com/Zo-Tsilavina/poja-soratra-std22083, branche : preprod
+Version de poja non reconnue : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Zo-Tsilavina/poja-soratra-std22083/actions/runs/8415725016, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Zo-Tsilavina/poja-soratra-std22083, branche : preprod
+Erreur : org.eclipse.jgit.api.errors.TransportException: Remote branch 'preprod' not found in upstream origin
+health-check ? branch=preprod, runUrl=https://github.com/Zo-Tsilavina/poja-soratra-std22083/actions/runs/8415725016, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Zo-Tsilavina/poja-soratra-std22083, branche : preprod
+Erreur : org.eclipse.jgit.api.errors.TransportException: Remote branch 'preprod' not found in upstream origin
+PUT null/soratra/STD22083
+GET null/soratra/STD22083
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+[... Correction d'un étudiant] Réf étudiante : STD22083, points obtenus : 4
+
+[Correction d'un étudiant...] Réf étudiante : STD22040
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Dinoh04/poja-soratra-std22040/tree/main, branche : preprod
+Version de poja non reconnue : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Dinoh04/poja-soratra-std22040/actions/runs/8415772259, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Dinoh04/poja-soratra-std22040/tree/main, branche : preprod
+Erreur : org.eclipse.jgit.api.errors.InvalidRemoteException: Invalid remote: origin
+health-check ? branch=preprod, runUrl=https://github.com/Dinoh04/poja-soratra-std22040/actions/runs/8415772259, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Dinoh04/poja-soratra-std22040/tree/main, branche : preprod
+Erreur : org.eclipse.jgit.api.errors.InvalidRemoteException: Invalid remote: origin
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+PUT null/soratra/STD22040
+GET null/soratra/STD22040
+[... Correction d'un étudiant] Réf étudiante : STD22040, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD22081
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/kirisaki-vk/poja-soratra-std22081, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22081-69770579
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/kirisaki-vk/poja-soratra-std22081/actions/runs/8415528446/job/23040921553, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/kirisaki-vk/poja-soratra-std22081, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22081-982393674
+cd /tmp/ExamSession-STD22081-982393674 && gh run view 8415528446
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/kirisaki-vk/poja-soratra-std22081/actions/runs/8415528446/job/23040921553, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/kirisaki-vk/poja-soratra-std22081, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22081-109257815
+cd /tmp/ExamSession-STD22081-109257815 && gh run view 8415528446
+Trouvé : 3 points
+PUT https://0khjh4lwpc.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22081
+200 OK reçu : 6 points
+GET https://0khjh4lwpc.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22081
+200 OK reçu : 2 points
+Format de réponse correct, déserialisation OK : 2 points
+Les Url sont présignées, et sont de poja.soratra : 2 points
+[... Correction d'un étudiant] Réf étudiante : STD22081, points obtenus : 24
+
+[Correction d'un étudiant...] Réf étudiante : STD22082
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/mvjdev/poja-soratra-std22082, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22082-538469988
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/mvjdev/poja-soratra-std22082/actions/runs/8416153437, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/mvjdev/poja-soratra-std22082, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22082-636981409
+cd /tmp/ExamSession-STD22082-636981409 && gh run view actions
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/mvjdev/poja-soratra-std22082/actions/runs/8416153437, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/mvjdev/poja-soratra-std22082, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22082-468237550
+cd /tmp/ExamSession-STD22082-468237550 && gh run view actions
+Non trouvé : 0 point
+PUT null/soratra/STD22082
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+GET null/soratra/STD22082
+[... Correction d'un étudiant] Réf étudiante : STD22082, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : SDT22027
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+stdRef non trouvée dans nom du projet git : malus -2 points
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Astna17/poja-soratra-std22027, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-SDT22027-357337895
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Astna17/poja-soratra-std22027/actions/runs/8415806959/job/23041511425, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Astna17/poja-soratra-std22027, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-SDT22027-900624711
+cd /tmp/ExamSession-SDT22027-900624711 && gh run view 8415806959
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Astna17/poja-soratra-std22027/actions/runs/8415806959/job/23041511425, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Astna17/poja-soratra-std22027, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-SDT22027-940906490
+cd /tmp/ExamSession-SDT22027-940906490 && gh run view 8415806959
+Non trouvé : 0 point
+PUT https://eu-west-3.console.aws.amazon.com/apigateway/main/apis/ydnm1lfkkb/resources?api=ydnm1lfkkb&region=eu-west-3/soratra/SDT22027
+Statut http reçu : 405
+GET https://eu-west-3.console.aws.amazon.com/apigateway/main/apis/ydnm1lfkkb/resources?api=ydnm1lfkkb&region=eu-west-3/soratra/SDT22027
+200 OK reçu : 2 points
+Erreur : com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"
+<!DOCTYPE html>
+[... Correction d'un étudiant] Réf étudiante : SDT22027, points obtenus : 2
+<html lang="en">
+
+<head><style >html { background-color: #f2f3f3; }</style></head>
+[Correction d'un étudiant...] Réf étudiante : STD22080
+<body class="">
+Attribution de bonus si hébergement personnel
+  <script type="text/javascript">
+Vérification de noms: stdRef et nom du projet
+    (function() {
+Verification de la version de poja (12.4.1)
+        var hashArgs = "#" + (window.location.href.split("#")[1] || "");
+        var queryParams = window.location.search ? (window.location.search + "&") : "?";
+Clonant : https://github.com/Maharavo1/poja-soratra-std22080, branche : preprod
+        var encodedHashArgs = "hashArgs=" + encodeURIComponent( hashArgs );
+        var redirectUrl = window.location.pathname + queryParams + encodedHashArgs;
+
+        wi"[truncated 404 chars]; line: 2, column: 2]
+... clonage réussi dans : /tmp/ExamSession-STD22080-720236299
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Maharavo1/poja-soratra-std22080/actions/runs/8416139117/job/23042437728, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Maharavo1/poja-soratra-std22080, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22080-895834652
+cd /tmp/ExamSession-STD22080-895834652 && gh run view 8416139117
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/Maharavo1/poja-soratra-std22080/actions/runs/8416139117/job/23042437728, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Maharavo1/poja-soratra-std22080, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22080-901718472
+cd /tmp/ExamSession-STD22080-901718472 && gh run view 8416139117
+Trouvé : 3 points
+PUT https://32x18k1nfh.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22080
+Statut http reçu : 404
+GET https://32x18k1nfh.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22080
+Statut http reçu : 404
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22080, points obtenus : 8
+
+[Correction d'un étudiant...] Réf étudiante : STD22007
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Eclisher/Poja-soratra-std22007, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22007-288976954
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Eclisher/Poja-soratra-std22007/actions/runs/8415715973/job/23041269566, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Eclisher/Poja-soratra-std22007, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22007-405194065
+cd /tmp/ExamSession-STD22007-405194065 && gh run view 8415715973
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Eclisher/Poja-soratra-std22007/actions/runs/8415715973/job/23041269566, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Eclisher/Poja-soratra-std22007, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22007-438393189
+cd /tmp/ExamSession-STD22007-438393189 && gh run view 8415715973
+Non trouvé : 0 point
+PUT https://ojqie12pr3.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22007
+Statut http reçu : 504
+GET https://ojqie12pr3.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22007
+200 OK reçu : 2 points
+Format de réponse correct, déserialisation OK : 2 points
+Les Url sont présignées, et sont de poja.soratra : 2 points
+[... Correction d'un étudiant] Réf étudiante : STD22007, points obtenus : 12
+
+[Correction d'un étudiant...] Réf étudiante : STD22049
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Harenabs21/poja-soratra-std22049, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22049-213055434
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Harenabs21/poja-soratra-std22049/actions/runs/8415915624/job/23041974945, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Harenabs21/poja-soratra-std22049, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22049-542641928
+cd /tmp/ExamSession-STD22049-542641928 && gh run view 8415915624
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Harenabs21/poja-soratra-std22049/actions/runs/8415915624/job/23041974945, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Harenabs21/poja-soratra-std22049, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22049-895641844
+cd /tmp/ExamSession-STD22049-895641844 && gh run view 8415915624
+Non trouvé : 0 point
+PUT https://ml3pq96iwd.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22049
+Statut http reçu : 504
+GET https://ml3pq96iwd.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22049
+200 OK reçu : 2 points
+[... Correction d'un étudiant] Réf étudiante : STD22049, points obtenus : 4
+
+[Correction d'un étudiant...] Réf étudiante : STD22005
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/FanomezanaNat/poja-soratra-std22005, branche : preprod
+Erreur : com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "originalURL" (class school.hei.corrector.soratra.Soratra), not marked as ignorable (2 known properties: "original_url", "transformed_url"])
+ at [Source: (String)"{"originalURL":"https://preprod-bucket-poja-soratra-std22049-bucket-titsstfutzvj.s3.eu-west-3.amazonaws.com/STD22049-original.txt?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHYaCWV1LXdlc3QtMyJHMEUCIBHZxBNdY02tfeTGljInsBPy6ssOD9ijEq16%2BVOHRbYCAiEAxyfWGOgiWWNMjbF2Qv%2FNZ8iW9nvi0WguztJOS0GpkVAq3AMIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw4NTE3MjU0NDk2ODYiDGkUxrtXRJ7GQeiUuyqwA406JYwRF6vrf7N%2FIyAl9nSeFSaBkZMz%2BLXIfURJtZ%2B%2BY4XQjlQQC35TXPt06xV8wcHIlHe0pQUSl%2FA1xvEX9hRbY1HtYT%2Bhk3Aq0ZDWdr%2FfkQ6d9hER7"[truncated 2505 chars]; line: 1, column: 17] (through reference chain: school.hei.corrector.soratra.Soratra["originalURL"])
+... clonage réussi dans : /tmp/ExamSession-STD22005-505660147
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/FanomezanaNat/poja-soratra-std22005/actions/runs/8415741122/job/23041469729, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/FanomezanaNat/poja-soratra-std22005, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22005-881829489
+cd /tmp/ExamSession-STD22005-881829489 && gh run view 8415741122
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/FanomezanaNat/poja-soratra-std22005/actions/runs/8415741122/job/23041469729, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/FanomezanaNat/poja-soratra-std22005, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22005-573154462
+cd /tmp/ExamSession-STD22005-573154462 && gh run view 8415741122
+Trouvé : 3 points
+PUT https://n6vrygfwjl.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22005
+Statut http reçu : 404
+GET https://n6vrygfwjl.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22005
+Statut http reçu : 404
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22005, points obtenus : 8
+
+[Correction d'un étudiant...] Réf étudiante : STD22006
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/fanambynana/poja-soratra-std22006, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22006-377397337
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/fanambynana/poja-soratra-std22006/actions/runs/8415684565/job/23041460856, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/fanambynana/poja-soratra-std22006, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22006-9730573
+cd /tmp/ExamSession-STD22006-9730573 && gh run view 8415684565
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/fanambynana/poja-soratra-std22006/actions/runs/8415684565/job/23041460856, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/fanambynana/poja-soratra-std22006, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22006-319393246
+cd /tmp/ExamSession-STD22006-319393246 && gh run view 8415684565
+Trouvé : 3 points
+PUT https://7b504icj31.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22006
+Statut http reçu : 404
+GET https://7b504icj31.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22006
+Statut http reçu : 404
+[... Correction d'un étudiant] Réf étudiante : STD22006, points obtenus : 8
+
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+[Correction d'un étudiant...] Réf étudiante : STD22047
+ at [Source: (String)""; line: 1, column: 0]
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Ngitangita/poja-soratra-std22047, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22047-935959995
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Ngitangita/poja-soratra-std22047/actions/runs/8416071773/job/23042182618, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Ngitangita/poja-soratra-std22047, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22047-531935731
+cd /tmp/ExamSession-STD22047-531935731 && gh run view 8416071773
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Ngitangita/poja-soratra-std22047/actions/runs/8416071773/job/23042182618, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Ngitangita/poja-soratra-std22047, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22047-709860959
+cd /tmp/ExamSession-STD22047-709860959 && gh run view 8416071773
+Non trouvé : 0 point
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+PUT null/soratra/STD22047
+GET null/soratra/STD22047
+[... Correction d'un étudiant] Réf étudiante : STD22047, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22048
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Sullivan1301/poja-soratra-std22048, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22048-214389914
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Sullivan1301/poja-soratra-std22048/actions/runs/8415770861/job/23041414229, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Sullivan1301/poja-soratra-std22048, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22048-304610927
+cd /tmp/ExamSession-STD22048-304610927 && gh run view 8415770861
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Sullivan1301/poja-soratra-std22048/actions/runs/8415770861/job/23041414229, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Sullivan1301/poja-soratra-std22048, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22048-356224097
+cd /tmp/ExamSession-STD22048-356224097 && gh run view 8415770861
+Non trouvé : 0 point
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+PUT null/soratra/STD22048
+GET null/soratra/STD22048
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+[... Correction d'un étudiant] Réf étudiante : STD22048, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22078
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Abi-Nf/poja-soratra-std22078, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22078-8595702
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Abi-Nf/poja-soratra-std22078/actions/runs/8415723244/job/23041394271, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Abi-Nf/poja-soratra-std22078, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22078-646779510
+cd /tmp/ExamSession-STD22078-646779510 && gh run view 8415723244
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/Abi-Nf/poja-soratra-std22078/actions/runs/8415723244/job/23041394271, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Abi-Nf/poja-soratra-std22078, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22078-288139222
+cd /tmp/ExamSession-STD22078-288139222 && gh run view 8415723244
+Trouvé : 3 points
+PUT https://gsbawczt77.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22078
+Statut http reçu : 504
+GET https://gsbawczt77.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22078
+200 OK reçu : 2 points
+Format de réponse correct, déserialisation OK : 2 points
+Les Url sont présignées, et sont de poja.soratra : 2 points
+[... Correction d'un étudiant] Réf étudiante : STD22078, points obtenus : 14
+
+[Correction d'un étudiant...] Réf étudiante : STD22079
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/MiiJack/poja-soratra-std22079, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22079-898492233
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/MiiJack/poja-soratra-std22079/actions/runs/8415448780/job/23040789072, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/MiiJack/poja-soratra-std22079, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22079-718585845
+cd /tmp/ExamSession-STD22079-718585845 && gh run view 8415448780
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/MiiJack/poja-soratra-std22079/actions/runs/8415448780/job/23040789072, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/MiiJack/poja-soratra-std22079, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22079-97736293
+cd /tmp/ExamSession-STD22079-97736293 && gh run view 8415448780
+Trouvé : 3 points
+PUT https://64knss9n4l.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22079
+200 OK reçu : 6 points
+GET https://64knss9n4l.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22079
+200 OK reçu : 2 points
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22079, points obtenus : 20
+
+[Correction d'un étudiant...] Réf étudiante : STD22035
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Mampiononatc07/poja-soratra-std22035, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22035-745077045
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Mampiononatc07/poja-soratra-std22035/actions/workflows/cd-storage-bucket.yml, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Mampiononatc07/poja-soratra-std22035, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22035-560483247
+cd /tmp/ExamSession-STD22035-560483247 && gh run view actions
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Mampiononatc07/poja-soratra-std22035/actions/workflows/cd-storage-bucket.yml, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Mampiononatc07/poja-soratra-std22035, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22035-497763108
+cd /tmp/ExamSession-STD22035-497763108 && gh run view actions
+Non trouvé : 0 point
+PUT null/soratra/STD22035
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+GET null/soratra/STD22035
+[... Correction d'un étudiant] Réf étudiante : STD22035, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22076
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Tendry24/poja-soratra-std22076, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22076-625589295
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Tendry24/poja-soratra-std22076/actions/runs/8416047606/job/23042175352, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Tendry24/poja-soratra-std22076, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22076-602822635
+cd /tmp/ExamSession-STD22076-602822635 && gh run view 8416047606
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/Tendry24/poja-soratra-std22076/actions/runs/8416047606/job/23042175352, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Tendry24/poja-soratra-std22076, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22076-145047207
+cd /tmp/ExamSession-STD22076-145047207 && gh run view 8416047606
+Trouvé : 3 points
+PUT https://1h0htxg2oa.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22076
+Statut http reçu : 504
+GET https://1h0htxg2oa.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22076
+Statut http reçu : 504
+Erreur : com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "message" (class school.hei.corrector.soratra.Soratra), not marked as ignorable (2 known properties: "original_url", "transformed_url"])
+ at [Source: (String)"{"message": "Endpoint request timed out"}"; line: 1, column: 14] (through reference chain: school.hei.corrector.soratra.Soratra["message"])
+[... Correction d'un étudiant] Réf étudiante : STD22076, points obtenus : 8
+
+[Correction d'un étudiant...] Réf étudiante : STD22033
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Tiavina19/poja-soratra-std22033, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22033-624163854
+poja v12.4.1 non trouvée : 0 point
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+health-check ? branch=preprod, runUrl=https://github.com/Tiavina19/poja-soratra-std22033/actions/runs/8415642165/job/23041499085, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Tiavina19/poja-soratra-std22033, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22033-209423845
+cd /tmp/ExamSession-STD22033-209423845 && gh run view 8415642165
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Tiavina19/poja-soratra-std22033/actions/runs/8415642165/job/23041499085, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Tiavina19/poja-soratra-std22033, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22033-492806854
+cd /tmp/ExamSession-STD22033-492806854 && gh run view 8415642165
+Non trouvé : 0 point
+PUT https://6ciq2zv7d6.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22033
+Statut http reçu : 404
+GET https://6ciq2zv7d6.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22033
+Statut http reçu : 404
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22033, points obtenus : 4
+
+[Correction d'un étudiant...] Réf étudiante : STD22077
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Akartis03/poja-soratra-std22077.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22077-12512010
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Akartis03/poja-soratra-std22077.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22077-661581335
+Erreur : java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "runUrl" is null
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Akartis03/poja-soratra-std22077.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22077-149656340
+Erreur : java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "runUrl" is null
+PUT null/soratra/STD22077
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+GET null/soratra/STD22077
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+[... Correction d'un étudiant] Réf étudiante : STD22077, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22030
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Miranyaina/poja-soratra-std22030, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22030-219923534
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Miranyaina/poja-soratra-std22030/actions/runs/8415728541, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Miranyaina/poja-soratra-std22030, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22030-550085299
+cd /tmp/ExamSession-STD22030-550085299 && gh run view actions
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Miranyaina/poja-soratra-std22030/actions/runs/8415728541, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Miranyaina/poja-soratra-std22030, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22030-353356748
+cd /tmp/ExamSession-STD22030-353356748 && gh run view actions
+Non trouvé : 0 point
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+PUT null/soratra/STD22030
+GET null/soratra/STD22030
+[... Correction d'un étudiant] Réf étudiante : STD22030, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22074
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/RianAina/poja-soratra-std22074, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22074-458840527
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/RianAina/poja-soratra-std22074/actions/runs/8416064186, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/RianAina/poja-soratra-std22074, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22074-198944565
+cd /tmp/ExamSession-STD22074-198944565 && gh run view actions
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/RianAina/poja-soratra-std22074/actions/runs/8416064186, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/RianAina/poja-soratra-std22074, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22074-655612186
+cd /tmp/ExamSession-STD22074-655612186 && gh run view actions
+Non trouvé : 0 point
+PUT https://eu-west-3.console.aws.amazon.com/apigateway/main/apis/1c4dsu7leg/resources/import?api=1c4dsu7leg&experience=rest-import&region=eu-west-3/soratra/STD22074
+Statut http reçu : 405
+GET https://eu-west-3.console.aws.amazon.com/apigateway/main/apis/1c4dsu7leg/resources/import?api=1c4dsu7leg&experience=rest-import&region=eu-west-3/soratra/STD22074
+200 OK reçu : 2 points
+Erreur : com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"
+<!DOCTYPE html>
+<html lang="en">
+<head><style >html { background-color: #f2f3f3; }</style></head>
+<body class="">
+  <script type="text/javascript">
+    (function() {
+        var hashArgs = "#" + (window.location.href.split("#")[1] || "");
+        var queryParams = window.location.search ? (window.location.search + "&") : "?";
+        var encodedHashArgs = "hashArgs=" + encodeURIComponent( hashArgs );
+        var redirectUrl = window.location.pathname + queryParams + encodedHashArgs;
+
+        wi"[truncated 404 chars]; line: 2, column: 2]
+[... Correction d'un étudiant] Réf étudiante : STD22074, points obtenus : 4
+
+[Correction d'un étudiant...] Réf étudiante : STD22075
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/tendryAxel/poja-soratra-std22075.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22075-774002881
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/tendryAxel/poja-soratra-std22075/actions/runs/8415610016/job/23041034110, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/tendryAxel/poja-soratra-std22075.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22075-376158857
+cd /tmp/ExamSession-STD22075-376158857 && gh run view 8415610016
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/tendryAxel/poja-soratra-std22075/actions/runs/8415610016/job/23041034110, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/tendryAxel/poja-soratra-std22075.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22075-511148572
+cd /tmp/ExamSession-STD22075-511148572 && gh run view 8415610016
+Trouvé : 3 points
+PUT https://u6vhdzr1x5.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22075
+Statut http reçu : 404
+GET https://u6vhdzr1x5.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22075
+Statut http reçu : 404
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22075, points obtenus : 8
+
+[Correction d'un étudiant...] Réf étudiante : STD22073
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Antenaina2002/soratra-poja-std22073.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22073-90333288
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Antenaina2002/soratra-poja-std22073/actions/runs/8415838837/job/23041698260, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Antenaina2002/soratra-poja-std22073.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22073-366986793
+cd /tmp/ExamSession-STD22073-366986793 && gh run view 8415838837
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Antenaina2002/soratra-poja-std22073/actions/runs/8415838837/job/23041698260, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Antenaina2002/soratra-poja-std22073.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22073-495497221
+cd /tmp/ExamSession-STD22073-495497221 && gh run view 8415838837
+PUT null/soratra/STD22073
+Non trouvé : 0 point
+GET null/soratra/STD22073
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+[... Correction d'un étudiant] Réf étudiante : STD22073, points obtenus : 2
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+
+[Correction d'un étudiant...] Réf étudiante : STD22070
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/tanjonaaa/poja-soratra-std22070.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22070-161149560
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/tanjonaaa/poja-soratra-std22070/actions/runs/8415484949/job/23040833070, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/tanjonaaa/poja-soratra-std22070.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22070-364858329
+cd /tmp/ExamSession-STD22070-364858329 && gh run view 8415484949
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/tanjonaaa/poja-soratra-std22070/actions/runs/8415484949/job/23040833070, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/tanjonaaa/poja-soratra-std22070.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22070-1880358
+cd /tmp/ExamSession-STD22070-1880358 && gh run view 8415484949
+Trouvé : 3 points
+PUT https://8076dcn1va.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22070
+200 OK reçu : 6 points
+GET https://8076dcn1va.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22070
+200 OK reçu : 2 points
+Erreur : com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'OK': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"OK"; line: 1, column: 3]
+[... Correction d'un étudiant] Réf étudiante : STD22070, points obtenus : 20
+
+[Correction d'un étudiant...] Réf étudiante : STD22071
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/herimaharavohaja/poja-soratra-STD22071.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22071-509697243
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/herimaharavohaja/poja-soratra-STD22071.git, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/herimaharavohaja/poja-soratra-STD22071.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22071-446920066
+Erreur : java.lang.ArrayIndexOutOfBoundsException: Index -2 out of bounds for length 1
+health-check ? branch=preprod, runUrl=https://github.com/herimaharavohaja/poja-soratra-STD22071.git, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/herimaharavohaja/poja-soratra-STD22071.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22071-288390656
+Erreur : java.lang.ArrayIndexOutOfBoundsException: Index -2 out of bounds for length 1
+PUT https://github.com/herimaharavohaja/poja-soratra-STD22071.git/soratra/STD22071
+Statut http reçu : 403
+GET https://github.com/herimaharavohaja/poja-soratra-STD22071.git/soratra/STD22071
+Statut http reçu : 404
+[... Correction d'un étudiant] Réf étudiante : STD22071, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22119
+Erreur : com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+ at [Source: (StringReader); line: 7, column: 2]
+Clonant : https://github.com/A-Dylan-R/poja-soratra-std22119, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22119-595221449
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/A-Dylan-R/poja-soratra-std22119, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22119-242525642
+Erreur : java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "runUrl" is null
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/A-Dylan-R/poja-soratra-std22119, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22119-95261033
+Erreur : java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "runUrl" is null
+PUT null/soratra/STD22119
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+GET null/soratra/STD22119
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+[... Correction d'un étudiant] Réf étudiante : STD22119, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22038
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Sun-2302/poja-soratra-std22038, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22038-433308450
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Sun-2302/poja-soratra-std22038/actions/runs/8415631905/job/23041052673, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Sun-2302/poja-soratra-std22038, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22038-156809837
+cd /tmp/ExamSession-STD22038-156809837 && gh run view 8415631905
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Sun-2302/poja-soratra-std22038/actions/runs/8415631905/job/23041052673, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Sun-2302/poja-soratra-std22038, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22038-465094777
+cd /tmp/ExamSession-STD22038-465094777 && gh run view 8415631905
+Non trouvé : 0 point
+PUT https://edc3getmud.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22038
+Statut http reçu : 404
+GET https://edc3getmud.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22038
+Statut http reçu : 404
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22038, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD22113
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Lalaina0904/poja-soratra-std22113, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22113-960478290
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Lalaina0904/poja-soratra-std22113/actions/runs/8415390867/job/23040491122, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Lalaina0904/poja-soratra-std22113, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22113-545528446
+cd /tmp/ExamSession-STD22113-545528446 && gh run view 8415390867
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Lalaina0904/poja-soratra-std22113/actions/runs/8415390867/job/23040491122, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Lalaina0904/poja-soratra-std22113, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22113-346795972
+cd /tmp/ExamSession-STD22113-346795972 && gh run view 8415390867
+Non trouvé : 0 point
+PUT https://irvgpck7he.execute-api.eu-west-3.amazonaws.com/Prod/ping/soratra/STD22113
+Statut http reçu : 404
+GET https://irvgpck7he.execute-api.eu-west-3.amazonaws.com/Prod/ping/soratra/STD22113
+Statut http reçu : 404
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22113, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22036
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Hevitriniavo/poja-soratra-std22036, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22036-974914897
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Hevitriniavo/poja-soratra-std22036, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22036-635783479
+Erreur : java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "runUrl" is null
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Hevitriniavo/poja-soratra-std22036, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22036-365648919
+Erreur : java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "runUrl" is null
+PUT null/soratra/STD22036
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+GET null/soratra/STD22036
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+[... Correction d'un étudiant] Réf étudiante : STD22036, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22037
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Rafaliarison/poja-soratra-std22037.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22037-758803001
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Rafaliarison/poja-soratra-std22037/actions/runs/8415815691/job/23041534997, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Rafaliarison/poja-soratra-std22037.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22037-553452837
+cd /tmp/ExamSession-STD22037-553452837 && gh run view 8415815691
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Rafaliarison/poja-soratra-std22037/actions/runs/8415815691/job/23041534997, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Rafaliarison/poja-soratra-std22037.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22037-284945284
+cd /tmp/ExamSession-STD22037-284945284 && gh run view 8415815691
+Non trouvé : 0 point
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+PUT null/soratra/STD22037
+GET null/soratra/STD22037
+[... Correction d'un étudiant] Réf étudiante : STD22037, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD21099
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Daris02/poja-soratra-std21099, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD21099-416687967
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Daris02/poja-soratra-std21099/actions/runs/8415619014/job/23041019947, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Daris02/poja-soratra-std21099, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD21099-180455183
+cd /tmp/ExamSession-STD21099-180455183 && gh run view 8415619014
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Daris02/poja-soratra-std21099/actions/runs/8415619014/job/23041019947, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Daris02/poja-soratra-std21099, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD21099-712018061
+cd /tmp/ExamSession-STD21099-712018061 && gh run view 8415619014
+Non trouvé : 0 point
+PUT https://ds5hg1r8ei.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD21099
+200 OK reçu : 6 points
+GET https://ds5hg1r8ei.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD21099
+200 OK reçu : 2 points
+Format de réponse correct, déserialisation OK : 2 points
+Les Url sont présignées, et sont de poja.soratra : 2 points
+[... Correction d'un étudiant] Réf étudiante : STD21099, points obtenus : 18
+
+[Correction d'un étudiant...] Réf étudiante : STD22023
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Tiana-Finaritra/poja-soratra-std22023, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22023-365974064
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Tiana-Finaritra/poja-soratra-std22023/actions/runs/8416023033/job/23042062608, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Tiana-Finaritra/poja-soratra-std22023, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22023-61304771
+cd /tmp/ExamSession-STD22023-61304771 && gh run view 8416023033
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Tiana-Finaritra/poja-soratra-std22023/actions/runs/8416023033/job/23042062608, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Tiana-Finaritra/poja-soratra-std22023, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22023-25069033
+cd /tmp/ExamSession-STD22023-25069033 && gh run view 8416023033
+Non trouvé : 0 point
+PUT https://dz9kx7vm3k.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22023
+Statut http reçu : 404
+GET https://dz9kx7vm3k.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22023
+Statut http reçu : 404
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22023, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22100
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Maminiainaando/poja-soratra-std22100.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22100-585991719
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+Version de poja non reconnue : 0 point
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Maminiainaando/poja-soratra-std22100.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22100-689131364
+Erreur : java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "runUrl" is null
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Maminiainaando/poja-soratra-std22100.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22100-534710432
+PUT null/soratra/STD22100
+GET null/soratra/STD22100
+[... Correction d'un étudiant] Réf étudiante : STD22100, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD22101
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/II-Chelmi-II/poja-soratra-std22101.git, branche : preprod
+Erreur : java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "runUrl" is null
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+... clonage réussi dans : /tmp/ExamSession-STD22101-976895854
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/II-Chelmi-II/poja-soratra-std22101.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22101-943860031
+Erreur : java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "runUrl" is null
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/II-Chelmi-II/poja-soratra-std22101.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22101-428313456
+Erreur : java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "runUrl" is null
+PUT null/soratra/STD22101
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+GET null/soratra/STD22101
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+[... Correction d'un étudiant] Réf étudiante : STD22101, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22065
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/junkaM/poja-soratra-std22065, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22065-719046482
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/junkaM/poja-soratra-std22065/actions/runs/8416204038/job/23042526466, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/junkaM/poja-soratra-std22065, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22065-647187689
+cd /tmp/ExamSession-STD22065-647187689 && gh run view 8416204038
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/junkaM/poja-soratra-std22065/actions/runs/8416204038/job/23042526466, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/junkaM/poja-soratra-std22065, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22065-40208377
+cd /tmp/ExamSession-STD22065-40208377 && gh run view 8416204038
+Non trouvé : 0 point
+PUT https://bl1q9sylod.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22065
+Statut http reçu : 415
+GET https://bl1q9sylod.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22065
+Statut http reçu : 502
+Erreur : com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "message" (class school.hei.corrector.soratra.Soratra), not marked as ignorable (2 known properties: "original_url", "transformed_url"])
+ at [Source: (String)"{"message":"Gateway timeout"}"; line: 1, column: 13] (through reference chain: school.hei.corrector.soratra.Soratra["message"])
+[... Correction d'un étudiant] Réf étudiante : STD22065, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD21010
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/EspereJonathan/poja-soratra-std21010, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD21010-287865457
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/EspereJonathan/poja-soratra-std21010, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD21010-140828738
+Erreur : java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "runUrl" is null
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/EspereJonathan/poja-soratra-std21010, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD21010-699490803
+Erreur : java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "runUrl" is null
+PUT null/soratra/STD21010
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+GET null/soratra/STD21010
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+[... Correction d'un étudiant] Réf étudiante : STD21010, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22022
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/DinahFitiavana/poja-soratra-std222022, branche : preprod
+stdRef non trouvée dans nom du projet git : malus -2 points
+... clonage réussi dans : /tmp/ExamSession-STD22022-960777969
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/DinahFitiavana/poja-soratra-std222022/actions/runs/8415644839/job/23041087764, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/DinahFitiavana/poja-soratra-std222022, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22022-16141142
+cd /tmp/ExamSession-STD22022-16141142 && gh run view 8415644839
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/DinahFitiavana/poja-soratra-std222022/actions/runs/8415644839/job/23041087764, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/DinahFitiavana/poja-soratra-std222022, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22022-45124649
+cd /tmp/ExamSession-STD22022-45124649 && gh run view 8415644839
+Non trouvé : 0 point
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+PUT null/soratra/STD22022
+GET null/soratra/STD22022
+[... Correction d'un étudiant] Réf étudiante : STD22022, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD22064
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/josiaJj/poja-soratra-std22064, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22064-469954648
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/josiaJj/poja-soratra-std22064/actions/runs/8415673690, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/josiaJj/poja-soratra-std22064, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22064-182882284
+cd /tmp/ExamSession-STD22064-182882284 && gh run view actions
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/josiaJj/poja-soratra-std22064/actions/runs/8415673690, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/josiaJj/poja-soratra-std22064, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22064-852630631
+cd /tmp/ExamSession-STD22064-852630631 && gh run view actions
+Non trouvé : 0 point
+PUT https://f742iwba28.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22064
+200 OK reçu : 6 points
+GET https://f742iwba28.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22064
+Statut http reçu : 405
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22064, points obtenus : 8
+
+[Correction d'un étudiant...] Réf étudiante : STD22020
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Nante1805/poja-soratra-std22020.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22020-428452838
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+Version de poja non reconnue : 0 point
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Nante1805/poja-soratra-std22020.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22020-582075862
+Erreur : java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "runUrl" is null
+health-check ? branch=preprod, runUrl=null, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Nante1805/poja-soratra-std22020.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22020-305925443
+Erreur : java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because "runUrl" is null
+PUT null/soratra/STD22020
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+GET null/soratra/STD22020
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+[... Correction d'un étudiant] Réf étudiante : STD22020, points obtenus : 4
+
+[Correction d'un étudiant...] Réf étudiante : STD22062
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Salohyy212/poja-soratra-std22062, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22062-297236511
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Salohyy212/poja-soratra-std22062/actions/runs/8415568481/job/23040897447, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Salohyy212/poja-soratra-std22062, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22062-596963657
+cd /tmp/ExamSession-STD22062-596963657 && gh run view 8415568481
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Salohyy212/poja-soratra-std22062/actions/runs/8415568481/job/23040897447, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Salohyy212/poja-soratra-std22062, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22062-435180632
+cd /tmp/ExamSession-STD22062-435180632 && gh run view 8415568481
+Non trouvé : 0 point
+PUT https://x7sq8ru9v8.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22062
+Statut http reçu : 404
+GET https://x7sq8ru9v8.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22062
+Statut http reçu : 404
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22062, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD21092
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Safidy-Randriantseheno/poja-soratra-std21092, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD21092-294460669
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Safidy-Randriantseheno/poja-soratra-std21092/actions/runs/8415914754/job/23041788431, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Safidy-Randriantseheno/poja-soratra-std21092, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD21092-798286227
+cd /tmp/ExamSession-STD21092-798286227 && gh run view 8415914754
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Safidy-Randriantseheno/poja-soratra-std21092/actions/runs/8415914754/job/23041788431, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Safidy-Randriantseheno/poja-soratra-std21092, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD21092-157279645
+cd /tmp/ExamSession-STD21092-157279645 && gh run view 8415914754
+PUT https://cjwuqwgvug.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD21092
+Non trouvé : 0 point
+Statut http reçu : 404
+GET https://cjwuqwgvug.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD21092
+Statut http reçu : 404
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD21092, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22060
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Artahal01/poja-soratra-STD22060, branche : preprod
+Version de poja non reconnue : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Artahal01/poja-soratra-STD22060/actions, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Artahal01/poja-soratra-STD22060, branche : preprod
+Erreur : org.eclipse.jgit.api.errors.TransportException: Remote branch 'preprod' not found in upstream origin
+health-check ? branch=preprod, runUrl=https://github.com/Artahal01/poja-soratra-STD22060/actions, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Artahal01/poja-soratra-STD22060, branche : preprod
+Erreur : org.eclipse.jgit.api.errors.TransportException: Remote branch 'preprod' not found in upstream origin
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+PUT null/soratra/STD22060
+GET null/soratra/STD22060
+[... Correction d'un étudiant] Réf étudiante : STD22060, points obtenus : 4
+
+[Correction d'un étudiant...] Réf étudiante : STD22108
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Ramananolo/poja-soratra-std22108.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22108-344445811
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 non trouvée : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Ramananolo/poja-soratra-std22108/actions/runs/8416134674, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Ramananolo/poja-soratra-std22108.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22108-403725143
+cd /tmp/ExamSession-STD22108-403725143 && gh run view actions
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Ramananolo/poja-soratra-std22108/actions/runs/8416134674, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Ramananolo/poja-soratra-std22108.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22108-389354496
+cd /tmp/ExamSession-STD22108-389354496 && gh run view actions
+Non trouvé : 0 point
+PUT null/soratra/STD22108
+GET null/soratra/STD22108
+[... Correction d'un étudiant] Réf étudiante : STD22108, points obtenus : 0
+
+[Correction d'un étudiant...] Réf étudiante : STD22109
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/TsioryRasoloarijaona/poja-sorasoratra-std22109, branche : preprod
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+... clonage réussi dans : /tmp/ExamSession-STD22109-771657364
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/TsioryRasoloarijaona/poja-sorasoratra-std22109/actions/runs/8415903368/job/23041810722, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/TsioryRasoloarijaona/poja-sorasoratra-std22109, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22109-244759025
+cd /tmp/ExamSession-STD22109-244759025 && gh run view 8415903368
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/TsioryRasoloarijaona/poja-sorasoratra-std22109/actions/runs/8415903368/job/23041810722, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/TsioryRasoloarijaona/poja-sorasoratra-std22109, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22109-387288281
+cd /tmp/ExamSession-STD22109-387288281 && gh run view 8415903368
+Trouvé : 3 points
+PUT https://k7vc2r3ajc.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22109
+Statut http reçu : 400
+GET https://k7vc2r3ajc.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22109
+200 OK reçu : 2 points
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `school.hei.corrector.soratra.Soratra` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: (String)"["https://preprod-bucket-poja-soratra-std22109-bucket-eedyohnu6nc2.s3.eu-west-3.amazonaws.com/STD22109.txt?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHYaCWV1LXdlc3QtMyJHMEUCIFru7WUMw%2FbumfHlIxkwbDdLGVI8lO38YI1JE2qZU9WdAiEAyJlY%2Fll5hG7EHPriccmEnlTFDvSh366i3NgCsFzG73Uq3AMIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw4NTE3MjU0NDk2ODYiDMzsQEh52ykMotvAMCqwA%2BNGAFdidaiEP2H5TG%2BjUlzNcx8gNjvU91rkwDxprPTQ7UlvPZmDfCBWltIlnDqWcFwlkeNWMAEHQodb18lJwfdD8au6kqTxj%2Fg7PATCa5zFEyTAbXbv0CEmk0v5ZvGMbbp17EEnG1iUCIDWaSqn"[truncated 2428 chars]; line: 1, column: 1]
+[... Correction d'un étudiant] Réf étudiante : STD22109, points obtenus : 10
+
+[Correction d'un étudiant...] Réf étudiante : STD22106
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Tokiniainaa/poja-soratra-std22106, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22106-398926417
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Tokiniainaa/poja-soratra-std22106/actions/runs/8415769044/job/23041410126, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Tokiniainaa/poja-soratra-std22106, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22106-703905015
+cd /tmp/ExamSession-STD22106-703905015 && gh run view 8415769044
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Tokiniainaa/poja-soratra-std22106/actions/runs/8415769044/job/23041410126, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Tokiniainaa/poja-soratra-std22106, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22106-780816981
+cd /tmp/ExamSession-STD22106-780816981 && gh run view 8415769044
+Non trouvé : 0 point
+PUT https://github.com/Tokiniainaa/poja-soratra-std22106/actions/runs/8416183844/job/23042472286/soratra/STD22106
+Statut http reçu : 403
+GET https://github.com/Tokiniainaa/poja-soratra-std22106/actions/runs/8416183844/job/23042472286/soratra/STD22106
+Statut http reçu : 404
+Erreur : com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (StringReader); line: 7, column: 2]
+[... Correction d'un étudiant] Réf étudiante : STD22106, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD22029
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Rado23-04/poja-soratra-std22029, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22029-719046582
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 non trouvée : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Rado23-04/poja-soratra-std22029/actions/runs/8415601466, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Rado23-04/poja-soratra-std22029, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22029-76676133
+cd /tmp/ExamSession-STD22029-76676133 && gh run view actions
+health-check ? branch=preprod, runUrl=https://github.com/Rado23-04/poja-soratra-std22029/actions/runs/8415601466, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Non trouvé : 0 point
+Clonant : https://github.com/Rado23-04/poja-soratra-std22029, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22029-517773658
+cd /tmp/ExamSession-STD22029-517773658 && gh run view actions
+Non trouvé : 0 point
+PUT https://bkd7811pd8.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22029
+Erreur : java.net.ConnectException
+GET https://bkd7811pd8.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22029
+[... Correction d'un étudiant] Réf étudiante : STD22029, points obtenus : 0
+Erreur : java.net.ConnectException
+
+[Correction d'un étudiant...] Réf étudiante : STD22107
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Artiana01/poja-soratra-std22107, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22107-291946962
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Artiana01/poja-soratra-std22107/actions/runs/8415455401/job/23040646981, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Artiana01/poja-soratra-std22107, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22107-314493002
+cd /tmp/ExamSession-STD22107-314493002 && gh run view 8415455401
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/Artiana01/poja-soratra-std22107/actions/runs/8415455401/job/23040646981, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Artiana01/poja-soratra-std22107, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22107-430424198
+cd /tmp/ExamSession-STD22107-430424198 && gh run view 8415455401
+Non trouvé : 0 point
+PUT https://itn334dabc.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22107
+Statut http reçu : 400
+GET https://itn334dabc.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22107
+Statut http reçu : 405
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22107, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD22104
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/bonarson/poja_soratra_std22104.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22104-162332942
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/bonarson/poja_soratra_std22104/actions/runs/8416217120/job/23042562174, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/bonarson/poja_soratra_std22104.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22104-165245039
+cd /tmp/ExamSession-STD22104-165245039 && gh run view 8416217120
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/bonarson/poja_soratra_std22104/actions/runs/8416217120/job/23042562174, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/bonarson/poja_soratra_std22104.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22104-625549601
+cd /tmp/ExamSession-STD22104-625549601 && gh run view 8416217120
+Non trouvé : 0 point
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+PUT null/soratra/STD22104
+GET null/soratra/STD22104
+[... Correction d'un étudiant] Réf étudiante : STD22104, points obtenus : 2
+
+[Correction d'un étudiant...] Réf étudiante : STD22105
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/Rjonathan03t/poja-soratra-std22105, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22105-455950483
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/Rjonathan03t/poja-soratra-std22105/actions/runs/8415716675/job/23041307140, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/Rjonathan03t/poja-soratra-std22105, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22105-949537939
+cd /tmp/ExamSession-STD22105-949537939 && gh run view 8415716675
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/Rjonathan03t/poja-soratra-std22105/actions/runs/8415716675/job/23041307140, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/Rjonathan03t/poja-soratra-std22105, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22105-250777097
+cd /tmp/ExamSession-STD22105-250777097 && gh run view 8415716675
+Trouvé : 3 points
+PUT https://ziz0n6b3n5.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22105
+Statut http reçu : 502
+GET https://ziz0n6b3n5.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22105
+Statut http reçu : 500
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22105, points obtenus : 12
+
+[Correction d'un étudiant...] Réf étudiante : STD22028
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/AndyPendragon/poja-soratra-std22028, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22028-88357613
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/AndyPendragon/poja-soratra-std22028/actions/runs/8415659640/job/23041127553, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/AndyPendragon/poja-soratra-std22028, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22028-934994714
+cd /tmp/ExamSession-STD22028-934994714 && gh run view 8415659640
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/AndyPendragon/poja-soratra-std22028/actions/runs/8415659640/job/23041127553, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/AndyPendragon/poja-soratra-std22028, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22028-163021050
+cd /tmp/ExamSession-STD22028-163021050 && gh run view 8415659640
+Non trouvé : 0 point
+PUT https://fkvqpdycjj.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22028
+200 OK reçu : 6 points
+GET https://fkvqpdycjj.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22028
+Statut http reçu : 405
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22028, points obtenus : 8
+
+[Correction d'un étudiant...] Réf étudiante : STD22069
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/sanda03/poja-soratra-std22069, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22069-729062446
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/sanda03/poja-soratra-std22069/actions/runs/8415652067/job/23041108536, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/sanda03/poja-soratra-std22069, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22069-905010954
+cd /tmp/ExamSession-STD22069-905010954 && gh run view 8415652067
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/sanda03/poja-soratra-std22069/actions/runs/8415652067/job/23041108536, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/sanda03/poja-soratra-std22069, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22069-192330085
+cd /tmp/ExamSession-STD22069-192330085 && gh run view 8415652067
+Trouvé : 3 points
+PUT https://skpskesqjf.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22069
+Statut http reçu : 404
+GET https://skpskesqjf.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22069
+Statut http reçu : 404
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+[... Correction d'un étudiant] Réf étudiante : STD22069, points obtenus : 12
+
+[Correction d'un étudiant...] Réf étudiante : STD22025
+ at [Source: (String)""; line: 1, column: 0]
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/RotsyMandrindra/poja-soratra-std22025, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22025-596606426
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/RotsyMandrindra/poja-soratra-std22025/actions/runs/8415456339/job/23040649053, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/RotsyMandrindra/poja-soratra-std22025, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22025-689782196
+cd /tmp/ExamSession-STD22025-689782196 && gh run view 8415456339
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/RotsyMandrindra/poja-soratra-std22025/actions/runs/8415456339/job/23040649053, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/RotsyMandrindra/poja-soratra-std22025, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22025-238731209
+cd /tmp/ExamSession-STD22025-238731209 && gh run view 8415456339
+Non trouvé : 0 point
+PUT null/soratra/STD22025
+GET null/soratra/STD22025
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+[... Correction d'un étudiant] Réf étudiante : STD22025, points obtenus : 6
+
+[Correction d'un étudiant...] Réf étudiante : STD22103
+Attribution de bonus si hébergement personnel
+Bonus hébergement : 4 points
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/HRojotiana/poja-soratra-std22103.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22103-674855306
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/HRojotiana/poja-soratra-std22103/actions/runs/8415991062/job/23041981824, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/HRojotiana/poja-soratra-std22103.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22103-772455795
+cd /tmp/ExamSession-STD22103-772455795 && gh run view 8415991062
+Trouvé : 3 points
+health-check ? branch=preprod, runUrl=https://github.com/HRojotiana/poja-soratra-std22103/actions/runs/8415991062/job/23041981824, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/HRojotiana/poja-soratra-std22103.git, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22103-927724137
+cd /tmp/ExamSession-STD22103-927724137 && gh run view 8415991062
+Trouvé : 3 points
+PUT https://w2d73jzevb.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22103
+Statut http reçu : 404
+GET https://w2d73jzevb.execute-api.eu-west-3.amazonaws.com/Prod/soratra/STD22103
+Statut http reçu : 404
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
+ at [Source: (String)""; line: 1, column: 0]
+[... Correction d'un étudiant] Réf étudiante : STD22103, points obtenus : 12
+
+[Correction d'un étudiant...] Réf étudiante : STD22026
+Attribution de bonus si hébergement personnel
+Vérification de noms: stdRef et nom du projet
+Verification de la version de poja (12.4.1)
+Clonant : https://github.com/rasoanirinamialisoa/poja-soratra-std22026, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22026-344365512
+Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)
+poja v12.4.1 trouvée : 2 points
+health-check ? branch=preprod, runUrl=https://github.com/rasoanirinamialisoa/poja-soratra-std22026/actions/runs/8415535626/job/23040819425, toLookFor=[✓ check-sync-stack, ✓ health-check-infra / check-sync-stack]
+Clonant : https://github.com/rasoanirinamialisoa/poja-soratra-std22026, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22026-165846338
+cd /tmp/ExamSession-STD22026-165846338 && gh run view 8415535626
+Non trouvé : 0 point
+health-check ? branch=preprod, runUrl=https://github.com/rasoanirinamialisoa/poja-soratra-std22026/actions/runs/8415535626/job/23040819425, toLookFor=[✓ check-bucket, ✓ health-check-infra / check-bucket]
+Clonant : https://github.com/rasoanirinamialisoa/poja-soratra-std22026, branche : preprod
+... clonage réussi dans : /tmp/ExamSession-STD22026-859261651
+cd /tmp/ExamSession-STD22026-859261651 && gh run view 8415535626
+Non trouvé : 0 point
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
+PUT null/soratra/STD22026
+GET null/soratra/STD22026
+[... Correction d'un étudiant] Réf étudiante : STD22026, points obtenus : 2
+
+
+##################################
+##################################
+
+Toutes les notes...
+
+STD22012,2
+STD22056,2
+STD22057,2
+STD21089,2
+STD22098,18
+STD22054,6
+STD22052,24
+STD21084,18
+STD22097,2
+STD22050,2
+STD22095,8
+STD22092,0
+STD22093,2
+STD22090,0
+STD22019,12
+STD22016,0
+STD22017,4
+STD22058,8
+STD22059,6
+STD22045,2
+STD22089,6
+STD22001,4
+STD22046,2
+STD22087,0
+STD22044,4
+STD22085,2
+STD22086,10
+STD22083,4
+STD22040,0
+STD22081,24
+STD22082,2
+SDT22027,2
+STD22080,8
+STD22007,12
+STD22049,4
+STD22005,8
+STD22006,8
+STD22047,2
+STD22048,2
+STD22078,14
+STD22079,20
+STD22035,2
+STD22076,8
+STD22033,4
+STD22077,2
+STD22030,2
+STD22074,4
+STD22075,8
+STD22073,2
+STD22070,20
+STD22071,2
+STD22119,2
+STD22038,6
+STD22113,2
+STD22036,2
+STD22037,2
+STD21099,18
+STD22023,2
+STD22100,0
+STD22101,2
+STD22065,2
+STD21010,2
+STD22022,0
+STD22064,8
+STD22020,4
+STD22062,6
+STD21092,2
+STD22060,4
+STD22108,0
+STD22109,10
+STD22106,6
+STD22029,0
+STD22107,6
+STD22104,2
+STD22105,12
+STD22028,8
+STD22069,12
+STD22025,6
+STD22103,12
+STD22026,2
+
+Process finished with exit code 0

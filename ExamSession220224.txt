@@ -273,8 +273,8 @@ PUT https://8c45dozxqi.execute-api.eu-west-3.amazonaws.com/Prod/black-and-white/
 200 OK reçu : 3 points
 GET https://8c45dozxqi.execute-api.eu-west-3.amazonaws.com/Prod/black-and-white/STD21007
 Statut http reçu : 502
-Erreur : com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "message" (class school.hei.corrector.sarisary.BlackAndWhite), not marked as ignorable (2 known properties: "original_url", "transformed_url"])
- at [Source: (String)"{"message":"Gateway timeout"}"; line: 1, column: 13] (through reference chain: school.hei.corrector.sarisary.BlackAndWhite["message"])
+Erreur : com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "message" (class school.hei.corrector.soratra.Soratra), not marked as ignorable (2 known properties: "original_url", "transformed_url"])
+ at [Source: (String)"{"message":"Gateway timeout"}"; line: 1, column: 13] (through reference chain: school.hei.corrector.soratra.Soratra["message"])
 PUT null/black-and-white/STD21007
 Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
 GET null/black-and-white/STD21007
@@ -952,8 +952,8 @@ PUT https://8unyw9pwsl.execute-api.eu-west-3.amazonaws.com/Preprod/black-and-whi
 Statut http reçu : 403
 GET https://8unyw9pwsl.execute-api.eu-west-3.amazonaws.com/Preprod/black-and-white/STD22023
 Statut http reçu : 403
-Erreur : com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "message" (class school.hei.corrector.sarisary.BlackAndWhite), not marked as ignorable (2 known properties: "original_url", "transformed_url"])
- at [Source: (String)"{"message":"Forbidden"}"; line: 1, column: 13] (through reference chain: school.hei.corrector.sarisary.BlackAndWhite["message"])
+Erreur : com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "message" (class school.hei.corrector.soratra.Soratra), not marked as ignorable (2 known properties: "original_url", "transformed_url"])
+ at [Source: (String)"{"message":"Forbidden"}"; line: 1, column: 13] (through reference chain: school.hei.corrector.soratra.Soratra["message"])
 PUT https://8unyw9pwsl.execute-api.eu-west-3.amazonaws.com/Prod/black-and-white/STD22023
 Statut http reçu : 404
 GET https://8unyw9pwsl.execute-api.eu-west-3.amazonaws.com/Prod/black-and-white/STD22023
@@ -1543,8 +1543,8 @@ PUT https://9x15gs89i0.execute-api.eu-west-3.amazonaws.com/Preprod/black-and-whi
 Statut http reçu : 403
 GET https://9x15gs89i0.execute-api.eu-west-3.amazonaws.com/Preprod/black-and-white/STD22089
 Statut http reçu : 403
-Erreur : com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "message" (class school.hei.corrector.sarisary.BlackAndWhite), not marked as ignorable (2 known properties: "original_url", "transformed_url"])
- at [Source: (String)"{"message":"Forbidden"}"; line: 1, column: 13] (through reference chain: school.hei.corrector.sarisary.BlackAndWhite["message"])
+Erreur : com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "message" (class school.hei.corrector.soratra.Soratra), not marked as ignorable (2 known properties: "original_url", "transformed_url"])
+ at [Source: (String)"{"message":"Forbidden"}"; line: 1, column: 13] (through reference chain: school.hei.corrector.soratra.Soratra["message"])
 PUT null/black-and-white/STD22089
 Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
 GET null/black-and-white/STD22089
@@ -1883,8 +1883,8 @@ PUT https://dxykrcazq2.execute-api.eu-west-3.amazonaws.com/Preprod/black-and-whi
 Statut http reçu : 403
 GET https://dxykrcazq2.execute-api.eu-west-3.amazonaws.com/Preprod/black-and-white/STD22007
 Statut http reçu : 403
-Erreur : com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "message" (class school.hei.corrector.sarisary.BlackAndWhite), not marked as ignorable (2 known properties: "original_url", "transformed_url"])
- at [Source: (String)"{"message":"Forbidden"}"; line: 1, column: 13] (through reference chain: school.hei.corrector.sarisary.BlackAndWhite["message"])
+Erreur : com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field "message" (class school.hei.corrector.soratra.Soratra), not marked as ignorable (2 known properties: "original_url", "transformed_url"])
+ at [Source: (String)"{"message":"Forbidden"}"; line: 1, column: 13] (through reference chain: school.hei.corrector.soratra.Soratra["message"])
 Erreur : java.lang.IllegalArgumentException: Illegal character in path at index 56: https://dxykrcazq2.execute-api.eu-west-3.amazonaws.com/P rod/black-and-white/STD22007
 Erreur : java.lang.IllegalArgumentException: Illegal character in path at index 56: https://dxykrcazq2.execute-api.eu-west-3.amazonaws.com/P rod/black-and-white/STD22007
 PUT https://dxykrcazq2.execute-api.eu-west-3.amazonaws.com/P rod/black-and-white/STD22007
@@ -1980,7 +1980,7 @@ PUT https://1q0lj7pe28.execute-api.eu-west-3.amazonaws.com/Prod/black-and-white/
 Statut http reçu : 415
 GET https://1q0lj7pe28.execute-api.eu-west-3.amazonaws.com/Prod/black-and-white/STD22006
 200 OK reçu : 1 point
-Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `school.hei.corrector.sarisary.BlackAndWhite` from Array value (token `JsonToken.START_ARRAY`)
+Erreur : com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `school.hei.corrector.soratra.Soratra` from Array value (token `JsonToken.START_ARRAY`)
  at [Source: (String)"[https://preprod-bucket-poja-sarisary-std22006-bucket-iak3amed41ta.s3.eu-west-3.amazonaws.com/STD22006original.png?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCWV1LXdlc3QtMyJHMEUCIQCXKNHBwDs3eZDk0QNXzXFEf0jsjyz2qdwhzUcMg74ayAIgXMkTkqYiPyBDxy0mz9463UOW8gIkKlHry%2Fw1jYYZRasq3AMIq%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwNTcwNDU3ODUxODkiDJxDpQwH4nZqROkVBiqwA%2FVYPTP4Pz7uLkus4O9qsKkvGnj%2FNTEkd%2BFWhTx9z2K5LOrB3G08gbYgjQH5oHRoa1blzy3oeBKZHW2ICFgsqIBO7f11mfvn5wYmXv%2Bdce0X"[truncated 2509 chars]; line: 1, column: 1]
 Erreur : java.lang.IllegalArgumentException: URI with undefined scheme
 Erreur : java.lang.IllegalArgumentException: URI with undefined scheme

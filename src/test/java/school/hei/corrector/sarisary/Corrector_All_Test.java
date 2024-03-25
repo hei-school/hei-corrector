@@ -2,6 +2,7 @@ package school.hei.corrector.sarisary;
 
 import org.junit.jupiter.api.Test;
 import school.hei.corrector.Corrector;
+import school.hei.corrector.soratra.ExamSession250324;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -11,7 +12,7 @@ class Corrector_All_Test {
 
   @Test
   void canCorrect_all() {
-    var examSession = new ExamSession220224();
+    var examSession = new ExamSession250324();
 
     var scorePerStudent = corrector.correct(examSession);
 

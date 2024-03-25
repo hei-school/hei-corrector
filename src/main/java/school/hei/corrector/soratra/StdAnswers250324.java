@@ -1,10 +1,9 @@
-package school.hei.corrector.sarisary;
+package school.hei.corrector.soratra;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import school.hei.corrector.StdAnswers;
 import school.hei.utils.Log;
 
-import java.io.File;
 import java.net.URI;
 import java.net.URL;
 import java.net.http.HttpRequest;
@@ -22,14 +21,13 @@ import static school.hei.utils.Utils.execShCmdIn1mn;
 import static school.hei.utils.Utils.randomRepoName;
 import static school.hei.utils.Utils.saveScore;
 
-public record StdAnswers220224(
+public record StdAnswers250324(
     String stdRef,
-    String group,
+    String personalHosting,
     String gitUrl,
     String preprodDbHealthUrl,
     String preprodBucketHealthUrl,
-    String preprodApiUrl,
-    String prodApiUrl)
+    String preprodApiUrl)
     implements StdAnswers {
 
   @Override
@@ -37,8 +35,8 @@ public record StdAnswers220224(
     Log.info("[Correction d'un étudiant...] Réf étudiante : " + stdRef);
     var score = 0;
 
-    var levelBonus = levelBonus();
-    saveScore(SCORE_PER_STUDENT, stdRef, "levelBonus", levelBonus);
+    var levelBonus = personalHostingBonus();
+    saveScore(SCORE_PER_STUDENT, stdRef, "personalHostingBonus", levelBonus);
     score += levelBonus;
 
     var namingMalus = namingMalus();
@@ -54,26 +52,16 @@ public record StdAnswers220224(
     score += preprodDbCheck;
 
     var preprodBucketCheck = checkRun("preprod", preprodDbHealthUrl, List.of("✓ check-bucket", "✓ health-check-infra / check-bucket"));
-    Log.info("Multiple point bucket : x1.5");
-    preprodBucketCheck = (int) (preprodBucketCheck * 1.5);
     saveScore(SCORE_PER_STUDENT, stdRef, "preprodBucketCheck", preprodBucketCheck);
     score += preprodBucketCheck;
 
-    var preprodPutBw = checkPutBw(preprodApiUrl);
-    saveScore(SCORE_PER_STUDENT, stdRef, "preprodPutBw", preprodPutBw);
+    var preprodPutBw = checkPutSoratra(preprodApiUrl);
+    saveScore(SCORE_PER_STUDENT, stdRef, "preprodPutSoratra", preprodPutBw);
     score += preprodPutBw;
 
     var preprodGetBw = checkGetBw(preprodApiUrl);
-    saveScore(SCORE_PER_STUDENT, stdRef, "preprodGetBw", preprodGetBw);
+    saveScore(SCORE_PER_STUDENT, stdRef, "preprodGetSoratra", preprodGetBw);
     score += preprodGetBw;
-
-    var prodPutBw = checkPutBw(prodApiUrl);
-    saveScore(SCORE_PER_STUDENT, stdRef, "prodPutBw", prodPutBw);
-    score += prodPutBw;
-
-    var prodGetBw = checkGetBw(prodApiUrl);
-    saveScore(SCORE_PER_STUDENT, stdRef, "prodGetBw", prodGetBw);
-    score += prodGetBw;
 
     Log.info("[... Correction d'un étudiant] Réf étudiante : " + stdRef + ", points obtenus : " + score + "\n");
     saveScore(SCORE_PER_STUDENT, stdRef, "all", score);
@@ -85,11 +73,11 @@ public record StdAnswers220224(
     return SCORE_PER_STUDENT.get(stdRef);
   }
 
-  int levelBonus() {
-    Log.info("Attribution de bonus si L2");
+  int personalHostingBonus() {
+    Log.info("Attribution de bonus si hébergement personnel");
 
-    if ("H1".equals(group) || "H2".equals(group)) {
-      Log.info("Bonus niveau L2 : 4 points");
+    if ("Sur vos subnets privés personnels".equals(personalHosting)) {
+      Log.info("Bonus hébergement : 4 points");
       return 4;
     }
     return 0;
@@ -123,38 +111,38 @@ public record StdAnswers220224(
   }
 
   int pojaVersion() {
-    Log.info("Verification de la version de poja (11.2.0)");
+    Log.info("Verification de la version de poja (12.4.1)");
 
+    var score = 0;
     try {
-      var score = 0;
 
       var repoName = randomRepoName(stdRef);
       var branchName = "preprod";
       Log.info("Clonant : " + gitUrl + ", branche : " + branchName);
       cloneRepo(new URL(gitUrl), repoName, branchName);
-      Log.info("Dépôt cloné : 1 point (mais quelle gentillesse...)");
-      score += 1;
+      Log.info("Dépôt cloné : 0 point (et oui, plus de de bonus pour ça, fin de la gentillesse...)");
+      score += 0;
 
       var pojaConf = Files.readString(Path.of(repoName + "/poja.yml"));
-      if (pojaConf.contains("11.2.0")) {
-        Log.info("poja v11.2.0 trouvée : 2 points");
+      if (pojaConf.contains("12.4.1")) {
+        Log.info("poja v12.4.1 trouvée : 2 points");
         score += 2;
       } else {
-        Log.error("poja v11.2.0 non trouvée : 0 point");
+        Log.error("poja v12.4.1 non trouvée : 0 point");
       }
 
       return score;
     } catch (Exception e) {
       Log.error("Version de poja non reconnue : 0 point");
-      return 0;
+      return score;
     }
   }
 
   int checkRun(String branchName, String runUrl, List<String> toLookFor) {
     Log.info("health-check ? branch=" + branchName + ", runUrl=" + runUrl + ", toLookFor=" + toLookFor);
 
+    var score = 0;
     try {
-      var score = 0;
 
       var repoName = randomRepoName(stdRef);
       Log.info("Clonant : " + gitUrl + ", branche : " + branchName);
@@ -166,8 +154,8 @@ public record StdAnswers220224(
       Log.info(ghRunView);
       var runView = execShCmdIn1mn(ghRunView, true);
       if (toLookFor.stream().anyMatch(runView::contains)) {
-        Log.info("Trouvé : 2 points");
-        score += 2;
+        Log.info("Trouvé : 3 points");
+        score += 3;
         return score;
       } else {
         Log.error("Non trouvé : 0 point");
@@ -175,28 +163,26 @@ public record StdAnswers220224(
       }
     } catch (Exception e) {
       Log.error("Erreur : " + e);
-      return 0;
+      return score;
     }
   }
 
-  int checkPutBw(String baseUrl) {
-    var target = baseUrl + "/black-and-white/" + stdRef;
+  int checkPutSoratra(String baseUrl) {
+    var target = baseUrl + "/soratra/" + stdRef;
     Log.info("PUT " + target);
 
+    var score = 0;
     try {
-      var score = 0;
 
-      var imageUrl = getClass().getClassLoader().getResource("./sarisary/poja.png");
-      var imageFile = new File(imageUrl.toURI());
       var request = HttpRequest.newBuilder()
           .uri(URI.create(target))
-          .PUT(BodyPublishers.ofFile(imageFile.toPath()))
+          .PUT(BodyPublishers.ofString("ry lanitra mangamanga"))
           .build();
       HttpResponse<String> response = newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
       var statusCode = response.statusCode();
       if (statusCode == 200) {
-        Log.info("200 OK reçu : 3 points");
-        score += 3;
+        Log.info("200 OK reçu : 6 points");
+        score += 6;
       } else {
         Log.error("Statut http reçu : " + statusCode);
       }
@@ -204,16 +190,16 @@ public record StdAnswers220224(
       return score;
     } catch (Exception e) {
       Log.error("Erreur : " + e);
-      return 0;
+      return score;
     }
   }
 
   int checkGetBw(String baseUrl) {
-    var target = baseUrl + "/black-and-white/" + stdRef;
+    var target = baseUrl + "/soratra/" + stdRef;
     Log.info("GET " + target);
 
+    var score = 0;
     try {
-      var score = 0;
 
       var request = HttpRequest.newBuilder()
           .uri(URI.create(target))
@@ -222,32 +208,32 @@ public record StdAnswers220224(
       HttpResponse<String> response = newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
       var statusCode = response.statusCode();
       if (statusCode == 200) {
-        Log.info("200 OK reçu : 1 point");
-        score += 1;
+        Log.info("200 OK reçu : 2 points");
+        score += 2;
       } else {
         Log.error("Statut http reçu : " + statusCode);
       }
 
-      var bw = new ObjectMapper().readValue(response.body(), BlackAndWhite.class);
-      Log.info("Format de réponse correct, déserialisation OK : 1 point");
-      score += 1;
+      var soratra = new ObjectMapper().readValue(response.body(), Soratra.class);
+      Log.info("Format de réponse correct, déserialisation OK : 2 points");
+      score += 2;
 
-      if (isPresignedSarisaryUrl(bw.getOriginal_url()) && isPresignedSarisaryUrl(bw.getTransformed_url())) {
-        Log.info("Les Url sont présignées, et sont de poja.sarisary : 1 point");
-        score += 1;
+      if (isPresignedSoratraUrl(soratra.getOriginal_url()) && isPresignedSoratraUrl(soratra.getTransformed_url())) {
+        Log.info("Les Url sont présignées, et sont de poja.soratra : 2 points");
+        score += 2;
       } else {
-        Log.error("Les URL ne sont pas présignées, ou ne sont pas de poja.sarisary : " + bw);
+        Log.error("Les URL ne sont pas présignées, ou ne sont pas de poja.sarisary : " + soratra);
       }
 
       return score;
     } catch (Exception e) {
       Log.error("Erreur : " + e);
-      return 0;
+      return score;
     }
   }
 
-  private boolean isPresignedSarisaryUrl(String url) {
-    return url.toLowerCase().contains("prod-bucket-poja-sarisary-" + stdRef.toLowerCase()) &&
+  private boolean isPresignedSoratraUrl(String url) {
+    return url.toLowerCase().contains("prod-bucket-poja-soratra-" + stdRef.toLowerCase()) &&
         url.contains("X-Amz-Security-Token");
   }
 }
